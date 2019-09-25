@@ -92,7 +92,10 @@ C'est fini !
 
 ## Si je devais monter un Hackintosh aujourd'hui
 
+- Une i5 ou i7 de 8ème génération
+- Une carte mère série 300 mais cette fois-ci, j'éviterai MSI. J'ai vu pas mal de mauvais témoignages sur les forums et les cartes MSI sont souvent un peu plus "tricks" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte
+
 ## Source et infos diverses
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxNTEzMTAwXX0=
+eyJoaXN0b3J5IjpbMTg5NTI4NzYwNiwyNDE1MTMxMDBdfQ==
 -->
