@@ -98,9 +98,12 @@ C'est fini !
 - 16GB de RAM, plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
 - Un disque SSD NVMe de 500GB pour le système
 - Un disque SSD SATA de 1To pour le stockage (si besoin)
-- Pour le reste : une bonne alimentation (attention les c
+- Pour le reste : une bonne alimentation (attention les cartes Radeon consomment un peu plus que NVIDIA), un bon ventilateur pour le CPU.
 
 ## Source et infos diverses
+
+- Le [guide de référence](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) pour ceux qui s'intéresse au Hackintosh et veulent des infos fiables et à jour
+- P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTg2MDg5NywyNDE1MTMxMDBdfQ==
+eyJoaXN0b3J5IjpbMTA5NTI4Nzk3OCwyNDE1MTMxMDBdfQ==
 -->
