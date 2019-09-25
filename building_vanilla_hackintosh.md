@@ -93,12 +93,14 @@ C'est fini !
 ## Si je devais monter un Hackintosh aujourd'hui
 
 - Une i5 ou i7 de 8ème génération
-- Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu pas mal de mauvais témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
-- 16GB de RAM
+- Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu pas mal de témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
+- Une RX 560 / 570 / 580 / 590 en fonction du besoin
+- 16GB de RAM, plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
 - Un disque SSD NVMe de 500GB pour le système
 - Un disque SSD SATA de 1To pour le stockage (si besoin)
+- Pour le reste : une bonne alimentation (attention les c
 
 ## Source et infos diverses
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAyMTQ0MCwyNDE1MTMxMDBdfQ==
+eyJoaXN0b3J5IjpbMTk1NTg2MDg5NywyNDE1MTMxMDBdfQ==
 -->
