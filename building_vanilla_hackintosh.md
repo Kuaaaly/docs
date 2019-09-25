@@ -102,8 +102,11 @@ C'est fini !
 
 ## Source et infos diverses
 
-- Le [guide de référence](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) pour ceux qui s'intéresse au Hackintosh et veulent des infos fiables et à jour
-- P
+- Le [guide de référence](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) pour ceux qui s'intéressent au Hackintosh et veulent des infos fiables et à jour
+- Pour ceux qui veulent de l'aide, échanger ou faire des retours d'expérience :
+	- https://www.insanelymac.com
+	- http://tonymacx86.com/
+	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTI4Nzk3OCwyNDE1MTMxMDBdfQ==
+eyJoaXN0b3J5IjpbMTE3NzM5NDUzNywyNDE1MTMxMDBdfQ==
 -->
