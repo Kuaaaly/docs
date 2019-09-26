@@ -164,7 +164,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 ### Rendre votre nouvelle installation macOS bootable sans la clé USB
 Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de la partition `EFI` de la clé USB vers la partition `EFI`  de macOS.
 1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount UEFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
-2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer.
+2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer. Choisissez "Remplacer" lorsque la question vous est posée.
 3. Éjectez la clé, retirez la, redémarrez l'ordinateur
 4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
 5. Vous devriez vous retrouver ensuite dans Clover, sélectionner votre disque macOS comme vous l'avez fait précédemment.
@@ -174,7 +174,7 @@ C'est fini !
 ## Si je devais monter un Hackintosh aujourd'hui
 
 - Une i5 ou i7 de 8ème génération
-- Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu pas mal de témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
+- Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu plusieurs témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
 - Une RX 560 / 570 / 580 / 590 en fonction du besoin
 - 16GB de RAM, plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
 - Un disque SSD NVMe de 500GB pour le système
@@ -189,7 +189,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDU1MjE2OCwxMjg1MTU0NDAzLDE0OT
+eyJoaXN0b3J5IjpbLTkwOTI5OTM4NSwxMjg1MTU0NDAzLDE0OT
 QzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4
 NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LD
 Q5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzcz
