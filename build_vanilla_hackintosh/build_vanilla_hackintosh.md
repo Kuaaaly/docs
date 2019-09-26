@@ -63,8 +63,10 @@ Si vous exécutez à nouveau la commande `diskutil list` vous devriez être en m
 ```
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh\ Mojave
 ```
-<img src="images/create_install_media.png" alt="create install media macOS" width="100%"/>
-6. Installer Clover sur la clé d'installation que vous venez de créer. **Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
+
+<img src="images/create_install_media.png" alt="create install media macOS" width="70%"/>
+
+6. Installer Clover sur la clé d'installation que vous venez de créer. *Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
 	- HFSPlus
 	- ApfsDriverLoader
 	- EmuVariableUefi
@@ -133,6 +135,6 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzE1NzI2LC0xOTM5NTIxNzg1LDE5OT
-M0MjQ4NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTM2NDYyMzQ1NiwtMTkzOTUyMTc4NSwxOT
+kzNDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
