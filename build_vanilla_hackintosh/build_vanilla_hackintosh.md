@@ -141,12 +141,12 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 2. Démarrer puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
 4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait être : `Boot macOS Install from Install MacOS Mojave`
-5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal
+5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal.
 	- Il est possible qu'il vous faille formatez le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
 		1. Cliquez sur "Utilitaire de disque"
 		2. Choisissez votre disque
 		3. Effacez-le en choisissant le format APFS (qui est le nouveau système de fichier d'Apple)
-	- Si vous ne voyez même pas votre disque (cela peut arriver si le disque est neuf par exemple), il vous faudra utiliser un autre ordinateur ou le terminal du programme d'ins
+	- Si vous ne voyez même pas votre disque (cela peut arriver si le disque est neuf par exemple), il vous faudra utiliser un autre ordinateur ou le terminal du programme d'installation pour le formatter une première fois.
 6. Laissez l'ordinateur redémarrer, ne retirez pas la clé USB puis pressez F11 à nouveau pendant la phase de démarrage.
 
 ### Démarrer sur votre nouvelle installation
@@ -182,8 +182,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk3MTI1NTAsMTY4NjA5Njg2NiwtMT
-k0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4
-MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NS
-wxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOT
+QxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgx
+NzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LD
+E5OTM0MjQ4NDksMTE3NzM5NDUzN119
 -->
