@@ -6,7 +6,7 @@ Vous trouverez donc tout ces éléments ici, les domaines sont variés.
 
 ## Informatique
 
-- [Monter son Hackintosh "vanilla"](build_hackintosh_vanilla/build_hackintosh_vanilla.md)
+- [Monter son Hackintosh "vanilla"](build_vanilla_hackintosh/build_vanilla_hackintosh.md)
 - [Installer Docker & Portainer sur son Raspberry](docker_portainer_raspberry/docker_portainer_raspberry.md)
 
 ## IoT
