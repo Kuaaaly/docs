@@ -18,13 +18,13 @@ Nous voilà donc rendu ici ! Deux dernières précisions :
 ## Hardware
 - Carte mère : MSI Z270 Gaming Pro Carbon
 - CPU : Intel Core i5-7600
-- GPU : actuellement Intel HD 630 (mais j'espère passer sous RX 550 bientôt)
+- GPU : actuellement Intel HD 630 (**bientôt** :  j'espère passer sous RX 550)
 - RAM : 2 x 8Go DDR4 2400MHz Ballistik LT Sport
-- Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress) 
+- **Bientôt** : Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress)
 - Disques :
-	- Samsung 970 EVO Plus 500GB
+	- Samsung 970 EVO Plus 500GB (M.2)
 	- Crucial MX300 750GB
-	-  Divers HDD
+	- Divers HDD
 
 Détails:
 - Ventilateur : Be Quiet! Pure Rock
@@ -191,9 +191,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc3NjY3NDMsLTEzODYxNjc1NzcsMT
-I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
-MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
-wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
-MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTgyNTEwMjE3NywtMTM4NjE2NzU3NywxMj
+g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
+OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
+0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
+NDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
