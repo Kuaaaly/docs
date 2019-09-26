@@ -59,14 +59,13 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 ```
 3. Déployer la stack :
 ```
-
-```
-
-
-https://www.portainer.io/installation/
-curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
-sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+```
+4. Portainer est désormais accessible via votre navigateur via http://raspberrypi:9000.
+
+Configurez le compte administrateur. **Attention, de mémoire il faut créer le compte dans les 5 premières minutes :
+
+![enter image description here](images/portainer_login.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MjAzMTgyLDE3NjIxNjkwMDVdfQ==
+eyJoaXN0b3J5IjpbODIyNzIyMTI1LDE3NjIxNjkwMDVdfQ==
 -->
