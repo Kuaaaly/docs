@@ -105,7 +105,9 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 #### Configuration du boot loader
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
 
-En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'en ai retiré 
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 2 modifications suivantes :
+- Retiré les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
+- Retiré les patches qui sont antérieurs à la version 10.14 de macOS
 
 [config.plist](config.plist)
 
@@ -165,7 +167,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjYzMTg0MCw2NDk5ODgxNzYsLTE0MD
-Y1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4
-NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbMTM1Nzk5MDc3NCwyMDMyNjMxODQwLDY0OT
+k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
+ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
