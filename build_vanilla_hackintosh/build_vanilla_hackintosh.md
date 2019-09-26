@@ -164,8 +164,8 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 4. La configuration se fait exactement comme celle d'un vrai Mac, faites comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape.
 
 ### Rendre votre nouvelle installation macOS bootable sans la clé USB
-Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de la partition `EFI` de la clé USB vers la partition `EFI`  de macOS.
-1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount UEFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
+Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de la partition `EFI` de la clé USB vers la partition `EFI`  de macOS Mojave.
+1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount EFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
 2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer. Choisissez "Remplacer" lorsque la question vous est posée.
 3. Éjectez la clé, retirez la, redémarrez l'ordinateur
 4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyOTMxODgyLC0xMzg2MTY3NTc3LDEyOD
-UxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5
-MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLT
-E0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0
-MjQ4NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMj
+g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
+OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
+0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
+NDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
