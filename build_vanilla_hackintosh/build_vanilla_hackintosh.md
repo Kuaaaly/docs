@@ -35,14 +35,14 @@ Détails:
 ## Pré-requis
 - [Clover](https://github.com/Dids/clover-builder/releases) : pour installer le boot loader dans la partition EFI (USB puis Hard Disk)
 - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) : pour modifier plus facilement le fichier de configuration `config.plist` de Clover.
-- macOS Mojave téléchargé depuis l'App Store (vous aurez donc besoin d'un autre Mac ou d
+- [macOS Mojave](https://itunes.apple.com/fr/app/macos-mojave/id1398502828?ls=1&mt=12&l=fr) téléchargé depuis l'App Store (vous aurez donc besoin d'un Mac ou d'un Hackintosh)
 
 ## Installation
 *Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
 
 L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
-### Création de la clé d'installation
+### Prép	Création de la clé USB d'installation
 1. Créer un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit d'utiliser [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). Pensez à prendre une clé USB d'au moins 8GB. La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
 2. Installer Clover sur la clé d'installation que vous venez de créer. **Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
 	- HFSPlus
@@ -113,5 +113,5 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY5NzYwNjYsMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTU4MjMyNzMwOCwxMTc3Mzk0NTM3XX0=
 -->
