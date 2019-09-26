@@ -22,24 +22,24 @@ Nous voilà donc rendu ici ! Deux dernières précisions :
 - RAM : 2 x 8Go DDR4 2400MHz Ballistik LT Sport
 - **Bientôt** : Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress)
 - Disques :
-	- Samsung 970 EVO Plus 500GB (M.2)
-	- Crucial MX300 750GB
-	- Divers HDD
+	- Samsung 970 EVO Plus 500GB (NVMe en M.2)
+	- Crucial MX300 750GB (SSD en SATA)
+	- Divers HDD (SATA)
 
 Détails:
 - Ventilateur : Be Quiet! Pure Rock
 - Alimentation : Lepa N550-MA MXF1 (550W)
 - Boîtier : BitFenix Nova
-- Une carte MSI GeForce GTX 1060 3GB (inutilisable depuis Mojave), utilisée sous mon boot Windows
+- Un GPU GeForce GTX 1060 3GB de chez MSI (inutilisable depuis Mojave), utilisé sous mon boot Windows
 
 ## Pré-requis
-- [Clover](https://github.com/Dids/clover-builder/releases) : pour installer le boot loader dans la partition EFI (USB puis Hard Disk)
+- [Clover](https://github.com/Dids/clover-builder/releases) : pour installer le boot loader dans la partition EFI de notre clé USB
 - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) : pour modifier plus facilement le fichier de configuration `config.plist` de Clover.
 - [macOS Mojave](https://itunes.apple.com/fr/app/macos-mojave/id1398502828?ls=1&mt=12&l=fr) téléchargé depuis l'App Store (vous aurez donc besoin d'un Mac ou d'un Hackintosh)
 - Un clé USB de 8GB minimum
 
 ## Installation
-*Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
+*Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
 
 L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
@@ -191,9 +191,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTEwMjE3NywtMTM4NjE2NzU3NywxMj
-g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
-OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
-0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
-NDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbNjg2ODEyNDE3LC0xMzg2MTY3NTc3LDEyOD
+UxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5
+MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLT
+E0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0
+MjQ4NDksMTE3NzM5NDUzN119
 -->
