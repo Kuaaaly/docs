@@ -49,8 +49,18 @@ sudo systemctl status docker
 ### Installer Portainer
 
 Dernière étape, nous allons vouloir installer [Portainer](http://portainer.io) pour gérer facilement et graphiquement nos conteneurs Docker, nos services et nos stacks.
-1. Initialiser Docker Swarm (l'orchestrateur natif de Docker), c'est lui qui vous permet de déployer des stacks (ensembles) de conteneurs
+1. Initialiser Docker Swarm (l'orchestrateur natif de Docker), c'est lui qui vous permet de déployer des stacks (ensembles) de conteneurs et par extensions des services, des conteneurs seuls et autres.
+```
+sudo docker swarm init
+```
+2. Télécharger le fichier de stack de Portainer :
+```
+curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+```
+3. Déployer la stack :
+```
 
+```
 
 
 https://www.portainer.io/installation/
@@ -58,5 +68,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ5NzE4NjMsMTc2MjE2OTAwNV19
+eyJoaXN0b3J5IjpbMjE2MjAzMTgyLDE3NjIxNjkwMDVdfQ==
 -->
