@@ -26,9 +26,11 @@
 ![ssh options](ssh_options.png)
 ![ssh enable](images/enable_ssh.png)
 
-C'est fini ! Vous pouvez débranche clavier et écran,
+C'est fini ! Vous pouvez débranche clavier et écran, il ne vous serviront plus.
 ### Installer Docker
-
+Dans la plupart des cas, le Raspberry va s'annoncer correctement auprès de votre routeur et prendra le nom `raspberrypi`. Vous pourrez donc facilement vous y connecter. Installons désormais Docker :
+1. `ssh pi@raspberrypi`
+2. 
 ### Installer Portainer
 
 ssh pi@raspberrypi
@@ -41,5 +43,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzU5NDk4OCwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbLTEyMTM3MjcwNSwxNzYyMTY5MDA1XX0=
 -->
