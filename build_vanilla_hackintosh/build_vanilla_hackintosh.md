@@ -89,7 +89,7 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 
 2. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
 
-<img src="images/clover_drivers_1.png" alt="clover drivers 1" width="70%"/>
+<img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
 3. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
 	- AppleALC.kext
@@ -155,7 +155,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzMxNzM3MCwtMTQwNjU2NzE3Niw0OT
-M5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0
-NTM3XX0=
+eyJoaXN0b3J5IjpbNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5Mz
+kzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1
+MzddfQ==
 -->
