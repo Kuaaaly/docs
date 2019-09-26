@@ -33,7 +33,13 @@ Dans la plupart des cas, le Raspberry va s'annoncer correctement auprès de votr
 ```
 ssh pi@raspberrypi
 ```
-2. D'après [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script)
+2. Nous allons suivre [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utilisé le script officiel pour installer Docker :
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+Soyez patients, le script mets un peu de temps à tout installer.
+3. Une fois que vous récupérez la main, vous po
 ### Installer Portainer
 
 ssh pi@raspberrypi
@@ -46,5 +52,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNzE0MCwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbMTA2NzE0MjUxNiwxNzYyMTY5MDA1XX0=
 -->
