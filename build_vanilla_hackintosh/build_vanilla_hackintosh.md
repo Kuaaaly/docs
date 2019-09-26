@@ -179,19 +179,20 @@ C'est fini !
 - 16GB de RAM (2 x 8), plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
 - Un disque SSD NVMe de 500GB pour le système
 - Un disque SSD SATA de 1To pour le stockage (si besoin)
-- Pour le reste : une bonne alimentation (attention les cartes Radeon consomment un peu plus que NVIDIA), un bon ventilateur pour le CPU.
+- Pour le reste : une bonne alimentation (attention les cartes Radeon consomment un peu plus que NVIDIA), un bon ventilateur pour le CPU, boitier selon le goût et le compacité recherchée...
 
 ## Source et infos diverses
 
 - Le [guide de référence](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) pour ceux qui s'intéressent au Hackintosh et veulent des infos fiables et à jour
-- Pour ceux qui veulent de l'aide, échanger ou faire des retours d'expérience :
+- Pour ceux qui veulent de l'aide, échanger ou lire / faire des retours d'expérience :
 	- https://www.insanelymac.com
 	- http://tonymacx86.com/
 	- https://hackintosher.com
+- Il y a également un https://www.reddit.com/r/hackintosh/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzQ0NDY0MywxMjg1MTU0NDAzLDE0OT
-QzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4
-NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LD
-Q5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzcz
-OTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTEwODMxMTUyNTcsMTI4NTE1NDQwMywxND
+k0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2
+ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Ni
+w0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3
+Mzk0NTM3XX0=
 -->
