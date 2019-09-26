@@ -44,17 +44,18 @@ Détails:
 L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Préparer et créer la clé USB d'installation
-1. Insérer votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
+1. Insérez votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
 <img src="images/diskutil_list.png" alt="diskutil list" width="75%"/>
-2. Identifier votre clé USB (réparable grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
-3. Nous allons désormais efface la clé et la formatter en format HFS+
-4. Créer un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit d'utiliser [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). Pensez à prendre une clé USB d'au moins 8GB. La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
-5. Installer Clover sur la clé d'installation que vous venez de créer. **Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
+2. Identifiez votre clé USB (réparable grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
+3. Effacez la clé et la formattez la en HFS+ à l'aide de la commande suivante :
+`diskutil eraseDisk`
+5. Créer un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit d'utiliser [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). Pensez à prendre une clé USB d'au moins 8GB. La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
+6. Installer Clover sur la clé d'installation que vous venez de créer. **Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
 	- HFSPlus
 	- ApfsDriverLoader
 	- EmuVariableUefi
-6. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
-7. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
+7. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
+8. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
@@ -118,6 +119,6 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE4ODc0MjMsLTE5Mzk1MjE3ODUsMT
+eyJoaXN0b3J5IjpbLTE1NjAzMjkwMjUsLTE5Mzk1MjE3ODUsMT
 k5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
