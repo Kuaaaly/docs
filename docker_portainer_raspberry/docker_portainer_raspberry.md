@@ -39,18 +39,23 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 Soyez patients, le script mets un peu de temps à tout installer.
-3. Une fois que vous récupérez la main, vous po
+3. Une fois que vous avez récupéré la main, vous pouvez taper la commande suivante pour vérifier que Docker est bien "running" :
+```
+sudo systemctl status docker
+```
+
+![docker running](images/docker_running.png)
+
 ### Installer Portainer
 
-ssh pi@raspberrypi
 
 
 
-sudo systemctl status docker
+
 https://www.portainer.io/installation/
 curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzE0MjUxNiwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbLTIwNzg0MTk1ODUsMTc2MjE2OTAwNV19
 -->
