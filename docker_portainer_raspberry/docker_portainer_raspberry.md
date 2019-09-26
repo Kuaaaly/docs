@@ -16,11 +16,11 @@
 
 ![flash media](images/flash_media.png)
 
-4. Mettez la carte SD dans le Raspberry, brancher un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran (via HDMI) qui nous seront utiles pour le premier boot.
+4. Mettez la carte SD dans le Raspberry, branchez un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran (via HDMI) qui nous seront utiles pour le premier boot.
 
 ### Activer le SSH sur le Raspberry
 1. Une fois votre Raspberry démarré, loguez vous via l'utilisateur `pi` et le mot de passe par défaut : `raspberry`. **Attention, le clavier sera peut-être vu comme un QWERTY.**
-2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : Interfacing Options > SSH > Yes. Ci-après les écrans de configuration.
+2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : **Interfacing Options > SSH > Yes**. Ci-après les écrans par lesquels vous devez passer.
 
 ![interfacing options](images/interfacing_options.png)
 ![ssh options](images/ssh_options.png)
@@ -33,7 +33,7 @@ Dans la plupart des cas, le Raspberry va s'annoncer correctement auprès de votr
 ```
 ssh pi@raspberrypi
 ```
-2. Nous allons suivre [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utilisé le script officiel pour installer Docker :
+2. Nous allons suivre [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
@@ -73,6 +73,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTk2MjAyMywzMzkyNTk0ODAsLTIxNT
-c4NTkxNSwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbLTIxMzM4MjMxNzQsMzM5MjU5NDgwLC0yMT
+U3ODU5MTUsMTc2MjE2OTAwNV19
 -->
