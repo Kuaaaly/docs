@@ -105,7 +105,7 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 #### Configuration du boot loader
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
 
-En ce qui me concerne, j'ai pris le fichier `config.plist` correspondant à la génération Kaby Lake
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'en ai retiré 
 
 [config.plist](config.plist)
 
@@ -165,7 +165,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTc4MDMyOCw2NDk5ODgxNzYsLTE0MD
+eyJoaXN0b3J5IjpbMjAzMjYzMTg0MCw2NDk5ODgxNzYsLTE0MD
 Y1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4
 NDksMTE3NzM5NDUzN119
 -->
