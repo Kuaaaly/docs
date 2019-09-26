@@ -45,12 +45,13 @@ L'installation est assez simple, je vais vous donner ici les différentes étape
 
 ### Préparer et créer la clé USB d'installation
 1. Insérez votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
-<img src="images/diskutil_list.png" alt="diskutil list" width="75%"/>
+<img src="images/diskutil_list.png" alt="diskutil list" width="70%"/>
 2. Identifiez votre clé USB (réparable grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
 3. Effacez la clé et la formattez la en HFS+ à l'aide de la commande suivante :
 `diskutil eraseDisk`
-<img src="images/erase_disk.png" alt="erase disk" width="75%"/>
+<img src="images/erase_disk.png" alt="erase disk" width="70%"/>
 Si vous exécutez à nouveau la commande `diskutil list` vous devriez être en mesure d'identifier votre clé fraîchement formatée.
+<img src="images/new_disk.png" alt="diskutil list" width="70%"/>
 4. Créez un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit de suivre [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
 ```
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh\ Mojave
@@ -125,6 +126,6 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mzc3ODM2OCwtMTkzOTUyMTc4NSwxOT
-kzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTE2NDkyNjAwMzUsLTE5Mzk1MjE3ODUsMT
+k5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
