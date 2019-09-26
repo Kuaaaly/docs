@@ -99,7 +99,7 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- Lilu.kext
 	- USBInjectAll.kext
 	- VirtualSMC.kext
-	- WhateverGreen.kext
+- WhateverGreen.kext
 
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
@@ -109,7 +109,7 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant puis le modifier.
 
 En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
-- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écrans lors du boot et du run de macOS
+- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écrans lors du boot et du run de macOS
 
 <img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg1MDIwODIsLTI3NDUzODMyNywtMT
-M4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5
-Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4ND
-AsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkz
-OTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbMjA1MDM3OTIzMiwtMjc0NTM4MzI3LC0xMz
+g2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2
+ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MC
+w2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5
+NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
 -->
