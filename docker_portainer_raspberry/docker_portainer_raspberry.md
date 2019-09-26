@@ -63,9 +63,13 @@ sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 ```
 4. Portainer est désormais accessible via votre navigateur via http://raspberrypi:9000.
 
-Configurez le compte administrateur. **Attention, de mémoire il faut créer le compte dans les 5 premières minutes :
+Configurez le compte administrateur. **Attention, de mémoire il faut créer le compte administrateur dans les 5 premières minutes, sinon Portainer s'arrête par sécurité** :
 
-![enter image description here](images/portainer_login.png)
+![portainer login](images/portainer_login.png)
+
+Vous voilà rendu sur l'interface de Portainer !
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNzIyMTI1LDE3NjIxNjkwMDVdfQ==
+eyJoaXN0b3J5IjpbMjIxNzk3MzYyLDE3NjIxNjkwMDVdfQ==
 -->
