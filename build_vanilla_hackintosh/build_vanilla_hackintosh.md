@@ -100,10 +100,12 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- WhateverGreen.kext
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
-#### Configuration du boot loader
-Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharge le fichier `config.plist` correspondant.
+<img src="images/add_kexts.png" alt="add kexts" width="70%"/>
 
-En
+#### Configuration du boot loader
+Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
+
+En ce qui me concerne, j'ai pris le fichier `config.plist` correspondant à la génération Kaby Lake
 
 [config.plist](config.plist)
 
@@ -163,7 +165,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3OTQyNjg4LDY0OTk4ODE3NiwtMTQwNj
-U2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0
-OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTI1MTc4MDMyOCw2NDk5ODgxNzYsLTE0MD
+Y1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4
+NDksMTE3NzM5NDUzN119
 -->
