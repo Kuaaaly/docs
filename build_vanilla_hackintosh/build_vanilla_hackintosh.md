@@ -175,8 +175,8 @@ C'est fini !
 
 - Une i5 ou i7 de 8ème génération
 - Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu plusieurs témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
-- Une RX 560 / 570 / 580 / 590 en fonction du besoin
-- 16GB de RAM, plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
+- Une RX 560 / 570 / 580 / 590 en fonction du besoin (voire une RX 550 s'il s'avère que j'arrive à faire fonctionner celle que je devrais recevoir fin octobre).
+- 16GB de RAM (2 x 8), plutôt de chez G.Skill, les témoignages que je lis sur les forums sont excellents
 - Un disque SSD NVMe de 500GB pour le système
 - Un disque SSD SATA de 1To pour le stockage (si besoin)
 - Pour le reste : une bonne alimentation (attention les cartes Radeon consomment un peu plus que NVIDIA), un bon ventilateur pour le CPU.
@@ -189,7 +189,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTI5OTM4NSwxMjg1MTU0NDAzLDE0OT
+eyJoaXN0b3J5IjpbMTQyNzQ0NDY0MywxMjg1MTU0NDAzLDE0OT
 QzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4
 NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LD
 Q5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzcz
