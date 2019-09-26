@@ -16,9 +16,11 @@
 
 ![flash media](images/flash_media.png)
 
-4. Mettez la carte SD dans le Raspberry, brancher un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran (via
+4. Mettez la carte SD dans le Raspberry, brancher un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran (via HDMI) qui nous seront utiles pour le premier boot.
 
 ### Activer le SSH sur le Raspberry
+1. Une fois votre Raspberry démarré, loguez vous via l'utilisateur `pi` et le mot de passe par défaut : `raspberry`
+
 
 ### Installer Docker
 
@@ -40,5 +42,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU5MDAwMzUsMTc2MjE2OTAwNV19
+eyJoaXN0b3J5IjpbLTIxMzIzNjA4NzcsMTc2MjE2OTAwNV19
 -->
