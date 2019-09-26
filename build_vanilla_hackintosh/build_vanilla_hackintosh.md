@@ -91,13 +91,14 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
-3. Téléchargez la liste d'extensions de kernel (kexts) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
+3. Téléchargez la liste d'extensions de kernel (kext) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
 	- USBInjectAll.kext
 	- VirtualSMC.kext
 	- WhateverGreen.kext
+
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
@@ -105,27 +106,33 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 #### Configuration du boot loader
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
 
-En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 2 modifications suivantes :
-- Retiré les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
+- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
 
-<img src="images/delete_device_properties.png" alt="delete device properties" width="70%"/>
+<img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
-- Retiré les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
+- Retirer les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
-<img src="images/dekete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
+<img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
+
+- Focer l'injection Intel (pour pouvoir utiliser l'iGPU) dans la section `Graphics` :
+
+<img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
+
+N'oubliez pas de sauvegarder le fichier (cmd + S) avant de quitter Clover Configurator.
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
-Une fois que vous aller téléchargé et (éventuellement) modifié le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
+Une fois que vous avez téléchargé (et éventuellement modifié) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
 
 <img src="images/replace_config_plist.png" alt="replace config plist" width="70%"/>
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
 
 ### Paramétrage du BIOS
-Pour que macOS puisse s'installer sur un ordinateur qu'il n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
+Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
 1. Choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
-2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite :
+2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite pour les trouver :
 	- XHCI Hand-off : [**Enabled**]
 	- Initiate Graphic Adapter : [**IGD**] (vous permet d'utiliser l'iGPU en sortie video de boot)
 	- Windows 8.1/10 WHQL Support : [**Enabled**]
@@ -139,22 +146,28 @@ Pour que macOS puisse s'installer sur un ordinateur qu'il n'est pas un Mac, il y
 1. Brancher votre clé USB sur l'ordinateur
 2. Démarrer puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
-4. Choisissez l'image d'installation de macOS Mojave
-5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal
+4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait être : `Boot macOS Install from Install MacOS Mojave`
+5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal.
+	- Il est possible qu'il vous faille formatez le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
+		1. Cliquez sur "Utilitaire de disque"
+		2. Choisissez votre disque
+		3. Effacez-le en choisissant le format APFS (qui est le nouveau système de fichier d'Apple)
+	- Si vous ne voyez même pas votre disque (cela peut arriver si le disque est neuf par exemple), il vous faudra utiliser un autre ordinateur ou le terminal du programme d'installation pour le formatter une première fois.
 6. Laissez l'ordinateur redémarrer, ne retirez pas la clé USB puis pressez F11 à nouveau pendant la phase de démarrage.
 
 ### Démarrer sur votre nouvelle installation
-1. Si vous n'avez pas oublié de presser F11, vous devriez vous retrouver devant les mêmes possibilités de boot que précédemment. Choisissez à nouveau votre clé USB pour démarrer. À ce stade, le disque macOS sur lequel nous avons effectué l'installation n'est pas encore bootable.
-2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau disque pour permettant de finaliser l'installation de macOS, sélectionnez le.
-3. Laissez l'installation de macOS se finaliser, à nouveau l'ordinateur rédémarrera, pressez F11, choisissez la clé USB puis démarrer enfin sur votre nouvelle installation de macOS !
-4. Configurer comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape
+1. Si vous n'avez pas oublié de presser F11, vous devriez vous retrouver devant les mêmes possibilités de boot que précédemment. Choisissez à nouveau votre clé USB pour démarrer (*à ce stade, le disque sur lequel nous avons effectué l'installation macOS n'est pas encore bootable*).
+2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau volume qui vous permettra de finaliser l'installation de macOS, sélectionnez le. Pour moi c'est : `Boot macOS Install from hackOS` (`hackOS` étant le nom que j'ai choisi pour formatter mon disque d'installation).
+3. Laissez l'installation de macOS se finaliser, à nouveau l'ordinateur rédémarrera, pressez F11, choisissez la clé USB puis démarrer enfin sur votre nouvelle installation de macOS (pour moi : `Boot macOS from hackOS`) !
+4. La configuration se fait exactement comme celle d'un vrai Mac, faites comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape.
 
-### Rendre votre nouvelle installation macOS bootable sans clé USB
-Étape très simple.
-1. Utilisez Clover Configurator pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS) puis copiez l'intégralité du dossier `/EFI` de la clé vers le disque.
-2. Éjectez la clé, retirez la, redémarrer l'ordinateur
-3. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en temps que disque de démarrage.
-4. Vous devriez vous retrouvez ensuite dans Clover, sélectionner votre disque macOS comme vous l'avez fait précédemment.
+### Rendre votre nouvelle installation macOS bootable sans la clé USB
+Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de notre partition `EFI` de la clé USB vers celle de macOS.
+1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount UEFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
+2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer.
+3. Éjectez la clé, retirez la, redémarrez l'ordinateur
+4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
+5. Vous devriez vous retrouver ensuite dans Clover, sélectionner votre disque macOS comme vous l'avez fait précédemment.
 
 C'est fini !
 
@@ -176,7 +189,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OT
-k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
-ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2OD
+YwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMx
+ODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLT
+E5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
