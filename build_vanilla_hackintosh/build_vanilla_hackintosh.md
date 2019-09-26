@@ -13,14 +13,14 @@ Depuis septembre 2019 je me suis donc mis en tête de transformer ma tour actuel
 
 Nous voilà donc rendu ici ! Deux dernières précisions :
 - J'ai actuellement une GTX 1060 de NVIDIA dans ma tour, ce qui n'est pas compatible avec macOS Mojave (je ne veux pas retourner sous High Sierra car cette solution n'est pas pérenne). J'ai donc bien fouillé sur le net et j'ai commandé une RX 550 de Radeon qui devrait fonctionner sous macOS Mojave. Attention néanmoins, si vous souhaitez faire la même chose, renseignez-vous très bien car seules quelques versions de la RX 550 fonctionnent (sont censées fonctionner) sous Polaris 11 (version Baffin) ce qui est totalement différent de la version plus répandue Polaris 12 (Lexa). Je vous tiens au courant à ce sujet.
-- Enfin, en ce qui concerne la connectivité, j'avais jusqu'à présent fait le choix de me contenter d'ethernet. Seulement, pour pérenniser un Hackintosh, la continuité Apple est clairement un must have. Une carte Wifi / Bluetooth PCIe est donc en route !
+- Enfin, en ce qui concerne la connectivité, j'avais jusqu'à présent fait le choix de me contenter d'Ethernet. Seulement, pour pérenniser un Hackintosh, la continuité Apple est clairement un must have (d'autant plus que j'utilise iOS). Une carte Wifi / Bluetooth PCIe est donc en route depuis la Chine (basée sur la puce BCM94360CS de Broadcom) ! Même chose : je vous tiens au courant.
 
 ## Hardware
 - Carte mère : MSI Z270 Gaming Pro Carbon
 - CPU : Intel Core i5-7600
 - GPU : actuellement Intel HD 630 (mais j'espère passer sous RX 550 bientôt)
 - RAM : 2 x 8Go DDR4 2400MHz Ballistik LT Sport
-- Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress)
+- Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress) 
 - Disques :
 	- Samsung 970 EVO Plus 500GB
 	- Crucial MX300 750GB
@@ -191,9 +191,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzOTI0NjQ3LC0xMzg2MTY3NTc3LDEyOD
-UxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5
-MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLT
-E0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0
-MjQ4NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTE0Nzc3NjY3NDMsLTEzODYxNjc1NzcsMT
+I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
+MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
+wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
+MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
