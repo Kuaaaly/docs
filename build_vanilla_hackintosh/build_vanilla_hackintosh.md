@@ -2,10 +2,10 @@
 
 *Article en cours de rédaction...*
 
-*La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Seconde précision, le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS (il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sous un vrai Mac ou un autre Hackintosh). Tous les éléments spécifiques au "hack" seront stockés dans la partition de `boot` (la partition `/EFI`).*
+*La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Pour information, le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS (il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sous un vrai Mac ou un autre Hackintosh). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot (la partition `EFI`).*
 
 ## Introduction
-Début 2017, j'ai monté mon premier PC, pour jouer. N'étant pas forcément renseigné sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec une carte mère série 200, un Intel Core i5 et une GTX 1060, ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPU NVIDIA était encore pris en charge avec les web drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, à l'époque j'avais un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est resté un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés.
+Début 2017, j'ai monté m PC, pour jouer. N'étant pas forcément renseigné sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec une carte mère série 200, un Intel Core i5 et une GTX 1060, ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPU NVIDIA était encore pris en charge avec les web drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, à l'époque j'avais un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est resté un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés.
 Ayant changé de travail courant 2019, cela fait un moment que je ne travaille plus sous macOS (et cela ma manque !), rassurez-vous, j'ai dual-booté sous Ubuntu le premier ordinateur Windows que l'on m'a donné. Bref, en clair, j'ai sous le coude :
 - Un Mac Book Pro 15" de 2018 que je n'utilise presque plus
 - Un PC Windows (juste pour les jeux, promis) monté par mes soins avec un setup sympa : triple screen dont un en 144Hz.
@@ -191,9 +191,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxND
-k0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2
-ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Ni
-w0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3
-Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbNTEwNDIxMzIwLC0xMzg2MTY3NTc3LDEyOD
+UxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5
+MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLT
+E0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0
+MjQ4NDksMTE3NzM5NDUzN119
 -->
