@@ -41,12 +41,12 @@ Détails:
 ## Installation
 *Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
 
-L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
+L'installation est relativement simple - *une fois que vous avez passé un paquet d'heure à potasser sur le sujet du Hackintosh ou si vous tombez sur un bon guide étape par étape correspondant exactement à votre configuration*. Je vais donner et détailler ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Préparer et créer la clé USB d'installation
 
 #### Créer le media d'installation de macOS Mojave
-1. Insérez votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
+1. Insérez votre clé USB, lancez l'application terminal et tapez la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
 
 <img src="images/diskutil_list.png" alt="diskutil list" width="70%"/>
 
@@ -191,9 +191,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2ODEyNDE3LC0xMzg2MTY3NTc3LDEyOD
-UxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5
-MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLT
-E0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0
-MjQ4NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTIwMDg4NTgyMzEsLTEzODYxNjc1NzcsMT
+I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
+MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
+wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
+MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
