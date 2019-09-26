@@ -74,11 +74,11 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 #### Installation du boot loader (Clover)
 
-1. Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape "Destination". **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** 
+1. Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape `Destination`. **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** 
 
 <img src="images/clover_destination.png" alt="clover destination" width="70%"/>
 
-Pour une configuration identique à la mienne (MSI série 200), lors de l'étape "Type d'installation", cliquez sur "Personnaliser", vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
+Pour une configuration identique à la mienne (MSI série 200), lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`, vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
 	- HFSPlus
 	- ApfsDriverLoader
 	- EmuVariableUefi
@@ -87,13 +87,13 @@ Pour une configuration identique à la mienne (MSI série 200), lors de l'étape
 
 <img src="images/clover_drivers_2.png" alt="clover drivers 2" width="70%"/>
 
-Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
+Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
 2. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
 
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
-3. Téléchargez la liste d'extensions de kernel (kext) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
+3. Téléchargez la liste d'extensions de kernel (kext) suivante depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzI4MTA4MiwtMTM4NjE2NzU3NywxMj
-g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
-OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
-0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
-NDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTE0NjQ0MTM1OTksLTEzODYxNjc1NzcsMT
+I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
+MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
+wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
+MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
