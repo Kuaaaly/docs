@@ -28,10 +28,13 @@
 
 C'est fini ! Vous pouvez débrancher clavier et écran, ils ne vous serviront plus.
 ### Installer Docker
-Dans la plupart des cas, le Raspberry va s'annoncer correctement auprès de votre routeur et prendra le nom `raspberrypi`. Vous pourrez donc facilement vous y connecter. Installons désormais Docker :
+Dans la plupart des cas, le Raspberry va "s'annoncer" correctement auprès de votre routeur (via son service mDNS) et prendra le hostname `raspberrypi` sur le réseau. Vous pourrez donc facilement vous y connecter.
+
+Installons désormais Docker :
 1. Depuis votre terminal préféré (via un ordinateur présent sur le même réseau) :
 ```
 ssh pi@raspberrypi
+(mot de passe raspberry)
 ```
 2. Nous allons suivre [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
 ```
@@ -73,6 +76,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM4MjMxNzQsMzM5MjU5NDgwLC0yMT
-U3ODU5MTUsMTc2MjE2OTAwNV19
+eyJoaXN0b3J5IjpbLTkyODE5NTU0OSwzMzkyNTk0ODAsLTIxNT
+c4NTkxNSwxNzYyMTY5MDA1XX0=
 -->
