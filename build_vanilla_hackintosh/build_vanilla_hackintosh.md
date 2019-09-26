@@ -107,8 +107,14 @@ Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à 
 
 En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 2 modifications suivantes :
 - Retiré les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
-- Retiré les patches qui sont antérieurs à la version 10.14 de macOS
 
+<img src="images/delete_device_properties.png" alt="delete device properties" width="70%"/>
+
+- Retiré les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
+
+<img src="images/dekete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
+
+Si vous voulez aller droit au but
 [config.plist](config.plist)
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
@@ -167,7 +173,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzk5MDc3NCwyMDMyNjMxODQwLDY0OT
-k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
-ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbNDAzMTQzODcxLDIwMzI2MzE4NDAsNjQ5OT
+g4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4
+NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
