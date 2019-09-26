@@ -140,7 +140,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 1. Brancher votre clé USB sur l'ordinateur
 2. Démarrer puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
-4. Choisissez l'image d'installation de macOS Mojave
+4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait être : `Boot macOS Install from Install MacOS Mojave`
 5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal
 6. Laissez l'ordinateur redémarrer, ne retirez pas la clé USB puis pressez F11 à nouveau pendant la phase de démarrage.
 
@@ -177,8 +177,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMD
-MyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4
-NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX
-0=
+eyJoaXN0b3J5IjpbMTAzMjMwMDUyMywtMTk0MTUwOTE1NywtOT
+YzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3
+MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LD
+ExNzczOTQ1MzddfQ==
 -->
