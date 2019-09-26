@@ -26,7 +26,7 @@
 ![ssh options](images/ssh_options.png)
 ![ssh enable](images/enable_ssh.png)
 
-C'est fini ! Vous pouvez débranche clavier et écran, il ne vous serviront plus.
+C'est fini ! Vous pouvez débrancher clavier et écran, ils ne vous serviront plus.
 ### Installer Docker
 Dans la plupart des cas, le Raspberry va s'annoncer correctement auprès de votre routeur et prendra le nom `raspberrypi`. Vous pourrez donc facilement vous y connecter. Installons désormais Docker :
 1. Depuis votre terminal préféré (via un ordinateur présent sur le même réseau) :
@@ -73,6 +73,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjU5NDgwLC0yMTU3ODU5MTUsMTc2Mj
-E2OTAwNV19
+eyJoaXN0b3J5IjpbLTI4NTk2MjAyMywzMzkyNTk0ODAsLTIxNT
+c4NTkxNSwxNzYyMTY5MDA1XX0=
 -->
