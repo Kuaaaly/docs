@@ -162,7 +162,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 4. La configuration se fait exactement comme celle d'un vrai Mac, faites comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape.
 
 ### Rendre votre nouvelle installation macOS bootable sans la clé USB
-Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de notre partition `EFI` de la clé USB vers celle de macOS.
+Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de la partition `EFI` de la clé USB vers la partition `EFI`  de macOS.
 1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount UEFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
 2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer.
 3. Éjectez la clé, retirez la, redémarrez l'ordinateur
@@ -189,8 +189,9 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2OD
-YwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMx
-ODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLT
-E5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMjA4MDU1MjE2OCwxMjg1MTU0NDAzLDE0OT
+QzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4
+NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LD
+Q5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzcz
+OTQ1MzddfQ==
 -->
