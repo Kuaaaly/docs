@@ -106,14 +106,16 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 #### Configuration du boot loader
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
 
-En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 2 modifications suivantes :
-- Retiré les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
+- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
 
 <img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
-- Retiré les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
+- Retirer les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
+
+- Focer l'injection Intel (pour pouvoir utiliser l'iGPU) dans la sections `Graphics` :
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
@@ -182,7 +184,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODc2NzMwOCwxNDk0MzMwOTk2LDE2OD
+eyJoaXN0b3J5IjpbMTMyNTU3Mzg0NCwxNDk0MzMwOTk2LDE2OD
 YwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMx
 ODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLT
 E5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
