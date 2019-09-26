@@ -34,14 +34,14 @@ Installons désormais Docker :
 1. Depuis votre terminal préféré (via un ordinateur présent sur le même réseau) :
 ```
 ssh pi@raspberrypi
-(mot de passe raspberry)
+(mot de passe : raspberry)
 ```
-2. Nous allons suivre [les instructions officielles de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
+2. Nous allons suivre [les instructions de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
-Soyez patients, le script mets un peu de temps à tout installer.
+Soyez patients, le script met un peu de temps à tout installer.
 3. Une fois que vous avez récupéré la main, vous pouvez taper la commande suivante pour vérifier que Docker est bien "running" :
 ```
 sudo systemctl status docker
@@ -52,7 +52,7 @@ sudo systemctl status docker
 ### Installer Portainer
 
 Dernière étape, nous allons vouloir installer [Portainer](http://portainer.io) pour gérer facilement et graphiquement nos conteneurs Docker, nos services et nos stacks.
-1. Initialiser Docker Swarm (l'orchestrateur natif de Docker), c'est lui qui vous permet de déployer des stacks (ensembles) de conteneurs et par extensions des services, des conteneurs seuls et autres.
+1. Initialiser Docker Swarm (l'orchestrateur natif de Docker), c'est lui qui vous permettra de déployer des stacks (ensembles de conteneurs) et par extensions des services, conteneurs, volumes, encartera .
 ```
 sudo docker swarm init
 ```
@@ -76,6 +76,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODE5NTU0OSwzMzkyNTk0ODAsLTIxNT
+eyJoaXN0b3J5IjpbMTY0MDE0OTk2NywzMzkyNTk0ODAsLTIxNT
 c4NTkxNSwxNzYyMTY5MDA1XX0=
 -->
