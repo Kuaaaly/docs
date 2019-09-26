@@ -91,15 +91,17 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
-3. Téléchargez la liste de kexts suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`). Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), la liste évoluera (peut-être lors de l'ajout de la connectiv :
+3. Téléchargez la liste d'extensions de kernel (kexts) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
 	- USBInjectAll.kext
 	- VirtualSMC.kext
 	- WhateverGreen.kext
+Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
-Une fois ces 4 opération effectuées, votre clé d'installation est prête !
+
+Votre clé d'installation est prête et le pl
 
 ### Paramétrage du BIOS
 Pour que macOS puisse s'installer sur un ordinateur qu'il n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
@@ -155,7 +157,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjAzOTAxMCw2NDk5ODgxNzYsLTE0MD
-Y1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4
-NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbNzk1MDY2NDc1LDY0OTk4ODE3NiwtMTQwNj
+U2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0
+OSwxMTc3Mzk0NTM3XX0=
 -->
