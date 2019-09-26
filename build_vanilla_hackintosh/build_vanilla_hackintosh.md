@@ -91,13 +91,14 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
-3. Téléchargez la liste d'extensions de kernel (kexts) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
+3. Téléchargez la liste d'extensions de kernel (kext) suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
 	- USBInjectAll.kext
 	- VirtualSMC.kext
 	- WhateverGreen.kext
+
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
@@ -112,7 +113,7 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 - Retiré les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
-<img src="images/dekete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
+<img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
@@ -176,7 +177,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OT
-k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
-ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTE5Njg3MjI1MDksLTk2Mzk2ODQ4NSwyMD
+MyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4
+NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX
+0=
 -->
