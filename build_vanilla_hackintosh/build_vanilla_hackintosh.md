@@ -109,7 +109,7 @@ Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à 
 En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 2 modifications suivantes :
 - Retiré les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
 
-<img src="images/delete_device_properties.png" alt="delete device properties" width="70%"/>
+<img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
 - Retiré les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
@@ -117,14 +117,14 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
-Une fois que vous aller téléchargé et (éventuellement) modifié le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
+Une fois que vous aller téléchargé (et éventuellement modifié) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
 
 <img src="images/replace_config_plist.png" alt="replace config plist" width="70%"/>
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
 
 ### Paramétrage du BIOS
-Pour que macOS puisse s'installer sur un ordinateur qu'il n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
+Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
 1. Choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
 2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite :
 	- XHCI Hand-off : [**Enabled**]
@@ -177,8 +177,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg3MjI1MDksLTk2Mzk2ODQ4NSwyMD
-MyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4
-NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX
-0=
+eyJoaXN0b3J5IjpbMTM3Njk4NDc3MCwtOTYzOTY4NDg1LDIwMz
+I2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0
+NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ
+==
 -->
