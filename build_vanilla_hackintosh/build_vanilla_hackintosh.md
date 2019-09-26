@@ -117,7 +117,7 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-- Focer l'injection Intel (pour pouvoir utiliser l'iGPU) dans la section `Graphics` :
+- Cocher la case Inject Intel (pour pouvoir utiliser l'iGPU) dans la section `Graphics` :
 
 <img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
 
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMj
-g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
-OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
-0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
-NDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTE4Njg1MDIwODIsLTI3NDUzODMyNywtMT
+M4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5
+Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4ND
+AsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkz
+OTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
