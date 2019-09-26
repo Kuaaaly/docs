@@ -94,12 +94,12 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
 3. Téléchargez la liste d'extensions de kernel (kext) suivante depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
-	- AppleALC.kext
-	- IntelMausiEthernet.kext
-	- Lilu.kext
-	- USBInjectAll.kext
-	- VirtualSMC.kext
-	- WhateverGreen.kext
+- AppleALC.kext
+- IntelMausiEthernet.kext
+- Lilu.kext
+- USBInjectAll.kext
+- VirtualSMC.kext
+- WhateverGreen.kext
 
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg1MDIwODIsLTI3NDUzODMyNywtMT
-M4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5
-Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4ND
-AsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkz
-OTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbMTM5NzYyMjI3MCwtMjc0NTM4MzI3LC0xMz
+g2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2
+ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MC
+w2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5
+NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
 -->
