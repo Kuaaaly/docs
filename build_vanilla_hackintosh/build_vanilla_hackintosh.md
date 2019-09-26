@@ -121,7 +121,7 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
 
-N'oubliez pas de sauvegarder le fichier (cmd + S) avant de quitter Clover Configurator.
+N'oubliez pas de sauvegarder le fichier (`cmd + S`) avant de quitter Clover Configurator.
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
@@ -145,12 +145,12 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 3. Sauvegardez et quittez le BIOS
 
 ### Installer macOS
-1. Brancher votre clé USB sur l'ordinateur
-2. Démarrer puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
+1. Branchez votre clé USB sur l'ordinateur
+2. Démarrez puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
 4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait être : `Boot macOS Install from Install MacOS Mojave`
-5. Réaliser l'installation comme vous l'auriez faite pour un Mac normal.
-	- Il est possible qu'il vous faille formatez le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
+5. Réalisez l'installation comme vous l'auriez faite pour un Mac normal.
+	- Il est possible qu'il vous faille formater le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
 		1. Cliquez sur "Utilitaire de disque"
 		2. Choisissez votre disque
 		3. Effacez-le en choisissant le format APFS (qui est le nouveau système de fichier d'Apple)
@@ -193,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA1NDI5MzAsLTEzODYxNjc1NzcsMT
-I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
-MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
-wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
-MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMTQwOTUyNjA3OCwtMTM4NjE2NzU3NywxMj
+g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
+OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
+0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
+NDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
