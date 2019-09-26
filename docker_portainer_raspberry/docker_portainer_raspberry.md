@@ -2,7 +2,7 @@
 # Installer Docker & Portainer sur Raspberry
 
 ## Introduction
-
+*Bientôt !*
 ## Pré-requis
 - [Etcher](https://www.balena.io/etcher/) : logiciel qui nous permettra de flasher proprement la carte SD bootable pour le Raspberry
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) : l'OS de prédilection des Raspberry. La version à choisir dépend de votre besoin. Personnellement, j'utilise toujours mes Raspberry en tant que serveur, je prends donc systématiquement la version "Lite" quitte à installer manuellement des choses par la suite.
@@ -73,5 +73,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTc4NTkxNSwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbMzM5MjU5NDgwLC0yMTU3ODU5MTUsMTc2Mj
+E2OTAwNV19
 -->
