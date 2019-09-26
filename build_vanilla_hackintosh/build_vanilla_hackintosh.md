@@ -156,10 +156,10 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 6. Laissez l'ordinateur redémarrer, ne retirez pas la clé USB puis pressez F11 à nouveau pendant la phase de démarrage.
 
 ### Démarrer sur votre nouvelle installation
-1. Si vous n'avez pas oublié de presser F11, vous devriez vous retrouver devant les mêmes possibilités de boot que précédemment. Choisissez à nouveau votre clé USB pour démarrer. À ce stade, le disque sur lequel nous avons effectué l'installation macOS n'est pas encore bootable.
-2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau disque pour permettant de finaliser l'installation de macOS, sélectionnez le.
+1. Si vous n'avez pas oublié de presser F11, vous devriez vous retrouver devant les mêmes possibilités de boot que précédemment. Choisissez à nouveau votre clé USB pour démarrer (*à ce stade, le disque sur lequel nous avons effectué l'installation macOS n'est pas encore bootable*).
+2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau volume qui vous permettra de finaliser l'installation de macOS, sélectionnez le.
 3. Laissez l'installation de macOS se finaliser, à nouveau l'ordinateur rédémarrera, pressez F11, choisissez la clé USB puis démarrer enfin sur votre nouvelle installation de macOS !
-4. Configurer comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape
+4. La configuration se fait exactement comme celle d'un vrai Mac, faites comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape.
 
 ### Rendre votre nouvelle installation macOS bootable sans clé USB
 Étape très simple.
@@ -188,8 +188,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEwMDQ3OTksMTQ5NDMzMDk5NiwxNj
-g2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYz
-MTg0MCw2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC
-0xOTM5NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbLTIzNjExNTYwMSwxNDk0MzMwOTk2LDE2OD
+YwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMx
+ODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLT
+E5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
