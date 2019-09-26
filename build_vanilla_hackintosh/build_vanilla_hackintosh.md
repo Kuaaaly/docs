@@ -50,9 +50,11 @@ L'installation est relativement simple - *une fois que vous avez passé un paque
 
 <img src="images/diskutil_list.png" alt="diskutil list" width="70%"/>
 
-3. Identifiez votre clé USB (réparable grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
-4. Effacez la clé et la formattez la en HFS+ à l'aide de la commande suivante :
-`diskutil eraseDisk`
+3. Identifiez votre clé USB (réparable notamment grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
+4. Effacez la clé et la formattez la en HFS+ à l'aide de la commande suivante (pensez à remplace le `/dev/diskX` par celui qui convient) :
+```
+diskutil eraseDisk HFS+ "Hackintosh Mojave" /dev/diskX
+```
 
 <img src="images/erase_disk.png" alt="erase disk" width="70%"/>
 
@@ -191,9 +193,9 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg4NTgyMzEsLTEzODYxNjc1NzcsMT
-I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
-MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
-wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
-MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTYxMzI4MTA4MiwtMTM4NjE2NzU3NywxMj
+g1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUw
+OTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC
+0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkz
+NDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
