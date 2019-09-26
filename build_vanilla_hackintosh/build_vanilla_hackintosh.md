@@ -44,6 +44,8 @@ Détails:
 L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Préparer et créer la clé USB d'installation
+
+#### Créer le media d'installation de macOS Mojave
 1. Insérez votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
 
 <img src="images/diskutil_list.png" alt="diskutil list" width="70%"/>
@@ -135,6 +137,6 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDYyMzQ1NiwtMTkzOTUyMTc4NSwxOT
-kzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OT
+M0MjQ4NDksMTE3NzM5NDUzN119
 -->
