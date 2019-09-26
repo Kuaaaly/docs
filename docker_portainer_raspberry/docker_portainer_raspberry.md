@@ -20,19 +20,17 @@
 
 ### Activer le SSH sur le Raspberry
 1. Une fois votre Raspberry démarré, loguez vous via l'utilisateur `pi` et le mot de passe par défaut : `raspberry`. **Attention, le clavier sera peut-être vu comme un QWERTY.**
-2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : In
+2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : Interfacing Options > SSH > Yes. Ci-après les écrans de configuration.
 
+![interfacing options](images/interfacing_options.png)
+![ssh options](ssh_options.png)
+![ssh enable](images/enable_ssh.png)
 
+C'est fini ! Vous pouvez débranche clavier et écran,
 ### Installer Docker
 
 ### Installer Portainer
 
-HDMI + Ethernet.
-pi / raspberry (attention clavier QWERTY)
-sudo -s
-raspi-config
-5 Interfacing Options
-SSH enable
 ssh pi@raspberrypi
 
 https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script
@@ -43,5 +41,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzI4MTEwNSwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbMTUzMzU5NDk4OCwxNzYyMTY5MDA1XX0=
 -->
