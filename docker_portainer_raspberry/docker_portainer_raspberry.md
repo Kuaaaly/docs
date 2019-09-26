@@ -23,7 +23,7 @@
 2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : Interfacing Options > SSH > Yes. Ci-après les écrans de configuration.
 
 ![interfacing options](images/interfacing_options.png)
-![ssh options](ssh_options.png)
+![ssh options](images/ssh_options.png)
 ![ssh enable](images/enable_ssh.png)
 
 C'est fini ! Vous pouvez débranche clavier et écran, il ne vous serviront plus.
@@ -73,5 +73,5 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjMyODMyMiwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbLTIxNTc4NTkxNSwxNzYyMTY5MDA1XX0=
 -->
