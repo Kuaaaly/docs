@@ -126,7 +126,7 @@ Votre clé d'installation est prête et le plus dur est derrière vous !
 ### Paramétrage du BIOS
 Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
 1. Choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
-2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite :
+2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite pour les trouver :
 	- XHCI Hand-off : [**Enabled**]
 	- Initiate Graphic Adapter : [**IGD**] (vous permet d'utiliser l'iGPU en sortie video de boot)
 	- Windows 8.1/10 WHQL Support : [**Enabled**]
@@ -177,8 +177,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njk4NDc3MCwtOTYzOTY4NDg1LDIwMz
-I2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0
-NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ
-==
+eyJoaXN0b3J5IjpbLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMD
+MyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4
+NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX
+0=
 -->
