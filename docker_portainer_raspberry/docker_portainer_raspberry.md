@@ -9,12 +9,14 @@
 - Quelques bases en ligne de commandes
 ## Installation
 
-### Flasher la carte SD
+### Flasher la carte SD & bootez
 1. Insérez votre carte SD
 2. Ouvrez Etcher
 3. Choisissez l'image de Raspbian que vous avez téléchargé ainsi que le périphérique correspondant à votre carte SD puis cliquez sur "Flash".
 
 ![flash media](images/flash_media.png)
+
+4. Mettez la carte SD dans le Raspberry, brancher un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran (via
 
 ### Activer le SSH sur le Raspberry
 
@@ -38,5 +40,5 @@ curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-ag
 sudo docker swarm init
 sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjE2OTAwNV19
+eyJoaXN0b3J5IjpbLTE1NDU5MDAwMzUsMTc2MjE2OTAwNV19
 -->
