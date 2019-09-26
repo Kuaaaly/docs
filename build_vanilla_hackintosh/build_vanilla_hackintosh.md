@@ -85,9 +85,12 @@ Pour une configuration identique à la mienne (MSI série 200), lors de l'étape
 
 <img src="images/clover_drivers_2.png" alt="clover drivers 2" width="70%"/>
 
-Finaliser l'installation
+Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
 2. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
+
+<img src="images/clover_drivers_1.png" alt="clover drivers 1" width="70%"/>
+
 3. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
@@ -152,7 +155,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzIxNjg2NSwtMTQwNjU2NzE3Niw0OT
+eyJoaXN0b3J5IjpbLTY5NzMxNzM3MCwtMTQwNjU2NzE3Niw0OT
 M5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0
 NTM3XX0=
 -->
