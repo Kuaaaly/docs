@@ -115,11 +115,15 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-- Focer l'injection Intel (pour pouvoir utiliser l'iGPU) dans la sections `Graphics` :
+- Focer l'injection Intel (pour pouvoir utiliser l'iGPU) dans la section `Graphics` :
+
+<img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
+
+N'oubliez pas de sauvegarder le fichier (cmd + S) avant de quitter Clover Configurator.
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
-Une fois que vous aller téléchargé (et éventuellement modifié) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
+Une fois que vous avez téléchargé (et éventuellement modifié) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
 
 <img src="images/replace_config_plist.png" alt="replace config plist" width="70%"/>
 
@@ -184,8 +188,8 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTU3Mzg0NCwxNDk0MzMwOTk2LDE2OD
-YwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMx
-ODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLT
-E5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTIwNzEwMDQ3OTksMTQ5NDMzMDk5NiwxNj
+g2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYz
+MTg0MCw2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC
+0xOTM5NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
 -->
