@@ -91,7 +91,7 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 
 <img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
 
-3. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
+3. Téléchargez la liste de kexts suivantes depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`). Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), la liste évoluera (peut-être lors de l'ajout de la connectiv :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
@@ -155,7 +155,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LDQ5Mz
-kzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1
-MzddfQ==
+eyJoaXN0b3J5IjpbMTk2MjAzOTAxMCw2NDk5ODgxNzYsLTE0MD
+Y1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4
+NDksMTE3NzM5NDUzN119
 -->
