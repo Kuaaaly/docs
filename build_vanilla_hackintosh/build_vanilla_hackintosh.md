@@ -70,7 +70,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 À ce stade, vous devriez voir sur votre bureau un volume nommé "Install macOS Mojave". Si oui, c'est parfait !
 
-#### Installation du bootloader (Clover)
+#### Installation du boot loader (Clover)
 
 1. Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape "Destination". **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** 
 
@@ -100,8 +100,12 @@ Finaliser l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- WhateverGreen.kext
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
+#### Configuration du boot loader
+Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de c
 
-Votre clé d'installation est prête et le pl
+[config.plist](config.plist)
+
+Votre clé d'installation est prête et le plus dur est derrière vous !
 
 ### Paramétrage du BIOS
 Pour que macOS puisse s'installer sur un ordinateur qu'il n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
@@ -157,7 +161,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MDY2NDc1LDY0OTk4ODE3NiwtMTQwNj
+eyJoaXN0b3J5IjpbMzY1MTAzODc1LDY0OTk4ODE3NiwtMTQwNj
 U2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0
 OSwxMTc3Mzk0NTM3XX0=
 -->
