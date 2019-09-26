@@ -145,6 +145,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 	- Il est possible qu'il vous faille formatez le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
 		1. Cliquez sur "Utilitaire de disque"
 		2. Choisissez votre disque
+		3. Effacez-le en choisissant le format APFS (qui est le nouveau système de fichier d'Apple)
 6. Laissez l'ordinateur redémarrer, ne retirez pas la clé USB puis pressez F11 à nouveau pendant la phase de démarrage.
 
 ### Démarrer sur votre nouvelle installation
@@ -180,7 +181,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDkxNzAyMywtMTk0MTUwOTE1NywtOT
+eyJoaXN0b3J5IjpbMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOT
 YzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3
 MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LD
 ExNzczOTQ1MzddfQ==
