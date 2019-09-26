@@ -76,14 +76,16 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 <img src="images/clover_destination.png" alt="clover destination" width="70%"/>
 
-Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
+Pour une configuration identique à la mienne (MSI série 200), lors de l'étape "Type d'installation", cliquez sur "Personnaliser", vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
 	- HFSPlus
 	- ApfsDriverLoader
 	- EmuVariableUefi
 
 <img src="images/clover_drivers_1.png" alt="clover drivers 1" width="70%"/>
 
-<img src="images/clover_drivers_2.png" alt="c" width="70%"/>
+<img src="images/clover_drivers_2.png" alt="clover drivers 2" width="70%"/>
+
+Finaliser l'installation
 
 2. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
 3. Il faut placer les kexts (kernel extensions) adéquat dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`, actuellement j'utilise les kexts suivants, mais je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU) :
@@ -150,7 +152,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE4Njc0LC0xNDA2NTY3MTc2LDQ5Mz
-kzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzczOTQ1
-MzddfQ==
+eyJoaXN0b3J5IjpbMTgzMzIxNjg2NSwtMTQwNjU2NzE3Niw0OT
+M5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0
+NTM3XX0=
 -->
