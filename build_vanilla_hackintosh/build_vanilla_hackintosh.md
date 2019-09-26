@@ -33,13 +33,14 @@ Détails:
 - Une carte MSI GeForce GTX 1060 3GB (inutilisable depuis Mojave), utilisée sous mon boot Windows
 
 ## Pré-requis
- Voici donc les outils que j'utilise :
 - [Clover](https://github.com/Dids/clover-builder/releases) : pour installer le boot loader dans la partition EFI (USB puis Hard Disk)
 - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) : pour modifier plus facilement le fichier de configuration `config.plist` de Clover.
+- macOS Mojave téléchargé depuis l'App Store (vous aurez donc besoin d'un autre Mac ou d
 
 ## Installation
-*Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite UBeast pour installer mon Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
-L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à suivre [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) en plus des quelques indications que je donnerai dans la procédure.
+*Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
+
+L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Création de la clé d'installation
 1. Créer un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit d'utiliser [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). Pensez à prendre une clé USB d'au moins 8GB. La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
@@ -112,5 +113,5 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDQ3ODIzNiwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTE3MDY5NzYwNjYsMTE3NzM5NDUzN119
 -->
