@@ -188,11 +188,12 @@ C'est fini !
 	- https://www.insanelymac.com
 	- http://tonymacx86.com/
 	- https://hackintosher.com
-- Il y a également un https://www.reddit.com/r/hackintosh/
+- Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMxMTUyNTcsMTI4NTE1NDQwMywxND
-k0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2
-ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Ni
-w0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3
-Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMTg2NDE2Mzc1OSwxMjg1MTU0NDAzLDE0OT
+QzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4
+NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2LD
+Q5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDExNzcz
+OTQ1MzddfQ==
 -->
