@@ -45,7 +45,7 @@ L'installation est assez simple, je vais vous donner ici les différentes étape
 
 ### Préparer et créer la clé USB d'installation
 1. Insérer votre clé USB, lancez l'application terminal et taper la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
-[[build_vanilla_hackintosh/images/diskutil_list.png]]
+[[blob/master/build_vanilla_hackintosh/images/diskutil_list.png]]
 3. Identifier votre clé USB (réparable grâce à sa capacité) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `disk3` donc `/dev/disk3`.
 4. Créer un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit d'utiliser [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). Pensez à prendre une clé USB d'au moins 8GB. La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
 5. Installer Clover sur la clé d'installation que vous venez de créer. **Exécuter le package Clover (clover_vX.pkg) et spécifier bien votre clé USB comme emplacement d'installation. Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** Pour une configuration identique à la mienne (MSI série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation. :
@@ -117,6 +117,6 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNDU1MzA3LDE5OTM0MjQ4NDksMTE3Nz
+eyJoaXN0b3J5IjpbMjM3MzE5NDYyLDE5OTM0MjQ4NDksMTE3Nz
 M5NDUzN119
 -->
