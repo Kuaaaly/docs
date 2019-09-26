@@ -106,10 +106,10 @@ Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeur
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
 
 #### Configuration du boot loader
-Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant.
+Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant puis le modifier.
 
-En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fais les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
-- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mes écrans lors du boot et du run de macOS
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
+- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écrans lors du boot et du run de macOS
 
 <img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
@@ -193,7 +193,7 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ0MTM1OTksLTEzODYxNjc1NzcsMT
+eyJoaXN0b3J5IjpbLTE2MzA1NDI5MzAsLTEzODYxNjc1NzcsMT
 I4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1
 MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3Ni
 wtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5
