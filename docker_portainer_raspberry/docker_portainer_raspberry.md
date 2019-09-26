@@ -69,7 +69,9 @@ Configurez le compte administrateur. **Attention, de mémoire il faut créer le 
 
 Vous voilà rendu sur l'interface de Portainer !
 
+![portainer ui](images/portainer_ui.png)
 
+Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNzk3MzYyLDE3NjIxNjkwMDVdfQ==
+eyJoaXN0b3J5IjpbMTc3MjMyODMyMiwxNzYyMTY5MDA1XX0=
 -->
