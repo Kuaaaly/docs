@@ -116,7 +116,9 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
-Une fois que vous aller téléchargé et (éventuellement) modifié le fichier, il vous suffit de le copier sur le Volume `EFI` dans 
+Une fois que vous aller téléchargé et (éventuellement) modifié le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
+
+<img src="images/replace_config_plist.png" alt="replace config plist" width="70%"/>
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
 
@@ -174,7 +176,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTg0NTY1OSwyMDMyNjMxODQwLDY0OT
+eyJoaXN0b3J5IjpbLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OT
 k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
 ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
