@@ -9,6 +9,7 @@ Début 2017, j'ai monté mon premier PC, pour jouer. N'étant pas forcément ren
 Ayant changé de travail courant 2019, cela fait un moment que je ne travaille plus sous macOS (et cela ma manque !), rassurez-vous, j'ai dual-booté sous Ubuntu le premier ordinateur Windows que l'on m'a donné. Bref, en clair, j'ai sous le coude :
 - Un Mac Book Pro 15" de 2018 que je n'utilise presque plus
 - Un PC Windows (juste pour les jeux, promis) monté par mes soins avec un setup sympa : triple screen dont un en 144Hz.
+
 Donc depuis septembre 2019 je me suis mis en tête de transformer ma tour actuelle en un dual-boot propre & fonctionnel Windows / macOS afin de gagner en confort en mode "bureau" à la maison, mais aussi afin de pouvoir me séparer de mon Mac Book Pro qui me sert peu (probablement au profit d'un Mac Book Air, plus portable).
 Nous voilà donc rendu ici ! Deux dernières précisions :
 - J'ai actuellement une GTX 1060 de NVIDIA dans ma tour, ce qui n'est pas compatible avec macOS Mojave (je ne veux pas retourner sous High Sierra car cette solution n'est pas pérenne). J'ai donc bien fouillé sur le net et j'ai commandé une RX 550 de Radeon qui devrait fonctionner sous macOS Mojave. Je vous tiens au courant. Attention néanmoins, si vous souhaitez faire la même chose, renseignez-vous très bien car seules quelques versions de la RX 550 fonctionnent (sont censées fonctionner) sous Polaris 11 (version Baffin) ce qui est totalement différent que la version plus répandue Polaris 12 (Lexa). Je vous tiens au courant à ce sujet.
@@ -31,12 +32,13 @@ Détails:
 - Boîtier : BitFenix Nova
 - Une carte MSI GeForce GTX 1060 3GB (inutilisable depuis Mojave), utilisée sous mon boot Windows
 
-## Outils utilisés
-Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite xBeast pour installer mon Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé. Voici donc les outils que j'utilise :
+## Pré-requis
+ Voici donc les outils que j'utilise :
 - [Clover](https://github.com/Dids/clover-builder/releases) : pour installer le boot loader dans la partition EFI (USB puis Hard Disk)
 - [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) : pour modifier plus facilement le fichier de configuration `config.plist` de Clover.
 
 ## Installation
+*Même si j'ai glané beaucoup d'information sur le site tonymacx86, je n'utilise plus la suite UBeast pour installer mon Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
 L'installation est assez simple, je vais vous donner ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à suivre [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) en plus des quelques indications que je donnerai dans la procédure.
 
 ### Création de la clé d'installation
@@ -110,5 +112,5 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjY4MDA2LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTQ4MDQ3ODIzNiwxMTc3Mzk0NTM3XX0=
 -->
