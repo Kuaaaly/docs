@@ -114,8 +114,9 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/dekete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-Si vous voulez aller droit au but
-[config.plist](config.plist)
+Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
+
+Une fois que vous aller téléchargé et (éventuellement) modifié le fichier, il vous suffit de le copier sur le Volume `EFI` dans 
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
 
@@ -173,7 +174,7 @@ C'est fini !
 	- http://tonymacx86.com/
 	- https://hackintosher.com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMTQzODcxLDIwMzI2MzE4NDAsNjQ5OT
-g4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMTc4
-NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbLTQzMTg0NTY1OSwyMDMyNjMxODQwLDY0OT
+k4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3
+ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
 -->
