@@ -26,9 +26,10 @@ Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 carte
 
 ## L'affichage
 Après 6 ans à faire mes études + le début de ma vie professionnelles sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"). Je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais je passe en moyenne plus de 10h par jour devant l'ordinateur.
-Je suis passé très rapidement par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24")
+Je suis passé très rapidement par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24"). Ce setup ne m'a pas plus, bien que cela soit toujours mieux que 2 écrans non-alignés et de taille différentes (comme c'était le cas avant), je trouvais au "dual-screen" quelque chose de gênant et d'imparfait :
+  
 C'est en 2017 que j'ai pour la première fois eu une tour. Avant, j'ai toujours été équipé d'un ordinateur portable (13") et d'un écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27") donc un "dual-screen" mais avec 2 écrans de taille différente et non-alignés (pour les puristes). De 2017 à 2018, j'utilisais ma tour uniquement pour le jeu donc le 27" seul était satisfaisant.
 Fin 2018, travaillant régulièrement à distance depuis la maison, j'ai décidé d'investir je me suis équipé de 2 écrans [Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDM0MDI5MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzMxNzE4ODExLDczMDk5ODExNl19
 -->
