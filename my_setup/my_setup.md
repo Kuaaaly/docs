@@ -14,11 +14,13 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiste 
 - RAM : [2 x 8Go de chez Ballistix](https://www.amazon.fr/Crucial-Ballistix-PC4-19200-2400MHz-BLS2K4G4D240FSE/dp/B01F4Z4OPW/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ballistik%20sport%20lt&qid=1570026796&sr=8-3)
 - Carte(s) graphique(s) : [MSI GTX 1060 GAMING X 3Go](https://www.amazon.fr/GraphiqueGeForce-GTX-1060-Gaming-3G/dp/B01KHWOB5K/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=B2AIX0QXY03H&keywords=gtx%201060%20msi%20gaming%20x&qid=1570026963&sprefix=GTX%201060%20MSI,aps,177&sr=8-7) ainsi qu'une [Asus AREZ RX 550 2Go](https://www.amazon.fr/Asustek-ASUCV030373-Graphique-Nvidia-Radeon/dp/B07CWVZBCV/ref=sr_1_9?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=RX%20550%202go&qid=1570027007&sr=8-9). Mais nous reparlerons de cela plus bas.
 - Stockage :
-	- SSD NVMe en M.2 : [Samsung 970 EVO Plus500 Go](https://www.amazon.fr/gp/product/B07MFBLN7K/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
-	- SSD en SATA : 
+	- SSD NVMe en M.2 : [Samsung 970 EVO Plus 500Go](https://www.amazon.fr/gp/product/B07MFBLN7K/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+	- SSD en SATA : [Crucial MX300 750Go](https://www.amazon.fr/Crucial-CT750MX300SSD1-Interne-MX300-Pouces/dp/B01DUNLMUU/ref=sr_1_25?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=crucial%20MX300%20750%20Go&qid=1570027244&s=computers&sr=1-25)
+	- Divers autres HDD
+- Wifi / Bluet
 - Alimentation : [LEPA 550W](https://www.amazon.fr/Lepa-N550-MA-MXF1-Alimentation-Blanc/dp/B00F5WG8SG/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Lepa%20550&qid=1570026877&sr=8-1)
 - Ventilateur : [be Quiet! Pure Rock](https://www.amazon.fr/Quiet-Pure-ventilateur-processeur-socket/dp/B00OB40ULU/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GD8X1T3FURAZ&keywords=be%20quiet%20pure%20rock&qid=1570026755&sprefix=be%20quit%20pur,aps,193&sr=8-3)
 - Boîtier : [BitFenix Nova](https://www.amazon.fr/Nova-Bo%C3%AEtier-dordinateur-Plastique-Micro-ATX-Alimentation/dp/B016CMTFIC/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=bitfenix%20nova&qid=1570026905&sr=8-3)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMwOTI2MzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzQyMjYyMjUyLDczMDk5ODExNl19
 -->
