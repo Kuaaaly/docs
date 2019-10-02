@@ -47,7 +47,9 @@ Bref, j'avais au moins 4 souris sous le coude, pas une seule ne m'a donné satis
 
 Mon clavier est un [Logitech K120](https://www.amazon.fr/gp/product/B003V0QEV0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), absolument moche, pas cher mais tellement fiable. Rien à dire.
 
+J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher, filaire, fiable : [Lihao Sades SA901](https://www.amazon.fr/gp/product/B00HN3G8M6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). La qualité du micro est surprenant pour le prix.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg1NTA1NDgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5Nzc2MzkxMiw3MzA5OTgxMTZdfQ==
 -->
