@@ -99,7 +99,7 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- Lilu.kext
 	- USBInjectAll.kext
 	- VirtualSMC.kext
-- WhateverGreen.kext
+    - WhateverGreen.kext
 
 Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
 
@@ -193,10 +193,10 @@ C'est fini !
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNz
-Q1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMw
-OTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NS
-wyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5
-MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NT
-M3XX0=
+eyJoaXN0b3J5IjpbLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMD
+UwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1
+NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNT
+csLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQw
+NjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyND
+g0OSwxMTc3Mzk0NTM3XX0=
 -->
