@@ -50,16 +50,17 @@ Mon clavier est un [Logitech K120](https://www.amazon.fr/gp/product/B003V0QEV0/r
 J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher, filaire, fiable : [Lihao Sades SA901](https://www.amazon.fr/gp/product/B00HN3G8M6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). La qualité du micro est surprenant pour le prix. Pour le reste, je ne suis pas audiophile et je ne saurais pas vous dire ce que ça vaut mais vu qu'il a déjà plus de 4 ans, le rapport qualité prix est juste exceptionnel. Je pense changer prochainement, probablement pour un casque sans-fil gaming.
 
 ## Mobilier
-Ici c'est très simple, c'est IKEA.
 
-Le bureau :
+Le bureau (IKEA) :
 - Plateau [LINNMON](https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-20251139/) blanc de 150x75cm
 - 4 pieds [OLOV](https://www.ikea.com/fr/fr/p/olov-pied-reglable-noir-30264301/) noirs
 
 Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore des plateaux qui ne se déformait pas sous le poids d'un coude. Balgue à part, j'ai acheté les nouveaux plateaux récemment, le bois et la qualité de fabrication ne sont clairement plus les mêmes. Mon support triple-screen à totalement plié un des nouveaux plateaux. J'ai du le remettre sur l'ancien.
 
+Fauteuil : Songmics RGC12W
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTgzOTg5MCwyNTEzNDQwMTIsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTk3MzQ1ODYyOSwtOTUxODM5ODkwLDI1MT
+M0NDAxMiw3MzA5OTgxMTZdfQ==
 -->
