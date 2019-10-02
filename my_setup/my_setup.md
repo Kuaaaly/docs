@@ -34,10 +34,14 @@ Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus 
 
 Cela nous donne donc une configuration que je trouve à ce jour idéale :
 - Un triple-screen enrichi de ce [triple-support](https://www.amazon.fr/gp/product/B0757HN12P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour faire place nette sur la surface de travail.
-- Une surface d'affichage idéale pour travailler
+- Une surface d'affichage conséquente pour travailler
 - Un écran "gaming" en 144Hz très appréciable lors des parties de FPS tel qu'Overwatch
-- Un mode triple-screen gaming 
+- Un mode triple-screen gaming en 60 IPS pour une immersion parfaite dans des jeu moins exigeant en terme de fluidité : Minecraft, Forza.
+
+## Les périphériques
+N
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTIwNjU5Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTAzNjM1NDA5OSw3MzA5OTgxMTZdfQ==
 -->
