@@ -25,12 +25,12 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser 
 Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une carte graphique Radeon à moindre frais pour gérer correctement l'affichage sous macOS : mission accomplie avec une RX 550 de chez Asus payée environ 50€ !
 
 ## L'affichage
-Après 6 ans à faire mes études + le début de ma vie professionnelles sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"). Je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais je passe en moyenne plus de 10h par jour devant l'ordinateur.
-Je suis passé très rapidement par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24"). Ce setup ne m'a pas plus, bien que cela soit toujours mieux que 2 écrans non-alignés et de taille différentes (comme c'était le cas avant), je trouvais au "dual-screen" quelque chose de gênant et d'imparfait :
+Après 5 ans d'études + le début de ma vie professionnelle sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"). Je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais je passe en moyenne plus de 10h par jour devant l'ordinateur.
+Je suis passé par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24"). Cela à duré à pCe setup ne m'a pas plus, bien que cela soit toujours mieux que 2 écrans non-alignés et de taille différentes (comme c'était le cas avant), je trouvais au "dual-screen" quelque chose de gênant et d'imparfait :
 - Soit vous les mettez tous les deux en face de vous et vous vous retrouvez avec la bordure des 2 écrans en ligne de mire, ce qui vous oblige à tourner légèrement la tête de droite à gauche et vous retire la possible d'avoir un écran exactement en face de vous
 - Soit vous en mettez un en face et le second à droite ou à gauche et dans ce cas, vous perdez la dimension "perfectionniste" du multi-screen.
 Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus de sens à cet achat, j'ai pris un écran adapté au jeu vidéo en 144Hz : le [Iiyama G-Master GB2560HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111923.html) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODkxOTg5NDEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3ODM5OTQ5OTcsNzMwOTk4MTE2XX0=
 -->
