@@ -35,14 +35,14 @@ Je suis passé par la case "dual-screen" avec 2 [écrans Iiyama G-Master GB2530H
 
 Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus de sens à ce caprice, j'ai pris un écran en 144Hz adapté au jeu vidéo : le [Iiyama G-Master GB2560HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111923.html).
 
-Cela nous donne donc une configuration que je trouve à ce jour idéale :
+Cela nous donne donc une configuration que je trouve, à ce jour, idéale :
 - Un triple-screen enrichi de ce [triple-support](https://www.amazon.fr/gp/product/B0757HN12P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour faire place nette sur la surface de travail.
-- Une surface d'affichage conséquente pour travailler
+- Une surface d'affichage conséquente & pratique pour travailler
 - Un écran "gaming" en 144Hz très appréciable lors des parties de FPS tel qu'Overwatch
-- Un mode triple-screen gaming en 60 IPS pour une immersion parfaite dans des jeu moins exigeant en terme de fluidité : Minecraft, Forza.
+- Un mode triple-screen gaming en 60 IPS pour une immersion parfaite dans des jeu moins exigeant en terme d'IPS : Minecraft, Forza.
 
 ## Périphériques
-Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). C'est à ce même moment que je me suis rendu compte à quel point les différentes souris que j'avais en ma possession étant mauvaise. Filaire ou pas, ça n'était de toute façon pas la connectivité qui posait problème mais la fiabilité de la souris, permis les problèmes rencontrés :
+Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). C'est à ce même moment que je me suis rendu compte à quel point les différentes souris que j'avais en ma possession étant mauvaises. Filaire ou pas, ça n'était de toute façon pas la connectivité qui posait problème mais la fiabilité de la souris, parmisdf les problèmes rencontrés :
 - Freeze du pointeur en cas de mouvement trop rapide
 - Déplacement non rectiligne du pointeur lors de mouvement brusque
 
@@ -64,6 +64,6 @@ Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc4ODY2MDUsLTk1MTgzOTg5MCwyNT
-EzNDQwMTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTI5NDU2ODgxLC05NTE4Mzk4OTAsMjUxMz
+Q0MDEyLDczMDk5ODExNl19
 -->
