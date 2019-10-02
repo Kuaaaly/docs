@@ -33,8 +33,7 @@ Dans la plupart des cas, le Raspberry va "s'annoncer" correctement auprès de vo
 Installons désormais Docker :
 1. Depuis votre terminal préféré (via un ordinateur présent sur le même réseau) :
 ```
-ssh pi@raspberrypi
-(mot de passe : raspberry)
+ssh pi@raspberrypi //(mot de passe : raspberry)
 ```
 2. Nous allons suivre [les instructions de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
 ```
@@ -42,6 +41,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 Soyez patients, le script met un peu de temps à tout installer.
+
 3. Une fois que vous avez récupéré la main, vous pouvez taper la commande suivante pour vérifier que Docker est bien "running" :
 ```
 sudo systemctl status docker
@@ -76,6 +76,6 @@ Vous voilà rendu sur l'interface de Portainer !
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjQ1NTc2MSwzMzkyNTk0ODAsLTIxNT
-c4NTkxNSwxNzYyMTY5MDA1XX0=
+eyJoaXN0b3J5IjpbMjAyODUwNzg2MywtMjQ2NDU1NzYxLDMzOT
+I1OTQ4MCwtMjE1Nzg1OTE1LDE3NjIxNjkwMDVdfQ==
 -->
