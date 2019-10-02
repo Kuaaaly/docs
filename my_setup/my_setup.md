@@ -30,10 +30,10 @@ Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les c
 Après 5 ans d'études + le début de ma vie professionnelle sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"), je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais je passe en moyenne 10h par jour devant l'ordinateur.
 
 Je suis passé par la case "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24"). Cela a duré à peine 2 semaines, ce setup ne m'a pas plu. Bien que cela soit toujours bien mieux que 2 écrans non-alignés et de taille différentes (comme c'était le cas avant), je trouvais au "dual-screen" quelque chose de gênant et d'imparfait :
-- Soit vous les mettez les deux écrans en face de vous et vous vous retrouvez avec la jonction des 2 écrans en ligne de mire, ce qui vous oblige à tourner légèrement la tête à droite ou à gauche et vous retire la possible d'avoir un écran exactement en face de vous.
-- Soit vous en mettez un en face et le second à droite ou à gauche et dans ce cas, vous perdez la dimension "perfectionniste" du multi-screen.
+- Soit vous les mettez les deux écrans en face de vous et vous vous retrouvez avec la jonction des 2 écrans en ligne de mire, ce qui vous oblige à tourner légèrement la tête à droite ou à gauche et vous retire la possibilité d'avoir un écran exactement en face de vous.
+- Soit vous en mettez un en face et le second à droite ou à gauche et dans ce cas, vous perdez le côté "perfectionniste" du multi-screen.
 
-Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus de sens à cet achat, j'ai pris un écran adapté au jeu vidéo en 144Hz : le [Iiyama G-Master GB2560HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111923.html).
+Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus de sens à ce caprice, j'ai pris un écran en 144Hz adapté au jeu vidéo : le [Iiyama G-Master GB2560HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111923.html).
 
 Cela nous donne donc une configuration que je trouve à ce jour idéale :
 - Un triple-screen enrichi de ce [triple-support](https://www.amazon.fr/gp/product/B0757HN12P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour faire place nette sur la surface de travail.
@@ -64,6 +64,6 @@ Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzM2MjE2OSwtOTUxODM5ODkwLDI1MT
-M0NDAxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjc4ODY2MDUsLTk1MTgzOTg5MCwyNT
+EzNDQwMTIsNzMwOTk4MTE2XX0=
 -->
