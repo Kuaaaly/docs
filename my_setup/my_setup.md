@@ -32,8 +32,12 @@ Je suis passé par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530H
 
 Vous me voyez venir, je me suis équipé d'un 3ème écran, et pour donner plus de sens à cet achat, j'ai pris un écran adapté au jeu vidéo en 144Hz : le [Iiyama G-Master GB2560HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111923.html).
 
-Cela nous donne donc une configuration que je trouve à ce jour idéale. Un triple-screen enrichi de ce [triple-support](https://www.amazon.fr/gp/product/B0757HN12P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour faire place nette sur la surface de travail.
+Cela nous donne donc une configuration que je trouve à ce jour idéale :
+- Un triple-screen enrichi de ce [triple-support](https://www.amazon.fr/gp/product/B0757HN12P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour faire place nette sur la surface de travail.
+- Une surface d'affichage idéale pour travailler
+- Un écran "gaming" en 144Hz très appréciable lors des parties de FPS tel qu'Overwatch
+- Un mode triple-screen gaming 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzUwMDY2OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc0OTIwNjU5Niw3MzA5OTgxMTZdfQ==
 -->
