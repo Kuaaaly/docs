@@ -10,7 +10,9 @@ Si vous avez lu mon guide sur le Hackintosh, vous savez déjà que j'ai un PC fi
 L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiste les ressources hardware qui sont donc les suivantes :
 
 - Carte mère : [MSI Z270 Gaming Pro Carbone](https://www.amazon.fr/MSI-Gaming-Carbon-Carte-Socket/dp/B01MY4L5ED/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3SIEAJ06TOELP&keywords=msi%20z270%20gaming%20pro%20carbon&qid=1570026658&sprefix=MSI%20Z270%20gam,aps,176&sr=8-1)
+- Processeur : [Intel Core i5 7600](https://www.amazon.fr/Intel-Core-Kabylake-i5-7600-Processeur/dp/B01LTI1JDS/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=i5%207600&qid=1570026708&sr=8-3)
+- Ventilateur : [be Quiet! Pure Rock](https://www.amazon.fr/Quiet-Pure-ventilateur-processeur-socket/dp/B00OB40ULU/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GD8X1T3FURAZ&keywords=be%20quiet%20pure%20rock&qid=1570026755&sprefix=be%20quit%20pur,aps,193&sr=8-3)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NTg3Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTgwNjA4NDY4Niw3MzA5OTgxMTZdfQ==
 -->
