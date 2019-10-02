@@ -1,10 +1,10 @@
-# Mon setup travail / jeu
+# Mon setup travail & jeu
 
 ## Introduction
 
-Il y a peu, j'écrivais à propos de mon build [Hackintosh vanilla](https://github.com/Kuaaaly/docs/blob/master/build_vanilla_hackintosh/build_vanilla_hackintosh.md). Je me disais qu'il serait bien que je détaille un peu mon setup dans sa globalité. Ce sera donc chose faite dans ce billet.
+Il y a peu, j'écrivais à propos de mon build [Hackintosh vanilla](https://github.com/Kuaaaly/docs/blob/master/build_vanilla_hackintosh/build_vanilla_hackintosh.md). Je me disais qu'il serait donc bien que je complète en détaillant un peu mon setup dans sa globalité. Ce sera donc chose faite dans ce billet.
 
-## Tour
+## Tour (PC)
 Si vous avez lu mon guide sur le Hackintosh, vous savez déjà que j'ai un PC fixe sur lequel je multi-boot Windows (uniquement pour le jeu), macOS (pour le boulot) et plus occasionnellement des distributions Linux (Ubuntu Server, Alpine) pour effectuer des tests.
 
 L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser les ressources hardware qui sont donc les suivantes :
@@ -57,10 +57,10 @@ Le bureau (IKEA) :
 
 Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore des plateaux qui ne se déformait pas sous le poids d'un coude. Balgue à part, j'ai acheté les nouveaux plateaux récemment, le bois et la qualité de fabrication ne sont clairement plus les mêmes. Mon support triple-screen à totalement plié un des nouveaux plateaux. J'ai du le remettre sur l'ancien.
 
-Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). Très bon rapport qualité / prix pour ce fauteuil. Après une petite année passée assis dessus, je le trouve peut-être un tout petit peu trop ferme,
+Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). Très bon rapport qualité / prix pour ce fauteuil. Après une petite année passée assis dessus, je le trouve peut-être un tout petit peu trop ferme, mais bon, je relativise quand je regarde mon ancien fauteuil premier prix Conforama gardé pratiquement 10 ans.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDY5NzU1MywtOTUxODM5ODkwLDI1MT
-M0NDAxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjAxMDQ1NTY4LC05NTE4Mzk4OTAsMjUxMz
+Q0MDEyLDczMDk5ODExNl19
 -->
