@@ -12,7 +12,8 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiste 
 - Carte mère : [MSI Z270 Gaming Pro Carbone](https://www.amazon.fr/MSI-Gaming-Carbon-Carte-Socket/dp/B01MY4L5ED/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3SIEAJ06TOELP&keywords=msi%20z270%20gaming%20pro%20carbon&qid=1570026658&sprefix=MSI%20Z270%20gam,aps,176&sr=8-1)
 - Processeur : [Intel Core i5 7600](https://www.amazon.fr/Intel-Core-Kabylake-i5-7600-Processeur/dp/B01LTI1JDS/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=i5%207600&qid=1570026708&sr=8-3)
 - Ventilateur : [be Quiet! Pure Rock](https://www.amazon.fr/Quiet-Pure-ventilateur-processeur-socket/dp/B00OB40ULU/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GD8X1T3FURAZ&keywords=be%20quiet%20pure%20rock&qid=1570026755&sprefix=be%20quit%20pur,aps,193&sr=8-3)
-- 
+- RAM : [2 x 8Go de chez Ballistix](https://www.amazon.fr/Crucial-Ballistix-PC4-19200-2400MHz-BLS2K4G4D240FSE/dp/B01F4Z4OPW/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ballistik%20sport%20lt&qid=1570026796&sr=8-3)
+- Alimentation : LEPA 550W
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjA4NDY4Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNzcyNjI2NTEsNzMwOTk4MTE2XX0=
 -->
