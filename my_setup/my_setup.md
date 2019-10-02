@@ -39,9 +39,10 @@ Cela nous donne donc une configuration que je trouve à ce jour idéale :
 - Un mode triple-screen gaming en 60 IPS pour une immersion parfaite dans des jeu moins exigeant en terme de fluidité : Minecraft, Forza.
 
 ## Périphériques
-Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). 
+Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). C'est à ce même moment que je me suis rendu compte à quel point les différentes souris que j'avais en ma possession étant mauvaise. Filaire ou pas, ça n'était de toute façon pas la connectivité qui posait problème mais la fiabilité de la souris, permis les problèmes rencontrés :
+- Freeze du 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0MjM3Mjc0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIwMjU2Njc0MTgsNzMwOTk4MTE2XX0=
 -->
