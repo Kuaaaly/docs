@@ -52,10 +52,13 @@ J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher,
 ## Mobilier
 Ici c'est très simple, c'est IKEA.
 
-Le plateau est un [LINNMON](https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-20251139/) de 150 par 75cm.
-Les 4 pieds sont des OLOV 
+Le bureau :
+- Plateau [LINNMON](https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-20251139/) blanc de 150x75cm
+- 4 pieds [OLOV](https://www.ikea.com/fr/fr/p/olov-pied-reglable-noir-30264301/) noirs
+
+Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore de plateau qui ne 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTI1NzgxMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjE0NTA2NjQ0NSw3MzA5OTgxMTZdfQ==
 -->
