@@ -4,7 +4,7 @@ J'utilisais à la base ce répertoire pour stocker la documentation de mes proje
 
 ## Informatique
 
-- [Monter son Hackintosh "vanilla"](build_vanilla_hackintosh/build_vanilla_hackintosh.md)
+- [Monter un Hackintosh "vanilla"](build_vanilla_hackintosh/build_vanilla_hackintosh.md)
 - [Installer Docker & Portainer sur son Raspberry](docker_portainer_raspberry/docker_portainer_raspberry.md)
 - [Mon setup complet travail & jeu](my_setup/my_setup.md)
 
@@ -14,5 +14,5 @@ J'utilisais à la base ce répertoire pour stocker la documentation de mes proje
 ## Automobile
 - Soon !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODgxODA2MV19
+eyJoaXN0b3J5IjpbMTcxMzE4ODQ1MCwyMDE4ODE4MDYxXX0=
 -->
