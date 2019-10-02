@@ -25,7 +25,7 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser 
 Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une carte graphique Radeon à moindre frais pour gérer correctement l'affichage sous macOS : mission accomplie avec une RX 550 de chez Asus payée environ 50€ !
 
 ## L'affichage
-C'est en 2017 que j'ai, pour la première fois, eu une tour. Avant, j'ai toujours été équipé d'un ordinateur portable et d'un moniteur supplémentaire 
+C'est en 2017 que j'ai pour la première fois eu une tour. Avant, j'ai toujours été équipé d'un ordinateur portable (13") et d'un moniteur supplémentaire (27") donc un "dual-screen" mais avec 2 écrans de taille différente et non-alignés (pour les puristes). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2Njk3NjEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTEzMDkwNDIyLDczMDk5ODExNl19
 -->
