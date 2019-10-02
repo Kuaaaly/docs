@@ -25,9 +25,9 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser 
 Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une carte graphique Radeon à moindre frais pour gérer correctement l'affichage sous macOS : mission accomplie avec une RX 550 de chez Asus payée environ 50€ !
 
 ## L'affichage
-Après 
+Après 6 ans à faire mes études + le début de ma vie professionnelles sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"). Je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais en moyenne 10h 
 C'est en 2017 que j'ai pour la première fois eu une tour. Avant, j'ai toujours été équipé d'un ordinateur portable (13") et d'un écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27") donc un "dual-screen" mais avec 2 écrans de taille différente et non-alignés (pour les puristes). De 2017 à 2018, j'utilisais ma tour uniquement pour le jeu donc le 27" seul était satisfaisant.
 Fin 2018, travaillant régulièrement à distance depuis la maison, j'ai décidé d'investir je me suis équipé de 2 écrans [Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTQxNjkxOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODY5NzA4ODYsNzMwOTk4MTE2XX0=
 -->
