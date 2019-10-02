@@ -22,7 +22,7 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser 
 - Ventilateur : [be Quiet! Pure Rock](https://www.amazon.fr/Quiet-Pure-ventilateur-processeur-socket/dp/B00OB40ULU/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3GD8X1T3FURAZ&keywords=be%20quiet%20pure%20rock&qid=1570026755&sprefix=be%20quit%20pur,aps,193&sr=8-3)
 - Boîtier : [BitFenix Nova](https://www.amazon.fr/Nova-Bo%C3%AEtier-dordinateur-Plastique-Micro-ATX-Alimentation/dp/B016CMTFIC/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=bitfenix%20nova&qid=1570026905&sr=8-3)
 
-Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une cart
+Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une carte graphique Radeon à moindre frais pour gérer correctement l'affichage sous macOS : mission accomplie avec une RX 550 de chez Asus payé environ 50€.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcwMjM4MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzQ5MDM2NTI1LDczMDk5ODExNl19
 -->
