@@ -43,14 +43,14 @@ Cela nous donne donc une configuration que je trouve, à ce jour, idéale :
 
 ## Périphériques
 Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). C'est à ce même moment que je me suis rendu compte à quel point les différentes souris que j'avais en ma possession étant mauvaises. Filaire ou pas, ça n'était de toute façon pas la connectivité qui posait problème mais la fiabilité de la souris, parmi les problèmes rencontrés :
-- Freeze du pointeur en cas de mouvement trop rapide
+- Freeze du pointeur en cas de mouvements trop rapides
 - Déplacement curviligne du pointeur lors de mouvements brusques
 
 Bref, j'avais au moins 4 souris sous le coude, pas une seule ne m'a donné satisfaction quand j'ai démarré Overwatch. Je me suis donc rapidement équipé d'une [Logitech G403 Prodigy](https://ledenicheur.fr/product.php?p=3884176) donc je ne peux dire que du bien...
 
 Mon clavier est un [Logitech K120](https://www.amazon.fr/gp/product/B003V0QEV0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), absolument moche, pas cher mais tellement fiable. Rien à dire.
 
-J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher, filaire, fiable : [Lihao Sades SA901](https://www.amazon.fr/gp/product/B00HN3G8M6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). La qualité du micro est surprenant pour le prix. Pour le reste, je ne suis pas audiophile et je ne saurais pas vous dire ce que ça vaut mais vu qu'il a déjà plus de 4 ans, le rapport qualité prix est juste exceptionnel. Je pense changer prochainement, probablement pour un casque sans-fil gaming.
+J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher, filaire (USB), fiable : [Lihao Sades SA901](https://www.amazon.fr/gp/product/B00HN3G8M6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). La qualité du micro est surprenante pour le prix. Pour le reste, je ne suis pas audiophile et je ne saurais pas vous dire ce que ça vaut mais vu qu'il a déjà plus de 4 ans, le rapport qualité prix est juste exceptionnel. Je pense changer prochainement, probablement pour un casque sans-fil gaming.
 
 ## Mobilier
 
@@ -64,6 +64,6 @@ Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA4MDU2MSwtOTUxODM5ODkwLDI1MT
+eyJoaXN0b3J5IjpbLTEyMzkwNjg1NywtOTUxODM5ODkwLDI1MT
 M0NDAxMiw3MzA5OTgxMTZdfQ==
 -->
