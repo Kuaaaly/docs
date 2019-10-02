@@ -56,9 +56,10 @@ Le bureau :
 - Plateau [LINNMON](https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-20251139/) blanc de 150x75cm
 - 4 pieds [OLOV](https://www.ikea.com/fr/fr/p/olov-pied-reglable-noir-30264301/) noirs
 
-Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore des plateaux qui ne se déformait pas sous le poids d'un coude. Balgue à part, j'ai acheté les nouveaux plateaux récemment, le bois et la qualité de fabrication ne sont clairement pas les mêmes. Mon support triple-screen à totalement plié un des nouveaux plateaux. J'ai du le remettre sur l'ancien.
+Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore des plateaux qui ne se déformait pas sous le poids d'un coude. Balgue à part, j'ai acheté les nouveaux plateaux récemment, le bois et la qualité de fabrication ne sont clairement plus les mêmes. Mon support triple-screen à totalement plié un des nouveaux plateaux. J'ai du le remettre sur l'ancien.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMzQ0MDEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTk1MTgzOTg5MCwyNTEzNDQwMTIsNzMwOT
+k4MTE2XX0=
 -->
