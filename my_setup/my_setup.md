@@ -57,10 +57,10 @@ Le bureau (IKEA) :
 
 Je précise que le plateau est un ancien modèle, il date de l'époque ou IKEA fabriquait encore des plateaux qui ne se déformait pas sous le poids d'un coude. Balgue à part, j'ai acheté les nouveaux plateaux récemment, le bois et la qualité de fabrication ne sont clairement plus les mêmes. Mon support triple-screen à totalement plié un des nouveaux plateaux. J'ai du le remettre sur l'ancien.
 
-Fauteuil : Songmics RGC12W
+Fauteuil : [Songmics RGC12W](https://www.amazon.fr/gp/product/B073DY3ZXJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). Très bon rapport qualité / prix pour ce fauteuil. Après une petite année passée assis dessus, je le trouve peut-être un tout petit peu trop ferme,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzQ1ODYyOSwtOTUxODM5ODkwLDI1MT
+eyJoaXN0b3J5IjpbLTYxMDY5NzU1MywtOTUxODM5ODkwLDI1MT
 M0NDAxMiw3MzA5OTgxMTZdfQ==
 -->
