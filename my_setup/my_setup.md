@@ -40,9 +40,12 @@ Cela nous donne donc une configuration que je trouve à ce jour idéale :
 
 ## Périphériques
 Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). C'est à ce même moment que je me suis rendu compte à quel point les différentes souris que j'avais en ma possession étant mauvaise. Filaire ou pas, ça n'était de toute façon pas la connectivité qui posait problème mais la fiabilité de la souris, permis les problèmes rencontrés :
-- Freeze du 
+- Freeze du pointeur en cas de mouvement trop rapide
+- Déplacement non rectiligne du pointeur lors de mouvement brusque
+
+Bref, j'avais au moins 4 souris sous le coude, pas une seule ne m'a donné satisfaction quand j'ai démarré Overwatch. Je me suis donc rapidement équipé d'une Logitech G403 Prodigy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU2Njc0MTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTExMjMzMTM4LDczMDk5ODExNl19
 -->
