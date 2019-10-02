@@ -4,7 +4,7 @@
 
 Il y a peu, j'écrivais à propos de mon build [Hackintosh vanilla](https://github.com/Kuaaaly/docs/blob/master/build_vanilla_hackintosh/build_vanilla_hackintosh.md). Je me disais qu'il serait bien que je détaille un peu mon setup dans sa globalité. Ce sera donc chose faite dans ce billet.
 
-## La tour
+## Tour
 Si vous avez lu mon guide sur le Hackintosh, vous savez déjà que j'ai un PC fixe sur lequel je multi-boot Windows (uniquement pour le jeu), macOS (pour le boulot) et plus occasionnellement des distributions Linux (Ubuntu Server, Alpine) pour effectuer des tests.
 
 L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser les ressources hardware qui sont donc les suivantes :
@@ -24,7 +24,7 @@ L'avantage de n'avoir qu'un seul poste pour tout cela est de pouvoir mutualiser 
 
 Il me semble que je n'ai rien oublié ! Revenons donc rapidement sur les 2 cartes graphiques. Depuis macOS Mojave, les cartes Nvidia ne sont plus prises en charge par macOS. Ayant donc acheté une GTX 1060 début 2017, et ayant 3 moniteurs full HD à alimenter, il m'a fallu trouver une carte graphique Radeon à moindre frais pour gérer correctement l'affichage sous macOS : mission accomplie avec une RX 550 de chez Asus payée environ 50€ !
 
-## L'affichage
+## Affichage
 Après 5 ans d'études + le début de ma vie professionnelle sur un portable (13") + écran [Asus VE278Q](https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-ve278q-p10118/test.html) (27"). Je me suis décidé à m'équiper correctement fin 2018. Cela dépend des périodes, mais je passe en moyenne plus de 10h par jour devant l'ordinateur.
 Je suis passé par un mode "dual-screen" avec 2 [écrans Iiyama G-Master GB2530HSU-B1](https://www.topachat.com/pages/detail2_cat_est_peripheriques_puis_rubrique_est_w_moni_puis_ref_est_in10111921.html) (24"). Cela à duré à peine 2 semaines, ce setup ne m'a pas plu. Bien que cela soit toujours bien mieux que 2 écrans non-alignés et de taille différentes (comme c'était le cas avant), je trouvais au "dual-screen" quelque chose de gênant et d'imparfait :
 - Soit vous les mettez les deux écrans en face de vous et vous vous retrouvez avec la bordure des 2 écrans en ligne de mire, ce qui vous oblige à tourner légèrement la tête à droite ou à gauche et vous retire la possible d'avoir un écran exactement en face de vous.
@@ -38,10 +38,10 @@ Cela nous donne donc une configuration que je trouve à ce jour idéale :
 - Un écran "gaming" en 144Hz très appréciable lors des parties de FPS tel qu'Overwatch
 - Un mode triple-screen gaming en 60 IPS pour une immersion parfaite dans des jeu moins exigeant en terme de fluidité : Minecraft, Forza.
 
-## Les périphériques
-N
+## Périphériques
+Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la souris ! Niveau jeu vidéo, je suis en retard par rapport aux camarades de ma génération, le premier FPS auquel j'ai joué régulièrement est Overwatch (début 2017). 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjM1NDA5OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzA0MjM3Mjc0LDczMDk5ODExNl19
 -->
