@@ -50,9 +50,12 @@ Mon clavier est un [Logitech K120](https://www.amazon.fr/gp/product/B003V0QEV0/r
 J'ai mon casque depuis août 2015, même punition que pour le clavier, pas cher, filaire, fiable : [Lihao Sades SA901](https://www.amazon.fr/gp/product/B00HN3G8M6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). La qualité du micro est surprenant pour le prix. Pour le reste, je ne suis pas audiophile et je ne saurais pas vous dire ce que ça vaut mais vu qu'il a déjà plus de 4 ans, le rapport qualité prix est juste exceptionnel. Je pense changer prochainement, probablement pour un casque sans-fil gaming.
 
 ## Mobilier
-Ici c'est très simple :
+Ici c'est très simple, c'est IKEA.
+
+Le plateau est un [LINNMON](https://www.ikea.com/fr/fr/p/linnmon-plateau-blanc-20251139/) de 150 par 75cm.
+Les 4 pieds sont des OLOV 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTcyMDU3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA2NTI1NzgxMyw3MzA5OTgxMTZdfQ==
 -->
