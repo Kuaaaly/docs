@@ -43,9 +43,11 @@ Du côté périphérique, je ne suis absolument pas exigeant, SAUF, pour la sour
 - Freeze du pointeur en cas de mouvement trop rapide
 - Déplacement non rectiligne du pointeur lors de mouvement brusque
 
-Bref, j'avais au moins 4 souris sous le coude, pas une seule ne m'a donné satisfaction quand j'ai démarré Overwatch. Je me suis donc rapidement équipé d'une Logitech G403 Prodigy
+Bref, j'avais au moins 4 souris sous le coude, pas une seule ne m'a donné satisfaction quand j'ai démarré Overwatch. Je me suis donc rapidement équipé d'une [Logitech G403 Prodigy](https://ledenicheur.fr/product.php?p=3884176) donc je ne peux dire que du bien...
+
+Mon clavier est un [Logitech K120](https://www.amazon.fr/gp/product/B003V0QEV0/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), absolument moche, pas cher mais tellement fiable. Rien à dire.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMjMzMTM4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzMjg1NTA1NDgsNzMwOTk4MTE2XX0=
 -->
