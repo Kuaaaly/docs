@@ -192,11 +192,16 @@ C'est fini !
 	- https://hackintosher.com
 - Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
+
+## To Do
+- Patch screen pink tint
+- Disable GTX 1060
+- Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMD
-UwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1
-NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNT
-csLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQw
-NjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyND
-g0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMj
+M5MjY0MjkwLDIwNTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2
+NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2Ni
+wtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5
+OTg4MTc2LC0xNDA2NTY3MTc2LDQ5MzkzNDg0NywtMTkzOTUyMT
+c4NSwxOTkzNDI0ODQ5LDExNzczOTQ1MzddfQ==
 -->
