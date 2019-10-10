@@ -16,11 +16,11 @@ Nous voilà donc rendu ici ! Deux dernières précisions :
 - Enfin, en ce qui concerne la connectivité, j'avais jusqu'à présent fait le choix de me contenter d'Ethernet. Seulement, pour pérenniser un Hackintosh, la continuité Apple est clairement un must have (d'autant plus que j'utilise iOS). Une carte Wifi / Bluetooth PCIe est donc en route depuis la Chine (basée sur la puce BCM94360CS de Broadcom) ! Même chose : je vous tiens au courant.
 
 ## Hardware
+
+Principal :
 - Carte mère : MSI **Z270** Gaming Pro Carbon
 - CPU : Intel Core **i5-7600**
-- GPU :
-	- Asus AREZ **RX 550 2Go**
-	- MSI GTX 1060 3Go
+- GPU : Asus AREZ **RX 550 2Go**
 - RAM : **2 x 8Go DDR4 2400MHz** Ballistik LT Sport
 - Wifi / Bluetooth : carte PCIe **Fenvi FV-HB1200** (AliExpress)
 - Disques :
@@ -200,7 +200,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODg3NDEwNSwxMTUyNTMxODc4LC0xNz
+eyJoaXN0b3J5IjpbMTIyOTk1OTg5NywxMTUyNTMxODc4LC0xNz
 k1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0NTM4
 MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5Ni
 wxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAz
