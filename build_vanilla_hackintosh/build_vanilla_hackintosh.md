@@ -148,7 +148,8 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 			- Initiate Graphic Adapter : [**IGD**]
 		- Vous avez une carte graphique :
 		    - Initiate Graphic Adapter : [**PEG**]
-		    - IGD Multi-Monitor : [**
+		    - IGD Multi-Monitor : [**Enabled**]		
+		    - Integrated Graphics Share Memory : [**64M**]
 3. Sauvegardez et quittez le BIOS
 
 ### Installer macOS
@@ -205,11 +206,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzA2MzAxMywxMjI5OTU5ODk3LDExNT
-I1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5
-MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMy
-wxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2
-Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2Nz
-E3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwx
-MTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMT
+UyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3
+OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MD
+MsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05
+NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLTE0MDY1Nj
+cxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4NDks
+MTE3NzM5NDUzN119
 -->
