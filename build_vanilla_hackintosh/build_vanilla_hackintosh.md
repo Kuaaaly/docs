@@ -138,12 +138,13 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 1. Choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
 2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite pour les trouver :
 	- XHCI Hand-off : [**Enabled**]
-	- Initiate Graphic Adapter : [**IGD**] (vous permet d'utiliser l'iGPU en sortie video de boot)
 	- Windows 8.1/10 WHQL Support : [**Enabled**]
 	- Windows 7 Installation : [**Disabled**]
 	- Boot mode select : [**UEFI**]
 	- Extreme Memory Profile (X.M.P) : [**Enabled**]
 	- CFG Lock : [**Disabled**]
+	- Concernant la partie graphique, deux cas se présentent à nous et je les ai tous les deux essayés :
+		- Vous uInitiate Graphic Adapter : [**IGD**] (vous permet d'utiliser l'iGPU en sortie video de boot)
 3. Sauvegardez et quittez le BIOS
 
 ### Installer macOS
@@ -200,11 +201,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2Njg3ODQ1LDEyMjk5NTk4OTcsMTE1Mj
-UzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzky
-MzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLD
-E0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYz
-OTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MT
-c2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDEx
-NzczOTQ1MzddfQ==
+eyJoaXN0b3J5IjpbMTkxMzQ4MTgzMywxMjI5OTU5ODk3LDExNT
+I1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5
+MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMy
+wxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2
+Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2Nz
+E3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwx
+MTc3Mzk0NTM3XX0=
 -->
