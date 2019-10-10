@@ -16,16 +16,16 @@ Nous voilà donc rendu ici ! Deux dernières précisions :
 - Enfin, en ce qui concerne la connectivité, j'avais jusqu'à présent fait le choix de me contenter d'Ethernet. Seulement, pour pérenniser un Hackintosh, la continuité Apple est clairement un must have (d'autant plus que j'utilise iOS). Une carte Wifi / Bluetooth PCIe est donc en route depuis la Chine (basée sur la puce BCM94360CS de Broadcom) ! Même chose : je vous tiens au courant.
 
 ## Hardware
-- Carte mère : MSI Z270 Gaming Pro Carbon
-- CPU : Intel Core i5-7600
+- Carte mère : MSI **Z270** Gaming Pro Carbon
+- CPU : Intel Core **i5-7600**
 - GPU :
-	- Asus AREZ RX 550 2Go
+	- Asus AREZ **RX 550 2Go**
 	- MSI GTX 1060 3Go
-- RAM : 2 x 8Go DDR4 2400MHz Ballistik LT Sport
-- Wifi / Bluetooth : carte PCIe Fenvi FV-HB1200 (AliExpress)
+- RAM : **2 x 8Go DDR4 2400MHz** Ballistik LT Sport
+- Wifi / Bluetooth : carte PCIe **Fenvi FV-HB1200** (AliExpress)
 - Disques :
-	- Samsung 970 EVO Plus 500GB (NVMe en M.2)
-	- Crucial MX300 750GB (SSD en SATA)
+	- Samsung **970 EVO Plus 500Go** (NVMe en M.2) - **macOS Mojave**
+	- Crucial MX300 750GB (SSD en SATA) - **Windows 10**
 	- Divers HDD (SATA)
 
 Détails:
@@ -200,11 +200,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNjE0ODk1LDExNTI1MzE4NzgsLTE3OT
-U5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1Mzgz
-MjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LD
-E2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMy
-NjMxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4ND
-csLTE5Mzk1MjE3ODUsMTk5MzQyNDg0OSwxMTc3Mzk0NTM3XX0=
+eyJoaXN0b3J5IjpbMTc2ODg3NDEwNSwxMTUyNTMxODc4LC0xNz
+k1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0NTM4
+MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5Ni
+wxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAz
+MjYzMTg0MCw2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0OD
+Q3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
 
 -->
