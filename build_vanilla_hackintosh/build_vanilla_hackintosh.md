@@ -41,9 +41,9 @@ Détails:
 - Un clé USB de 8GB minimum
 
 ## Installation
-*Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisé.*
+*Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisée.*
 
-L'installation est relativement simple - *une fois que vous avez passé un paquet d'heure à potasser sur le sujet du Hackintosh ou si vous tombez sur un bon guide étape par étape correspondant exactement à votre configuration*. Je vais donner et détailler ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
+L'installation est relativement simple - *une fois que vous avez passé un paquet d'heure à potasser sur le sujet du Hackintosh ou si vous tombez sur un bon guide étape par étape correspondant exactement à votre configuration*. Je vais détailler ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Préparer et créer la clé USB d'installation
 
@@ -200,11 +200,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTk1OTg5NywxMTUyNTMxODc4LC0xNz
-k1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0NTM4
-MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5Ni
-wxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAz
-MjYzMTg0MCw2NDk5ODgxNzYsLTE0MDY1NjcxNzYsNDkzOTM0OD
-Q3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4NDksMTE3NzM5NDUzN119
-
+eyJoaXN0b3J5IjpbNDg2Njg3ODQ1LDEyMjk5NTk4OTcsMTE1Mj
+UzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzky
+MzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLD
+E0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYz
+OTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MT
+c2LDQ5MzkzNDg0NywtMTkzOTUyMTc4NSwxOTkzNDI0ODQ5LDEx
+NzczOTQ1MzddfQ==
 -->
