@@ -9,17 +9,17 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddMCHC</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -67,19 +67,8 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MATS</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>HaltEnabler</key>
 		<false/>
 		<key>SSDT</key>
@@ -87,16 +76,18 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 dart=0 debug=0x100 -v</string>
+		<string>keepsyms=1 debug=0x100</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>HibernationFixup</key>
+		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
@@ -114,11 +105,21 @@
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
+			<key>Inject</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+			<string>Windows 10</string>
+			<string>Recovery</string>
+		</array>
+		<key>Language</key>
+		<string>fr:0</string>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -126,6 +127,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>Theme</key>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -134,10 +137,12 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>RadeonDeInit</key>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -194,20 +199,24 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
 		<key>MLB</key>
-		<string>C02726902CDH69F1M</string>
+		<string>C02735200GUJ0PG8C</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>C02726902CDH69F1M</string>
+		<string>C02821300QXJ0PG1F</string>
+		<key>Mobile</key>
+		<false/>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02TX0VDH7JY</string>
+		<string>C02WR0C2J1GJ</string>
 		<key>SmUUID</key>
-		<string>91492A73-595C-4D97-A6FC-2B5D3ED1B54D</string>
+		<string>27590F67-35DB-4FC3-8D77-8B5442EBB3E2</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
