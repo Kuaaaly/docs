@@ -111,7 +111,7 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant puis le modifier.
 
 En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
-- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écrans lors du boot et du run de macOS
+- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écran lors du boot et du run de macOS en utilisant l'iGPU.
 
 <img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
 
@@ -206,11 +206,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMT
-IyOTk1OTg5NywxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzky
-NjQyOTAsMjA1MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NT
-c3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0x
-OTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5OD
-gxNzYsLTE0MDY1NjcxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1
-LDE5OTM0MjQ4NDldfQ==
+eyJoaXN0b3J5IjpbLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMj
+AwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5
+MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMj
+csLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2
+ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNj
+MxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcs
+LTE5Mzk1MjE3ODVdfQ==
 -->
