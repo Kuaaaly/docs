@@ -103,7 +103,7 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- VirtualSMC.kext
     - WhateverGreen.kext
 
-Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.
+~~Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.~~ Installation du Wifi / Bluetooth et de la RX 550 pratiquement o
 
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
 
@@ -206,11 +206,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMT
-UyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3
-OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MD
-MsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05
-NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLTE0MDY1Nj
-cxNzYsNDkzOTM0ODQ3LC0xOTM5NTIxNzg1LDE5OTM0MjQ4NDks
-MTE3NzM5NDUzN119
+eyJoaXN0b3J5IjpbMTQ0MDg2MzQ4NywtMjAwNTU1NTk0OSwxMj
+I5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2
+NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1Nz
+csMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5
+NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQwLDY0OTk4OD
+E3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcsLTE5Mzk1MjE3ODUs
+MTk5MzQyNDg0OV19
 -->
