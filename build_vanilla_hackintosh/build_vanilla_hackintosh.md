@@ -170,7 +170,10 @@ Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vo
 Pour tout ce qui ne sera pas couvert ci-après pour votre installation, Google est votre amis et je vous invite également à jeter un oeil aux liens que je donne plus bas.
 
 ## Parfaire l'installation
-Même si le Hackintosh que nous venons d'installer est déjà grandement fonctionnel, quels
+Même si l'installation décrite ci-dessus m'a permise d'avoir un Hackintosh fonctionnel, plusieurs détails restaient à peaufiner.
+
+### Teinte rose sur un des 3 moniteurs
+C'est évidement le premier problème dont je me sis rendu compte. Aussitôt mon Hackintosh démarré, l'un des écrans a
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -197,11 +200,11 @@ Même si le Hackintosh que nous venons d'installer est déjà grandement fonctio
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM3MDEwNzAsMTc0MDk3MzE1LC0xOD
-g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
-NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
-gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
-NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
-MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
-NSwyMDMyNjMxODQwXX0=
+eyJoaXN0b3J5IjpbLTk1MTg4MTU5MiwxNzQwOTczMTUsLTE4OD
+Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
+MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
+wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
+NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
+A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
+LDIwMzI2MzE4NDBdfQ==
 -->
