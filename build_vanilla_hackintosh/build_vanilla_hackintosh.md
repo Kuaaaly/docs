@@ -95,12 +95,10 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 	- VirtualSMC.kext
     - WhateverGreen.kext
 
-~~Je rappelle que j'utilise actuellement la puce GPU intégrée sur les processeurs Intel (iGPU), cette liste d'extensions kernel évoluera (peut-être) lors de l'ajout de la connectivité (Wifi / Bluetooth) et de la carte graphique Radeon RX 550.~~ Installation du Wifi / Bluetooth et de la RX 550 pratiquement out of the box ! Je couver les 2 version GPU / iGPU dans le guide.
-
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
 
 #### Configuration du boot loader
-Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) puis à parcourir la section adaptée à votre génération de processeur et à télécharger le fichier `config.plist` correspondant puis le modifier.
+Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) et à parcourir la section adaptée à votre génération de processeur. Vous y trouverez en bas de page le fichier `config.plist` correspondant vous pourrez ensuite le modifier.
 
 En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
 - Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écran lors du boot et du run de macOS en utilisant l'iGPU.
@@ -198,11 +196,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM2MDUxOTEsLTE4ODQ2Mjc3ODQsLT
-Y4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1MzAyLC0yMDA1
-NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OCwtMTc5NTkxOD
-g4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3NDUzODMyNywt
-MTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4Nj
-A5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4
-NDAsNjQ5OTg4MTc2XX0=
+eyJoaXN0b3J5IjpbMTc0MDk3MzE1LC0xODg0NjI3Nzg0LC02OD
+M3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1
+NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4OD
+IsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEz
+ODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOT
+Y4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQw
+LDY0OTk4ODE3Nl19
 -->
