@@ -75,7 +75,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 <img src="images/clover_destination.png" alt="clover destination" width="70%"/>
 
-Pour une configuration identique à la mienne (MSI série 200), lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`, vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
+Lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`. Pour une configuration proche ou identique à la mienne (carte mère série 200) vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
 
 - VBoxHfs
 - ApfsDriverLoader
@@ -87,11 +87,7 @@ Pour une configuration identique à la mienne (MSI série 200), lors de l'étape
 
 Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
-2. Une particularité de cette carte mère fait que vous allez devoir également télécharger [ce driver](https://github.com/koush/EFI-X99/blob/master/CLOVER/drivers64UEFI/OsxAptioFix2Drv-free2000.efi) et le mettre manuellement dans la partition `EFI` de votre clé USB sous `/EFI/CLOVER/drivers/UEFI`. Si vous ne le faites pas, vous aurez aléatoirement des crashs au démarrage dus à des problèmes de mémoire.
-
-<img src="images/manually_add_driver.png" alt="manually add driver" width="70%"/>
-
-3. Téléchargez la liste d'extensions de kernel (kext) suivante depuis [le guide ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
+3. Téléchargez ensuite la liste d'extensions de kernel (kext) suivante depuis [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 	- AppleALC.kext
 	- IntelMausiEthernet.kext
 	- Lilu.kext
@@ -202,11 +198,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODg2ODAzMCwtMTg4NDYyNzc4NCwtNj
-gzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUzMDIsLTIwMDU1
-NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC0xNzk1OTE4OD
-gyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0NTM4MzI3LC0x
-Mzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MD
-k2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0
-MCw2NDk5ODgxNzZdfQ==
+eyJoaXN0b3J5IjpbLTE1NTM2MDUxOTEsLTE4ODQ2Mjc3ODQsLT
+Y4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1MzAyLC0yMDA1
+NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OCwtMTc5NTkxOD
+g4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3NDUzODMyNywt
+MTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4Nj
+A5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4
+NDAsNjQ5OTg4MTc2XX0=
 -->
