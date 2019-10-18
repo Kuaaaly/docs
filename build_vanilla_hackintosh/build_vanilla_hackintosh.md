@@ -220,7 +220,8 @@ Du coup, avec 2 carte graphiques et 3 écrans, je me retrouve avec 6 câbles. Bi
 Je suis globalement content de l'adaptateur choisi : le [Fenvi FV-HB1200](https://fr.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.755c6c37lRmpmy). Basé sur un puce BCM94360CS2 il assure une compatibilité out of the box avec macOS. En revanche, je constate que les transmissions sont faibles, il m'a fallu repositionner à plusieurs reprises les antennes Wi-Fi pour avoir une connexion stable. Concernant le Bluetooth, c'est la même chose, il n'y a pas d'antennes, donc la transmission et la réception se cantonnent au minimum syndical. Si vous éloignez un peu vos périphériques, vous perdre rapidement la connexion. Bon, c'est largement suffisant pour des enceintes, une souris ou un clavier donc pour le prix (25€) c'est vraiment très correct. Je ne sais pas ce que c'est susceptible de donner sur Windows une fois les bons drivers installés (pour une souris Gaming par exemple).
 Si vous avez un budget un peu plus permissif et que la connectivité Wi-Fi / Bluetooth est importante pour vous, je vous recommande chaudement un [Fenvi FV-T919](https://fr.aliexpress.com/item/32778371977.html?spm=a2g0o.productlist.0.0.55dd3c64LaVNB3&algo_pvid=30991698-5fd2-4472-ad4b-dbcfc8e7b89c&algo_expid=30991698-5fd2-4472-ad4b-dbcfc8e7b89c-0&btsid=4498bbaa-192a-4156-94d7-0c778c0561e0&ws_ab_test=searchweb0_0,searchweb201602_6,searchweb201603_52) (50€). Vous pourrez trouver très occasionnellement ces cartes sur Amazon sinon tournez vous vers Ebay ou AliExpress.
 
-## GPU RX 550 soyez 
+## Soyez prudent avec le GPU RX 550
+Vous verrez souvent les cartes RX 550 référencées comme étant incompatibles, et pour cause, c'est le cas de la grande majorité d'entre elles. Je me suis longtemps renseigné et j'ai longtemps hésité avant de commander ce GPU. Ayant trouvé plusieurs témoignage sur internet allant dans le bon sens, j'ai sauté le pas malgré la petite part d'ombre restante. Ceci dit, cette carte vaut environ 50€ neuve donc le r
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -247,11 +248,11 @@ Si vous avez un budget un peu plus permissif et que la connectivité Wi-Fi / Blu
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM1MzE1MzcsMTc0MzI2NTM4NiwxNz
-QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
-MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
-csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
-NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
-U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
-NywtOTYzOTY4NDg1XX0=
+eyJoaXN0b3J5IjpbMTEwMzA2NDA4MCwxNzQzMjY1Mzg2LDE3ND
+A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
+NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
+wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
+MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
+Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
+LC05NjM5Njg0ODVdfQ==
 -->
