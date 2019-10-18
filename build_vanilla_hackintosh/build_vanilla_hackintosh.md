@@ -137,7 +137,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 		    - Integrated Graphics Share Memory : [**64M**]
 3. Sauvegardez et quittez le BIOS
 
-\* *si vous ne faites pas ceci, vous devriez avoir des soucis avec **Aperçu**, à la fois dans le Finder, pour les `.jpeg` mais aussi directement dans **Aperçu**.*
+\**si vous ne faites pas ceci, vous devriez avoir des soucis avec **Aperçu**, à la fois dans le Finder, pour les `.jpeg` mais aussi directement dans **Aperçu**.*
 
 ### Installer macOS
 1. Branchez votre clé USB sur l'ordinateur
@@ -255,11 +255,11 @@ Soyez vigilant avant l'achat !
 - Cet [excellent thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) ~~peut-être~~ le futur remplaçant de Clover. Je l'ai essayé, ça a bossé du premier coup. C'est très prometteur sachant qu'il n'ont pas encore sorti de release grand public. Je pense attendre début 2020 pour que Cataline se stabiliser ainsi qu'Open Core pour refaire une fresh install sous 10.15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Nzk1NDY5MywxNzQzMjY1Mzg2LDE3ND
-A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
-NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
-wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
-MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
-Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
-LC05NjM5Njg0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE4ODkxOTQ5MywxMDc3OTU0NjkzLDE3ND
+MyNjUzODYsMTc0MDk3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2
+NzUsLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OS
+wxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIz
+OTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNj
+c1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYs
+LTE5NDE1MDkxNTddfQ==
 -->
