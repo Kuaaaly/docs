@@ -178,7 +178,7 @@ Il est du au fait que, sur ma carte graphique, je dispose de 3 sorties vidéos :
 - 1 HDMI
 - 1 DisplayPort
 - 1 DVI
-Le soucis a
+C'est la sortie DVI qui pose problème, et plus précisément (mais je suis encore en train de creuser à ce sujet) c'est le fait que j'utilise un adaptateur DVI vers HDMI femme, prise sur laquelle je branche donc un câble HDMI jusqu'à mon écran. Le soucis vient du fait que le Hackintosh détecte 
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -205,7 +205,7 @@ Le soucis a
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NzAyODkyLDE3NDA5NzMxNSwtMTg4ND
+eyJoaXN0b3J5IjpbLTYyMTc3NTk5LDE3NDA5NzMxNSwtMTg4ND
 YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
 MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
 0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
