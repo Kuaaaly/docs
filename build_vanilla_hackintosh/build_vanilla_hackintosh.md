@@ -221,7 +221,9 @@ Je suis globalement content de l'adaptateur choisi : le [Fenvi FV-HB1200](https:
 Si vous avez un budget un peu plus permissif et que la connectivité Wi-Fi / Bluetooth est importante pour vous, je vous recommande chaudement un [Fenvi FV-T919](https://fr.aliexpress.com/item/32778371977.html?spm=a2g0o.productlist.0.0.55dd3c64LaVNB3&algo_pvid=30991698-5fd2-4472-ad4b-dbcfc8e7b89c&algo_expid=30991698-5fd2-4472-ad4b-dbcfc8e7b89c-0&btsid=4498bbaa-192a-4156-94d7-0c778c0561e0&ws_ab_test=searchweb0_0,searchweb201602_6,searchweb201603_52) (50€). Vous pourrez trouver très occasionnellement ces cartes sur Amazon sinon tournez vous vers Ebay ou AliExpress.
 
 ## Soyez prudent avec le GPU RX 550
-Vous verrez souvent les cartes RX 550 référencées comme étant incompatibles, et pour cause, c'est le cas de la grande majorité d'entre elles. Je me suis longtemps renseigné et j'ai longtemps hésité avant de commander ce GPU. Ayant trouvé plusieurs témoignage sur internet allant dans le bon sens, j'ai sauté le pas malgré la petite part d'ombre restante. Ceci dit, cette carte vaut environ 50€ neuve donc le r
+Vous verrez souvent les cartes RX 550 référencées comme étant incompatibles, et pour cause, c'est le cas de la grande majorité d'entre elles. Je me suis longtemps renseigné et j'ai longtemps hésité avant de commander ce GPU. Ayant trouvé plusieurs témoignage sur internet allant dans le bon sens, j'ai sauté le pas malgré la petite part d'ombre restante. Ceci dit, cette carte vaut environ 50€ neuve donc l'investissement n'était pas colossal non plus.
+Je vous confirme avec 100% de certitude que cette carte graphique est bien fonctionnelle out of the box avec le Hackintosh **à condition** que vous fassiez bien attention à ce que la carte en question :
+- Soit la version *Baffin* 
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -248,7 +250,7 @@ Vous verrez souvent les cartes RX 550 référencées comme étant incompatibles,
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzA2NDA4MCwxNzQzMjY1Mzg2LDE3ND
+eyJoaXN0b3J5IjpbLTQ5Nzc1NzI5NSwxNzQzMjY1Mzg2LDE3ND
 A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
 NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
 wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
