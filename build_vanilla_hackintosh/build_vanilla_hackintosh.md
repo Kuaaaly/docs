@@ -185,7 +185,7 @@ J'ai potentiellement trouvé une [autre piste](https://hackintosh.gitbook.io/-r-
 
 ## N'utiliser pas `OsxAptioFix2Drv-free2000.efi`
 
-Il y a encore quelques heures, dans ce même guide, j'indiquais d'utiliser ce driver pour permettre le boot en cas de crash à cause de problèmes de mémoire. J'ai été remis dans le droit chemin par des personnes expérimentées sur le Discord Hackintosh. Ce driver est un test / patch qui était destiné à être utilisé dans des cas biens particuliers et ponctuels sur certaines configuration. En aucun cas il aurait du être régulièrement utili
+Il y a encore quelques heures, dans ce même guide, j'indiquais d'utiliser ce driver pour permettre le boot en cas de crash à cause de problèmes de mémoire. J'ai été remis dans le droit chemin par des personnes expérimentées sur le Discord Hackintosh. Ce driver est un test / patch qui était destiné à être utilisé dans des cas biens particuliers et ponctuels sur certaines configuration. En aucun cas il aurait du être régulièrement utilisé par la communauté car il peut clairement casser le hardware. Je ne connais pas précisément ce qui se passe techniquement là-dessous mais **n'utilisez pas ce drivers**. À ma connaissance, les comptabilités des drivers ont bien évolué ces derniers temps et ce qui est proposé à ce jour via Clover & co doit permettre de faire botter
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -212,7 +212,7 @@ Il y a encore quelques heures, dans ce même guide, j'indiquais d'utiliser ce dr
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDgwNjkyNTAsMTc0MDk3MzE1LC0xOD
+eyJoaXN0b3J5IjpbLTE2NjkzNDAzNDQsMTc0MDk3MzE1LC0xOD
 g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
 NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
 gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
