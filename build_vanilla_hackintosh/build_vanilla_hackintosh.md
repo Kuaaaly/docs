@@ -193,7 +193,7 @@ Avec l'installation telle qu'elle est décrite ci-dessus, l'audio ne fonctionnai
 - Via HDMI et DisplayPort sur le GPU
 - Via USB
 - Via Bluetooth
-Sur ce constat, il était assez simple de se rendre compte que c'est la partie audio onboard (géré par le module son de la carte mère) qui ne fonctionnait pas. J'ai réellement passé plusieurs dizaines d'heure sur ce problème et ai été aidé par de très nombreuses personnes sur d
+Sur ce constat, il était assez simple de se rendre compte que c'est la partie audio onboard (géré par le module son de la carte mère) qui ne fonctionnait pas. J'ai réellement passé plusieurs dizaines d'heure sur ce problème et ai été aidé par de très nombreuses personnes sur Discord notamment. Bien souvent, pour ce genre de problème précis (des choses qui sont censées marcher out of the box dans 95% des cas mais ne fonctionnent pas) les forums ne sont pas une excellente place pour trouver de l'aide. Les réponses sont souvent réduites aux classiques que vous pouvez trouver via une recherche Google.
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -220,11 +220,11 @@ Sur ce constat, il était assez simple de se rendre compte que c'est la partie a
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQwMzg5NCwxNzQwOTczMTUsLTE4OD
-Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
-MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
-wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
-NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
-A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
-LDIwMzI2MzE4NDBdfQ==
+eyJoaXN0b3J5IjpbMjI0Njc3MTc0LDE3NDA5NzMxNSwtMTg4ND
+YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
+MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
+0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
+NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMD
+k5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUs
+MjAzMjYzMTg0MF19
 -->
