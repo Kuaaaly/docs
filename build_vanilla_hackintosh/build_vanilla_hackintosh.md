@@ -226,7 +226,12 @@ Je vous confirme avec 100% de certitude que cette carte graphique est bien fonct
 - Soit la version ***Baffin*** du GPU et non la version ***Lexa*** qui elle n'est pas compatible.
 - Ait une valeur de ***Shading Units*** (***Unités de traitement de flux*** sur les sites en français) de 640. La version 512 n'est pas compatible.
 
-Pour vraiment valider votre achat, vous pouvez vous servir du site techpowerup.com qui est vraiment très précis au niveau des renseignements techni
+Pour vraiment valider votre achat, vous pouvez vous servir du site techpowerup.com qui est vraiment très précis au niveau des renseignements techniques sur les composants. 
+Deux exemples concrets :
+- La carte [Asus AREZ RX 550](https://www.techpowerup.com/gpu-specs/arez-phoenix-rx-550.b5797) fonctionnera (c'est celle que j'ai)
+- La carte [Sapphire PULSE RX 550](https://www.techpowerup.com/gpu-specs/sapphire-pulse-rx-550-4-gb.b4472) ne fonctionnera pas
+
+Soyez vigilant avant l'achat !
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -253,11 +258,11 @@ Pour vraiment valider votre achat, vous pouvez vous servir du site techpowerup.c
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE4NjQ2NCwxNzQzMjY1Mzg2LDE3ND
-A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
-NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
-wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
-MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
-Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
-LC05NjM5Njg0ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMTk0NzQ1MzYsMTc0MzI2NTM4NiwxNz
+QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
+MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
+csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
+NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
+U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
+NywtOTYzOTY4NDg1XX0=
 -->
