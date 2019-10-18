@@ -36,9 +36,9 @@ Détails:
 - Un clé USB de 8GB minimum
 
 ## Installation
-*Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Ces outils sont de bons outils mais il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisée.*
+*Même si j'ai glané beaucoup d'information sur le site [tonymacx86](http://tonymacx86.com), je n'utilise plus la suite UniBeast / MulitBeast / KextBeast pour installer un Hackintosh. Il est - selon moi - compliqué de bien comprendre ce que l'on fait et d'aboutir à une installation propre et optimisée en utilisant les outils \*Beast.*
 
-L'installation est relativement simple - *une fois que vous avez passé un paquet d'heure à potasser sur le sujet du Hackintosh ou si vous tombez sur un bon guide étape par étape correspondant exactement à votre configuration*. Je vais détailler ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
+L'installation est relativement simple - *une fois que vous avez passé un paquet d'heure à potasser sur le sujet du Hackintosh*. Je vais détailler ici les différentes étapes à suivre, mais pour avoir les détails, je vous inviterai à vous référer à [ce guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ### Préparer et créer la clé USB d'installation
 
@@ -201,7 +201,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTg3NTUyLC02ODM3NzE2NzUsLTIwNz
+eyJoaXN0b3J5IjpbMTE0NzIyMTAwLC02ODM3NzE2NzUsLTIwNz
 QxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5
 ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MC
 wyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4
