@@ -173,7 +173,12 @@ Pour tout ce qui ne sera pas couvert ci-après pour votre installation, Google e
 Même si l'installation décrite ci-dessus m'a permise d'avoir un Hackintosh fonctionnel, plusieurs détails restaient à peaufiner.
 
 ### Teinte rose sur un des 3 moniteurs
-C'est évidement le premier problème dont je me sis rendu compte. Aussitôt mon Hackintosh démarré, l'un des écrans a
+C'est évidement le premier problème dont je me sis rendu compte. Aussitôt mon Hackintosh démarré, l'un des écrans avait une teinte rose. Un coup de Google donc : c'est un problème relativement connu référencé sous le nom de "Pink tint" ou "Magenta tint" dans les contenus anglophone.
+Il est du au fait que, sur ma carte graphique, je dispose de 3 sorties vidéos :
+- 1 HDMI
+- 1 DisplayPort
+- 1 DVI
+Le soucis a
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -200,11 +205,11 @@ C'est évidement le premier problème dont je me sis rendu compte. Aussitôt mon
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTg4MTU5MiwxNzQwOTczMTUsLTE4OD
-Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
-MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
-wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
-NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
-A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
-LDIwMzI2MzE4NDBdfQ==
+eyJoaXN0b3J5IjpbNjU3NzAyODkyLDE3NDA5NzMxNSwtMTg4ND
+YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
+MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
+0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
+NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMD
+k5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUs
+MjAzMjYzMTg0MF19
 -->
