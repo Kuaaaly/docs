@@ -100,16 +100,13 @@ Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaîtr
 #### Configuration du boot loader
 Nous venons de finir l'installation du boot loader, il ne nous reste plus qu'à configurer quelques détails. Si vous voulez bien comprendre toutes les étapes de cette configuration, je vous invite à utiliser [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-basics) et à parcourir la section adaptée à votre génération de processeur. Vous y trouverez en bas de page le fichier `config.plist` correspondant vous pourrez ensuite le modifier.
 
-En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les 3 modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
-- Retirer les `Properties` définies dans la section `Devices`. Cela donnait une teinte rose à mon écran lors du boot et du run de macOS en utilisant l'iGPU.
-
-<img src="images/delete_devices_properties.png" alt="delete devices properties" width="70%"/>
+En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/corpnewt/Hackintosh-Guide/blob/master/Configs/KabyLake/config.plist) correspondant à la génération Kaby Lake et j'ai simplement fait les modifications suivantes (en utilisant Clover Configurator pour modifier le fichier) :
 
 - Retirer les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-- Cocher la case Inject Intel (pour pouvoir utiliser l'iGPU) dans la section `Graphics` :
+- Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité (a
 
 <img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
 
@@ -196,11 +193,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDk3MzE1LC0xODg0NjI3Nzg0LC02OD
-M3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1
-NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4OD
-IsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEz
-ODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOT
-Y4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQw
-LDY0OTk4ODE3Nl19
+eyJoaXN0b3J5IjpbLTE5MTU3NTUxMzMsMTc0MDk3MzE1LC0xOD
+g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
+NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
+gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
+NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
+MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
+NSwyMDMyNjMxODQwXX0=
 -->
