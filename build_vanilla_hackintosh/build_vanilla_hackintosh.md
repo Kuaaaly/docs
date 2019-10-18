@@ -71,7 +71,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 #### Installation du boot loader (Clover)
 
-1. Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape `Destination`. **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** 
+Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape `Destination`. **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.** 
 
 <img src="images/clover_destination.png" alt="clover destination" width="70%"/>
 
@@ -87,7 +87,7 @@ Lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`. Pour une co
 
 Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
-3. Téléchargez ensuite la liste d'extensions de kernel (kext) suivante depuis [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
+Téléchargez ensuite la liste d'extensions de kernel (kext) suivante depuis [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
 
 - AppleALC.kext
 - IntelMausiEthernet.kext
@@ -256,7 +256,7 @@ Soyez vigilant avant l'achat !
 - Cet [excellent thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) ~~peut-être~~ le futur remplaçant de Clover. Je l'ai essayé, ça a bossé du premier coup. C'est très prometteur sachant qu'il n'ont pas encore sorti de release grand public. Je pense attendre début 2020 pour que Cataline se stabiliser ainsi qu'Open Core pour refaire une fresh install sous 10.15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTcwMzQ5OSwtMTg4OTE5NDkzLDEwNz
+eyJoaXN0b3J5IjpbMTYyNjgxNDE3NSwtMTg4OTE5NDkzLDEwNz
 c5NTQ2OTMsMTc0MzI2NTM4NiwxNzQwOTczMTUsLTE4ODQ2Mjc3
 ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1MzAyLC
 0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OCwtMTc5
