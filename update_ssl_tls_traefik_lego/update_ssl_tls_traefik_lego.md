@@ -1,12 +1,12 @@
 # Gestion des certificats SSL/TLS sur un domaine personnel
 
 ## Introduction
-Vous l'avez peut-être remarqué, j'ai un [site vitrine personnel](https://quentin.legraverend.fr) hébergé chez OVH. La partie DNS est quant à elle gérée par le service Route 53 d'AWS, et sur le niveau encore au-dessus, "mes domaines" (`quentin.legraverend.fr` + `*.quentin.legraverend.fr`), sur lesquels j'ai la main sont une simple délégation du domaine racine (`legraverend.fr`). Bref, tout ceci pour dire que je m'occupe moi même de la gestion de ce site, de son hébergement et de sa sécurisation. Je parlerai ici de la partie HTTPS via SSL/TLS seulement !
+Vous l'avez peut-être remarqué, j'ai un [site vitrine personnel](https://quentin.legraverend.fr) hébergé chez OVH. La partie DNS est quant à elle gérée par le service Route 53 d'AWS, et sur le niveau encore au-dessus, "mes domaines" (`quentin.legraverend.fr` + `*.quentin.legraverend.fr`), sur lesquels j'ai la main sont une simple délégation depuis le domaine racine (`legraverend.fr`). Bref, tout ceci pour dire que je m'occupe moi même de la gestion de ce site, de développement, de son hébergement et de sa sécurisation. Je parlerai ici de la partie HTTPS via SSL/TLS seulement !
 
 ## Outils utilisés
 - [Let's Encrypt](https://letsencrypt.org/fr/) : pour avoir des certificats approuvés par les navigateurs et gratuits.
 - [Lego](https://github.com/go-acme/lego) : pour générer ces mêmes certificats.
-- [Traefik](https://traefik.io) : reverse proxy / load balancer que vous attaquez dès que vous vous rendez sur un de mes domaines.
+- [Traefik](https://traefik.io) : reverse proxy / load balancer pour orientez les requêtes lorsque vous vous rendez sur un de mes domaines.
 - [Docker](https://www.docker.com) : qui est le socle pour faire tourner le reste.
 - [Portainer](https://www.portainer.io) : qui permet d'interagir avec Docker via une interface de gestion / administration dédiée.
 
@@ -117,7 +117,7 @@ Si vous avez tout bien fait, patientez une petite minute en plus et vous devriez
 
 ![traefik back again](images/traefik_back_again.png)
 
-Et voilà ! Vous pouvez vérifier avec le navigateur que le certificat pour le domaine à bien été renouvelé. Let's Encrypt fourni des certificats pour 3 mois.
+Et voilà ! Vous pouvez vérifier avec le navigateur que le certificat à bien été renouvelé. Let's Encrypt fourni des certificats valides 3 mois.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY2OTcwMjddfQ==
+eyJoaXN0b3J5IjpbMjU0NDEzNDc5XX0=
 -->
