@@ -5,15 +5,11 @@
 *La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Pour information, le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS (il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sur un vrai Mac ou un autre Hackintosh). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot (la partition `EFI`).*
 
 ## Introduction
-Début 2017, j'ai monté pour la première fois un PC, pour jouer. N'étant pas forcément bien au fait sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec les composants choisis (une carte mère série 200, un Intel Core i5 et une GTX 1060), ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPUs NVIDIA étaient encore pris en charge avec les web-drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, j'avais à l'époque un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est restée un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés. Ayant changé de travail courant 2019, je ne travaille plus sous macOS mais sur Ubuntu. J'utilise donc peu mon ancien Mac Book Pro 15" et cela me fait de la peine de voir un ordinateur si "cher" être si peu utilisé. En clair, j'ai sous le coude :
+Début 2017, j'ai monté pour la première fois un PC, pour jouer. N'étant pas forcément bien au fait sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec les composants choisis (une carte mère série 200, un Intel Core i5 et une GTX 1060), ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPUs NVIDIA étaient encore pris en charge avec les web drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, j'avais à l'époque un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est restée un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés. Ayant changé de travail courant 2019, je ne travaille plus sous macOS mais sur Ubuntu. J'utilise donc peu mon ancien Mac Book Pro 15" et cela me fait de la peine de voir un ordinateur si "cher" être si peu utilisé. En clair, j'ai sous le coude :
 - Un Mac Book Pro 15" de 2018 que je n'utilise presque plus (et dont je pourrais me passer si j'avais un Hackintosh)
 - Un bon setup "PC" sous Windows (juste pour les jeux, promis) : triple screen 24" (dont un en 144Hz), clavier, souris, casque.
 
 Depuis septembre 2019 je me suis donc mis en tête de transformer ma tour actuelle en un dual-boot propre & fonctionnel Windows / macOS afin de gagner en confort en mode "desktop" à la maison, mais aussi afin de pouvoir me séparer de mon Mac Book Pro qui me sert peu (probablement au profit d'un Mac Book Air, plus portable).
-
-Nous voilà donc rendu ici ! Deux dernières précisions :
-- J'ai actuellement une GTX 1060 de NVIDIA dans ma tour, ce qui n'est pas compatible avec macOS Mojave (je ne veux pas retourner sous High Sierra car cette solution n'est pas pérenne). J'ai donc bien fouillé sur le net et j'ai commandé une RX 550 de Radeon qui devrait fonctionner sous macOS Mojave. Attention néanmoins, si vous souhaitez faire la même chose, renseignez-vous très bien car seules quelques versions de la RX 550 fonctionnent (sont censées fonctionner) sous Polaris 11 (version Baffin) ce qui est totalement différent de la version plus répandue Polaris 12 (Lexa). Je vous tiens au courant à ce sujet.
-- Enfin, en ce qui concerne la connectivité, j'avais jusqu'à présent fait le choix de me contenter d'Ethernet. Seulement, pour pérenniser un Hackintosh, la continuité Apple est clairement un must have (d'autant plus que j'utilise iOS). Une carte Wifi / Bluetooth PCIe est donc en route depuis la Chine (basée sur la puce BCM94360CS de Broadcom) ! Même chose : je vous tiens au courant.
 
 ## Hardware
 
@@ -206,11 +202,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMj
-AwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5
-MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMj
-csLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2
-ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNj
-MxODQwLDY0OTk4ODE3NiwtMTQwNjU2NzE3Niw0OTM5MzQ4NDcs
-LTE5Mzk1MjE3ODVdfQ==
+eyJoaXN0b3J5IjpbLTMxODU0NzEyOCwtMjA3NDE5MDY1LC0yMT
+QwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUz
+MTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMz
+IsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0
+OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOT
+Y4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2
+LDQ5MzkzNDg0N119
 -->
