@@ -13,7 +13,6 @@ Depuis septembre 2019 je me suis donc mis en tête de transformer ma tour actuel
 
 ## Hardware
 
-Principal :
 - Carte mère : MSI **Z270** Gaming Pro Carbon
 - CPU : Intel Core **i5-7600**
 - GPU : Asus AREZ **RX 550 2Go**
@@ -21,8 +20,8 @@ Principal :
 - Wifi / Bluetooth : carte PCIe **Fenvi FV-HB1200** (AliExpress)
 - Disques :
 	- Samsung **970 EVO Plus 500Go** (NVMe en M.2) - **macOS Mojave**
-	- Crucial MX300 750GB (SSD en SATA) - **Windows 10**
-	- Divers HDD (SATA)
+	- Crucial MX300 750Go (SSD en SATA) - **Windows 10**
+	- Samsung **HDD 750Go** (500Go pour Time Machine, le reste pour du stockage)
 
 Détails:
 - Ventilateur : Be Quiet! Pure Rock
@@ -202,11 +201,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMT
-QwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUz
-MTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMz
-IsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0
-OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOT
-Y4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2
-LDQ5MzkzNDg0N119
+eyJoaXN0b3J5IjpbMTUwMTA0MzU5NSwtNjgzNzcxNjc1LC0yMD
+c0MTkwNjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1
+OTg5NywxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOT
+AsMjA1MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEy
+ODUxNTQ0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNT
+A5MTU3LC05NjM5Njg0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYs
+LTE0MDY1NjcxNzZdfQ==
 -->
