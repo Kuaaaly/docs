@@ -216,7 +216,8 @@ En ce qui me concerne, j'ai gardé 8 ports au total :
 Avoir deux cartes graphiques dans la même tour et utiliser l'un sous macOS et l'autre sous Windows n'est pas forcément la pratique la plus répandue. Effectivement, le plus simple pour moi aurait été de remplacer ma GTX 1060 par une RX 580, mais sachant que les carte graphique ne se revendent pas facilement mais aussi que les GTX restant (selon moi) de meilleures cartes pour le jeu (plus performantes à consommation égale), je me suis dis qu'un investissement de 50€ dans un RX 550 serait rentable. Je ne regrette absolument pas !
 Du coup, avec 2 carte graphiques et 3 écrans, je me retrouve avec 6 câbles. Bien que les cartes NVIDIA ne fonctionnent plus sous macOS, elle sont détectées (c'est l'accélération matérielle qui ne fonctionne pas et rend donc la carte obsolète). Je me retrouvais donc avec 6 moniteurs dans mes Préférences Systèmes. Il a donc fallu trouver [une solution](https://www.tonymacx86.com/threads/fix-window-server-service-only-ran-for-0-seconds-with-dual-gpu.233092/) pour désactiver la GTX 1060 au démarrage de macOS. Il s'agit, grosso-modo de laisser en OFF le port PCIe sur laquelle la GTX est branché.
 
-## À propos du Wi-
+## À propos du Wi-Fi et du Bluetooth
+Je suis globalement content de l'adaptateur choisi : le Fenvi FV-HB1200. Basé sur un puce BCM94360CS2 assure une compatibilité out of the box avec macOS. En revanche, je constate que les transmissions sont faibles, il m'a fallu repositionner à plusieurs rep
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -243,11 +244,11 @@ Du coup, avec 2 carte graphiques et 3 écrans, je me retrouve avec 6 câbles. Bi
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzNjQ2MDg2LDE3NDMyNjUzODYsMTc0MD
-k3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2
-NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LD
-ExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUw
-Mzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1ND
-QwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcs
-LTk2Mzk2ODQ4NV19
+eyJoaXN0b3J5IjpbLTg3Nzk4NDcwMiwxNzQzMjY1Mzg2LDE3ND
+A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
+NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
+wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
+MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
+Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
+LC05NjM5Njg0ODVdfQ==
 -->
