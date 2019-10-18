@@ -76,9 +76,10 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 <img src="images/clover_destination.png" alt="clover destination" width="70%"/>
 
 Pour une configuration identique à la mienne (MSI série 200), lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`, vous allez avoir besoin de sélectionner les drivers suivants (et seulement ceux-là) avant de finaliser l'installation  :
-	- HFSPlus
+
+- VBoxHfs
 	- ApfsDriverLoader
-	- EmuVariableUefi
+	- AptioMemoryFix
 
 <img src="images/clover_drivers_1.png" alt="clover drivers 1" width="70%"/>
 
@@ -201,11 +202,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMj
-A3NDE5MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5
-NTk4OTcsMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0Mj
-kwLDIwNTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3Nywx
-Mjg1MTU0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MT
-UwOTE1NywtOTYzOTY4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2
-LC0xNDA2NTY3MTc2XX0=
+eyJoaXN0b3J5IjpbOTc1OTg1OTAyLC0xODg0NjI3Nzg0LC02OD
+M3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1
+NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4OD
+IsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEz
+ODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOT
+Y4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4NSwyMDMyNjMxODQw
+LDY0OTk4ODE3Nl19
 -->
