@@ -181,6 +181,7 @@ Il est dû au fait que, sur ma carte graphique, je dispose de 3 sorties vidéos 
 - 1 DVI
 
 C'est la sortie DVI qui pose problème, et plus précisément (mais je suis toujours en train de creuser à ce sujet) c'est le fait que j'utilise un adaptateur DVI vers HDMI femme, prise sur laquelle je branche donc un câble HDMI jusqu'à mon écran. Le soucis vient du fait que le Hackintosh détecte cet écran branché en DVI+HDMI comme un écran de télévision et qu'il applique donc un profil de couleur **Y'CbCr** (si j'ai bien tout compris). Il faut donc corriger cela et, coup de chance un [super guide](https://www.mathewinkson.com/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor) existe pour le faire ! Il n'y a qu'à appliquer les instructions.
+J'ai potentiellement trouvé une [autre piste](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake#pink-purple-tint) pour corriger plus proprement ce problème mais pour l'instant sans succès. L'idée de cette seconde méthode est de changer la façon dont macOS voit l'écran (j'ai effectivement cons
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -207,7 +208,7 @@ C'est la sortie DVI qui pose problème, et plus précisément (mais je suis touj
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTk4MTI1NiwxNzQwOTczMTUsLTE4OD
+eyJoaXN0b3J5IjpbLTM0NDI0OTc1MSwxNzQwOTczMTUsLTE4OD
 Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
 MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
 wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
