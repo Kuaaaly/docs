@@ -250,7 +250,7 @@ Soyez vigilant avant l'achat !
 	- https://www.insanelymac.com
 	- http://tonymacx86.com/
 	- https://hackintosher.com
-- Il y a également un [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
+- Cet [bon thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) une initiative très intéressante qui pourrait remplacer prochainement Clover
 
 ## To Do
@@ -258,7 +258,7 @@ Soyez vigilant avant l'achat !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk0NzQ1MzYsMTc0MzI2NTM4NiwxNz
+eyJoaXN0b3J5IjpbLTE3MDQwMzg0NTYsMTc0MzI2NTM4NiwxNz
 QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
 MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
 csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
