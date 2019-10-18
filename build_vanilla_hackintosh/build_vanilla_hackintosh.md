@@ -164,7 +164,7 @@ Cette étape est très simple. Nous allons simplement monter les 2 partitions `E
 4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
 5. Vous devriez vous retrouver ensuite dans Clover, sélectionner votre disque macOS comme vous l'avez fait précédemment.
 
-C'est fini !
+Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vous en doutez, ça n'est pas parfait - tout du moins cela ne l'était pas pour moi - et il va donc va falloir fixer quelques détails supplémentaires pour avoir un Hackintosh 100% fonction
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -191,7 +191,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzIyMTMxLDE3NDA5NzMxNSwtMTg4ND
+eyJoaXN0b3J5IjpbNzgwMzM0NDA5LDE3NDA5NzMxNSwtMTg4ND
 YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
 MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
 0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
