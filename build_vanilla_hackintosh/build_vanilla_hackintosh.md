@@ -88,12 +88,13 @@ Lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`. Pour une co
 Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
 3. Téléchargez ensuite la liste d'extensions de kernel (kext) suivante depuis [le guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/gathering-kexts) et placez les dans votre partition EFI (sous `/EFI/CLOVER/kexts/Other`) :
-	- AppleALC.kext
-	- IntelMausiEthernet.kext
-	- Lilu.kext
-	- USBInjectAll.kext
-	- VirtualSMC.kext
-    - WhateverGreen.kext
+
+- AppleALC.kext
+- IntelMausiEthernet.kext
+- Lilu.kext
+- USBInjectAll.kext
+- VirtualSMC.kext
+- WhateverGreen.kext
 
 <img src="images/add_kexts.png" alt="add kexts" width="70%"/>
 
@@ -255,11 +256,11 @@ Soyez vigilant avant l'achat !
 - Cet [excellent thread](https://www.reddit.com/r/hackintosh/) sur Reddit à propos des Hackintosh
 - [OpenCore](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) ~~peut-être~~ le futur remplaçant de Clover. Je l'ai essayé, ça a bossé du premier coup. C'est très prometteur sachant qu'il n'ont pas encore sorti de release grand public. Je pense attendre début 2020 pour que Cataline se stabiliser ainsi qu'Open Core pour refaire une fresh install sous 10.15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkxOTQ5MywxMDc3OTU0NjkzLDE3ND
-MyNjUzODYsMTc0MDk3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2
-NzUsLTIwNzQxOTA2NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OS
-wxMjI5OTU5ODk3LDExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIz
-OTI2NDI5MCwyMDUwMzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNj
-c1NzcsMTI4NTE1NDQwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYs
-LTE5NDE1MDkxNTddfQ==
+eyJoaXN0b3J5IjpbLTg4OTcwMzQ5OSwtMTg4OTE5NDkzLDEwNz
+c5NTQ2OTMsMTc0MzI2NTM4NiwxNzQwOTczMTUsLTE4ODQ2Mjc3
+ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1MzAyLC
+0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OCwtMTc5
+NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3NDUzOD
+MyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMzA5OTYs
+MTY4NjA5Njg2Nl19
 -->
