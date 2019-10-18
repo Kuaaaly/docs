@@ -217,7 +217,7 @@ Avoir deux cartes graphiques dans la même tour et utiliser l'un sous macOS et l
 Du coup, avec 2 carte graphiques et 3 écrans, je me retrouve avec 6 câbles. Bien que les cartes NVIDIA ne fonctionnent plus sous macOS, elle sont détectées (c'est l'accélération matérielle qui ne fonctionne pas et rend donc la carte obsolète). Je me retrouvais donc avec 6 moniteurs dans mes Préférences Systèmes. Il a donc fallu trouver [une solution](https://www.tonymacx86.com/threads/fix-window-server-service-only-ran-for-0-seconds-with-dual-gpu.233092/) pour désactiver la GTX 1060 au démarrage de macOS. Il s'agit, grosso-modo de laisser en OFF le port PCIe sur laquelle la GTX est branché.
 
 ## À propos du Wi-Fi et du Bluetooth
-Je suis globalement content de l'adaptateur choisi : le Fenvi FV-HB1200. Basé sur un puce BCM94360CS2 assure une compatibilité out of the box avec macOS. En revanche, je constate que les transmissions sont faibles, il m'a fallu repositionner à plusieurs reprises les antennes Wi-Fi pour avoir une connexion stable. Concernant le Bluetooth, c'est la même chose, il n'y a pas d'antennes, donc transmission et réception qui se cantonne minimum syndical. Si vous éloignez un peu vos périphériques, vous perdre rapidement la connexion. Bon, 
+Je suis globalement content de l'adaptateur choisi : le Fenvi FV-HB1200. Basé sur un puce BCM94360CS2 il assure une compatibilité out of the box avec macOS. En revanche, je constate que les transmissions sont faibles, il m'a fallu repositionner à plusieurs reprises les antennes Wi-Fi pour avoir une connexion stable. Concernant le Bluetooth, c'est la même chose, il n'y a pas d'antennes, donc la transmission et la réception se cantonnent au minimum syndical. Si vous éloignez un peu vos périphériques, vous perdre rapidement la connexion. Bon, c'est largement suffisant pour des enceintes, une souris ou un clavier donc pour le prix (25€) c'est vraiment très correct. Je ne sais pas ce que c'est susceptible de donner sur Windows une fois les bons drivers ins
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -244,7 +244,7 @@ Je suis globalement content de l'adaptateur choisi : le Fenvi FV-HB1200. Basé s
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEyODY5NCwxNzQzMjY1Mzg2LDE3ND
+eyJoaXN0b3J5IjpbMTcwNzQxNjU4NywxNzQzMjY1Mzg2LDE3ND
 A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
 NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
 wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
