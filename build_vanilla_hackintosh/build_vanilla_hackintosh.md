@@ -224,7 +224,9 @@ Si vous avez un budget un peu plus permissif et que la connectivité Wi-Fi / Blu
 Vous verrez souvent les cartes RX 550 référencées comme étant incompatibles, et pour cause, c'est le cas de la grande majorité d'entre elles. Je me suis longtemps renseigné et j'ai longtemps hésité avant de commander ce GPU. Ayant trouvé plusieurs témoignage sur internet allant dans le bon sens, j'ai sauté le pas malgré la petite part d'ombre restante. Ceci dit, cette carte vaut environ 50€ neuve donc l'investissement n'était pas colossal non plus.
 Je vous confirme avec 100% de certitude que cette carte graphique est bien fonctionnelle out of the box avec le Hackintosh **à condition** que vous fassiez bien attention à ce que la carte en question :
 - Soit la version ***Baffin*** du GPU et non la version ***Lexa*** qui elle n'est pas compatible.
-- Ait une valeur 
+- Ait une valeur de ***Shading Units*** (***Unités de traitement de flux*** sur les sites en français) de 640. La version 512 n'est pas compatible.
+
+Pour vraiment valider votre achat, vous pouvez vous servir du site techpowerup.com qui est vraiment très précis au niveau des renseignements techni
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -251,7 +253,7 @@ Je vous confirme avec 100% de certitude que cette carte graphique est bien fonct
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzUwNTYzNSwxNzQzMjY1Mzg2LDE3ND
+eyJoaXN0b3J5IjpbLTE4NzE4NjQ2NCwxNzQzMjY1Mzg2LDE3ND
 A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
 NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
 wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
