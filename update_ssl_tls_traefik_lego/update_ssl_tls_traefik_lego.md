@@ -100,7 +100,7 @@ Le plus dur du travail est fait !
 Le moment fun du guide arrive ! Car jusqu'ici, nous n'avons touché à rien de l'existant visible par les utilisateurs finaux.
 Mais là, nous arrivons dans une situation type "le serpent qui se mord la queue" et nous avons la possibilité de scier la branche sur laquelle nous sommes assis. Explication :
 - Notre nouvelle image de Traefik est prête
-- Actuellement Traefik sur base de son ancienne image
+- Actuellement Traefik tourne sur base de son ancienne image
 - Nous accédons à Portainer via l'intermédiaire de... Traefik !
 
 Vous me voyez venir... Nous allons faire la mise à jour de l'image de Traefik avec un outil lui-même servi par Traefik.
@@ -117,7 +117,7 @@ Si vous avez tout bien fait, patientez une petite minute en plus et vous devriez
 
 ![traefik back again](images/traefik_back_again.png)
 
-Et voilà ! Vous pouvez vérifier avec le navigateur que le certificat à bien été renouvelé. Let's Encrypt fourni des certificats valides 3 mois.
+Et voilà ! Vous pouvez vérifier avec le navigateur que le certificat à bien été renouvelé. Let's Encrypt fournit des certificats valides 3 mois.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NDEzNDc5XX0=
+eyJoaXN0b3J5IjpbMTQ5NzA0Mzk0MiwyNTQ0MTM0NzldfQ==
 -->
