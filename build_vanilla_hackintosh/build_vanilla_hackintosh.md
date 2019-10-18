@@ -106,7 +106,7 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-- Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité (a
+- Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité (normalement Clover fait l'injection par défaut s'il détecte un iGPU intel). En revanche, si vous avez un GPU dédie, prenez soin de **cocher puis de décocher** `Inject Intel` cela permettra d'empêcher explicitement l'injection Intel et c'est important (voire indispensable)
 
 <img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
 
@@ -193,7 +193,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU3NTUxMzMsMTc0MDk3MzE1LC0xOD
+eyJoaXN0b3J5IjpbLTEzMTE5MTcxMzIsMTc0MDk3MzE1LC0xOD
 g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
 NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
 gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
