@@ -218,7 +218,7 @@ Du coup, avec 2 carte graphiques et 3 écrans, je me retrouve avec 6 câbles. Bi
 
 ## À propos du Wi-Fi et du Bluetooth
 Je suis globalement content de l'adaptateur choisi : le Fenvi FV-HB1200. Basé sur un puce BCM94360CS2 il assure une compatibilité out of the box avec macOS. En revanche, je constate que les transmissions sont faibles, il m'a fallu repositionner à plusieurs reprises les antennes Wi-Fi pour avoir une connexion stable. Concernant le Bluetooth, c'est la même chose, il n'y a pas d'antennes, donc la transmission et la réception se cantonnent au minimum syndical. Si vous éloignez un peu vos périphériques, vous perdre rapidement la connexion. Bon, c'est largement suffisant pour des enceintes, une souris ou un clavier donc pour le prix (25€) c'est vraiment très correct. Je ne sais pas ce que c'est susceptible de donner sur Windows une fois les bons drivers installés (pour une souris Gaming par exemple).
-si vous avez un budget un peu plus conséquent et que la connectivité Wi-Fi / Bluetooth est pour vous importante, je vous recommande chaudement un Fenvi FV-T919 (50€). Vous pourrez trouver très occasionnellement ces cartes sur Amazon sinon tournez vous
+si vous avez un budget un peu plus conséquent et que la connectivité Wi-Fi / Bluetooth est pour vous importante, je vous recommande chaudement un Fenvi FV-T919 (50€). Vous pourrez trouver très occasionnellement ces cartes sur Amazon sinon tournez vous vers Ebay ou AliExpress.
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -245,11 +245,11 @@ si vous avez un budget un peu plus conséquent et que la connectivité Wi-Fi / B
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTM3OTQ4MSwxNzQzMjY1Mzg2LDE3ND
-A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
-NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
-wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
-MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
-Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
-LC05NjM5Njg0ODVdfQ==
+eyJoaXN0b3J5IjpbLTIwMzM3Njk2ODgsMTc0MzI2NTM4NiwxNz
+QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
+MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
+csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
+NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
+U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
+NywtOTYzOTY4NDg1XX0=
 -->
