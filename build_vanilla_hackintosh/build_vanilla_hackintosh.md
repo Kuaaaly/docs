@@ -184,7 +184,8 @@ C'est la sortie DVI qui pose problème, et plus précisément (mais je suis touj
 J'ai potentiellement trouvé une [autre piste](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake#pink-purple-tint) pour corriger plus proprement ce problème mais pour l'instant sans succès. L'idée de cette seconde méthode est de changer la façon dont macOS voit l'écran. J'ai effectivement constaté via IOReg que l'écran branché en DVI était effectivement indiqué comme étant en DVI alors que la connection finale à l'écran se fait en HDMI. Je me demande donc si, au cas ou j'arriverais à forcer le changement de `connector type` mon écran répondrait correctement ou non. Cela me débloquerait également d'autres soucis que j'ai, purement cosmétique cette fois-ci.
 
 ## N'utiliser pas `OsxAptioFix2Drv-free2000.efi`
-Il y a encore quelques heures, dans ce même guide, j'indiquais d'utilis
+
+Il y a encore quelques heures, dans ce même guide, j'indiquais d'utiliser ce driver pour permettre le boot en cas de crash à cause de problèmes de mémoire. J'ai été remis dans le droit chemin par des personnes expérimentées sur le Discord Hackintosh. Ce driver est un test / patch qui était destiné à être utilisé dans des cas biens particuliers et ponctuels sur certaines configuration. En aucun cas il aurait du être régulièrement utili
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -211,11 +212,11 @@ Il y a encore quelques heures, dans ce même guide, j'indiquais d'utilis
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzgzNTQxOCwxNzQwOTczMTUsLTE4OD
-Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
-MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
-wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
-NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
-A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
-LDIwMzI2MzE4NDBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDgwNjkyNTAsMTc0MDk3MzE1LC0xOD
+g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
+NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
+gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
+NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
+MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
+NSwyMDMyNjMxODQwXX0=
 -->
