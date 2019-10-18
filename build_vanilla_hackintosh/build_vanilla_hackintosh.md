@@ -141,7 +141,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 1. Branchez votre clé USB sur l'ordinateur
 2. Démarrez puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
-4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait ressembler à : `Boot macOS Install from Install MacOS Mojave`
+4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait ressembler à : **`Boot macOS Install from Install MacOS Mojave`**
 5. Réalisez l'installation comme vous l'auriez faite pour un Mac normal.
 	- Il est possible qu'il vous faille formater le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
 		1. Cliquez sur "Utilitaire de disque"
@@ -152,13 +152,13 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 
 ### Démarrer sur votre nouvelle installation
 1. Si vous n'avez pas oublié de presser F11, vous devriez vous retrouver devant les mêmes possibilités de boot que précédemment. Choisissez à nouveau votre clé USB pour démarrer (*à ce stade, le disque sur lequel nous avons effectué l'installation macOS n'est pas encore bootable*).
-2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau volume qui vous permettra de finaliser l'installation de macOS, sélectionnez le. Pour moi c'est : `Boot macOS Install from hackOS` (`hackOS` étant le nom que j'ai choisi pour formatter mon disque d'installation).
-3. Laissez l'installation de macOS se finaliser, à nouveau l'ordinateur rédémarrera, pressez F11, choisissez la clé USB puis démarrer enfin sur votre nouvelle installation de macOS (pour moi : `Boot macOS from hackOS`) !
+2. Vous devriez vous retrouver à nouveau sur Clover et devriez voir un nouveau volume qui vous permettra de finaliser l'installation de macOS, sélectionnez le. Pour moi c'est : **`Boot macOS Install from hackOS`** (`hackOS` étant le nom que j'ai choisi pour formatter mon disque d'installation).
+3. Laissez l'installation de macOS se finaliser, à nouveau l'ordinateur rédémarrera, pressez F11, choisissez la clé USB puis démarrer enfin sur votre nouvelle installation de macOS (pour moi : **`Boot macOS from hackOS`**) !
 4. La configuration se fait exactement comme celle d'un vrai Mac, faites comme vous le souhaitez puis nous nous retrouvons sur votre bureau macOS pour la prochain étape.
 
 ### Rendre votre nouvelle installation macOS bootable sans la clé USB
 Cette étape est très simple. Nous allons simplement monter les 2 partitions `EFI` (celle de notre clé USB et celle de notre nouvelle installation de macOS) puis copier le contenu de la partition `EFI` de la clé USB vers la partition `EFI`  de macOS Mojave.
-1. Lancez Clover Configurator et rendez-vous dans l'onglet `Mount EFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
+1. Lancez **Clover Configurator** et rendez-vous dans l'onglet `Mount EFI` pour monter les deux partitions `EFI` (celle de votre clé USB et celle de votre disque macOS).
 2. Glissez-déposez le dossier `EFI` de la clé USB vers la partition `EFI` du macOS que nous venons d'installer. Choisissez "Remplacer" lorsque la question vous est posée.
 3. Éjectez la clé, retirez la, redémarrez l'ordinateur
 4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
@@ -191,11 +191,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMzMzgyODUsMTc0MDk3MzE1LC0xOD
-g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
-NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
-gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
-NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
-MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
-NSwyMDMyNjMxODQwXX0=
+eyJoaXN0b3J5IjpbMTYxMzIyMTMxLDE3NDA5NzMxNSwtMTg4ND
+YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
+MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
+0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
+NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMD
+k5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUs
+MjAzMjYzMTg0MF19
 -->
