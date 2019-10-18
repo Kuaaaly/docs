@@ -204,13 +204,15 @@ Avec ce combo, vous devriez avoir tout qui fonctionne impeccablement !
 ## Le mapping de vos ports USB
 Apple ne rigole pas avec les ports USB, et pour une compatibilité maximum, il faut que votre Hackintosh déclare / référence au maximum 15 ports USB (ce qui est en général largement suffisant). Attention néanmoins, un port USB qui fait à la fois de l'USB 3 et de l'USB 2 compte pour 2 !
 Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous permet d'injecter tous les ports mais ça n'est pas une situation viable sur le long terme.
-Je vous invite donc à utiliser [USBMap](https://github.com/corpnewt/USBMap) ainsi que son README qui fait office de guide pour mapper correctement vos ports USB et ne garder que le nécessaire.
+Je vous invite donc à utiliser [USBMap](https://github.com/corpnewt/USBMap) ainsi que son README qui fait office de guide pour mapper correctement vos ports USB et ne garder que le nécessaire (j'ai 2 ports USB en façade).
 En ce qui me concerne, j'ai gardé 8 ports au total :
-- Un port USB 2 à l'intérieur pour la Bluetooth
-- Un port USB 2 en façade
-- Un port USB 2 + USB 3 en façade (je n'ai que 2 port en façade)
-- 2 ports USB 2 à l'arrière pour Clavier & Souris
-- 2 ports USB 3 à l'arrière en cas de besoin (notamment pour brancher mon disque externe qui me sert p
+- 1 x USB 2 à l'intérieur pour la Bluetooth
+- 1 x USB 2 en façade
+- 1 x USB 2 & USB 3 en façade
+- 2 x USB 2 à l'arrière pour Clavier & Souris
+- 2 x USB 3 à l'arrière en cas de besoin (notamment pour brancher mon disque externe qui me sert pour Time Machine en attendant de le mettre directement en SATA).
+
+## Désactiver la GTX 1060 s
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -237,7 +239,7 @@ En ce qui me concerne, j'ai gardé 8 ports au total :
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4MDc4NDY1LDE3NDMyNjUzODYsMTc0MD
+eyJoaXN0b3J5IjpbNjg0NTk0NzIyLDE3NDMyNjUzODYsMTc0MD
 k3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2
 NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LD
 ExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUw
