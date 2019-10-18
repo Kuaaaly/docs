@@ -206,7 +206,11 @@ Apple ne rigole pas avec les ports USB, et pour une compatibilité maximum, il f
 Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous permet d'injecter tous les ports mais ça n'est pas une situation viable sur le long terme.
 Je vous invite donc à utiliser [USBMap](https://github.com/corpnewt/USBMap) ainsi que son README qui fait office de guide pour mapper correctement vos ports USB et ne garder que le nécessaire.
 En ce qui me concerne, j'ai gardé 8 ports au total :
-- Un po
+- Un port USB 2 à l'intérieur pour la Bluetooth
+- Un port USB 2 en façade
+- Un port USB 2 + USB 3 en façade (je n'ai que 2 port en façade)
+- 2 ports USB 2 à l'arrière pour Clavier & Souris
+- 2 ports USB 3 à l'arrière en cas de besoin (notamment pour brancher mon disque externe qui me sert p
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -233,11 +237,11 @@ En ce qui me concerne, j'ai gardé 8 ports au total :
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc4Mzk2MzgsMTc0MzI2NTM4NiwxNz
-QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
-MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
-csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
-NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
-U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
-NywtOTYzOTY4NDg1XX0=
+eyJoaXN0b3J5IjpbMzk4MDc4NDY1LDE3NDMyNjUzODYsMTc0MD
+k3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2
+NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LD
+ExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUw
+Mzc5MjMyLC0yNzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1ND
+QwMywxNDk0MzMwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcs
+LTk2Mzk2ODQ4NV19
 -->
