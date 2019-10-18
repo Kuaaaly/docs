@@ -43,7 +43,7 @@ L'installation est relativement simple - *une fois que vous avez passé un paque
 ### Préparer et créer la clé USB d'installation
 
 #### Créer le media d'installation de macOS Mojave
-1. Insérez votre clé USB, lancez l'application terminal et tapez la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
+1. Insérez votre clé USB, lancez le terminal et tapez la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
 
 <img src="images/diskutil_list.png" alt="diskutil list" width="70%"/>
 
@@ -201,7 +201,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIxMDU3MTIsLTY4Mzc3MTY3NSwtMj
+eyJoaXN0b3J5IjpbLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMj
 A3NDE5MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5
 NTk4OTcsMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0Mj
 kwLDIwNTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3Nywx
