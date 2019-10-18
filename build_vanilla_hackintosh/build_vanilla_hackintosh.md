@@ -202,7 +202,8 @@ Venons en au vif du sujet, la solution à mon problème est la suivante :
 Avec ce combo, vous devriez avoir tout qui fonctionne impeccablement !
 
 ## Le mapping de vos ports USB
-Apple me rigole pas avec les ports USB, et pour une compatibilité maximum, il faut que votre Hackintosh déclare / référence au maximum 15 ports USB (ce qui est en général largement suffisant). Attention néanmoins, un port USB qui fait à la fois de l'USB 3.0 
+Apple ne rigole pas avec les ports USB, et pour une compatibilité maximum, il faut que votre Hackintosh déclare / référence au maximum 15 ports USB (ce qui est en général largement suffisant). Attention néanmoins, un port USB qui fait à la fois de l'USB 3 et de l'USB 2 compte pour 2 !
+Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous permet d'injecter tous les ports mais 
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -229,7 +230,7 @@ Apple me rigole pas avec les ports USB, et pour une compatibilité maximum, il f
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDE1MjQ3NSwxNzQzMjY1Mzg2LDE3ND
+eyJoaXN0b3J5IjpbMTA4OTcwMjA5MiwxNzQzMjY1Mzg2LDE3ND
 A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
 NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
 wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
