@@ -212,7 +212,8 @@ En ce qui me concerne, j'ai gardé 8 ports au total :
 - 2 x USB 2 à l'arrière pour Clavier & Souris
 - 2 x USB 3 à l'arrière en cas de besoin (notamment pour brancher mon disque externe qui me sert pour Time Machine en attendant de le mettre directement en SATA).
 
-## Désactiver la GTX 1060 s
+## Désactiver la GTX 1060 sous macOS
+Avoir deux cartes graphiques dans la même tour et utiliser l'un sous macOS et l'autre sous Windows n'est pas forcément la pratique la plus répandue. Effectivement, le plus simple pour moi aurait été de remplacer ma GTX 1060 par une RX 580, mais sachant que les carte graphique ne se revendent pas facilement mais aussi que les GTX restant (selon moi) de meilleures cartes pour le jeu (plus perform
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -239,7 +240,7 @@ En ce qui me concerne, j'ai gardé 8 ports au total :
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NTk0NzIyLDE3NDMyNjUzODYsMTc0MD
+eyJoaXN0b3J5IjpbMzIxNzgwNjUyLDE3NDMyNjUzODYsMTc0MD
 k3MzE1LC0xODg0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2
 NSwtMjE0MDI4NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LD
 ExNTI1MzE4NzgsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUw
