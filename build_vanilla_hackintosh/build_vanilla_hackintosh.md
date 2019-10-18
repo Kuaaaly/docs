@@ -106,13 +106,11 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 <img src="images/delete_kext_to_patch.png" alt="delete kext to patch" width="70%"/>
 
-- Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité (normalement Clover fait l'injection par défaut s'il détecte un iGPU intel). En revanche, si vous avez un GPU dédie, prenez soin de **cocher puis de décocher** `Inject Intel` cela permettra d'empêcher explicitement l'injection Intel et c'est important (voire indispensable)
+- Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité (normalement Clover fait l'injection par défaut s'il détecte un iGPU intel). En revanche, si vous avez un GPU dédié, prenez soin de **cocher puis de décocher** `Inject Intel` cela permettra d'empêcher explicitement l'injection Intel et c'est important (voire indispensable)
 
 <img src="images/graphics_inject_intel.png" alt="graphics inject intel" width="70%"/>
 
 N'oubliez pas de sauvegarder le fichier (`cmd + S`) avant de quitter Clover Configurator.
-
-Si vous voulez aller droit au but, voici mon fichier [config.plist](config.plist).
 
 Une fois que vous avez téléchargé (et éventuellement modifié) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
 
@@ -122,7 +120,7 @@ Votre clé d'installation est prête et le plus dur est derrière vous !
 
 ### Paramétrage du BIOS
 Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
-1. Choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
+1. Chez MSI, choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
 2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite pour les trouver :
 	- XHCI Hand-off : [**Enabled**]
 	- Windows 8.1/10 WHQL Support : [**Enabled**]
@@ -193,7 +191,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE5MTcxMzIsMTc0MDk3MzE1LC0xOD
+eyJoaXN0b3J5IjpbLTExODM2MzIzNjcsMTc0MDk3MzE1LC0xOD
 g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
 NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
 gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
