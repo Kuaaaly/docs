@@ -120,7 +120,7 @@ Votre clé d'installation est prête et le plus dur est derrière vous !
 
 ### Paramétrage du BIOS
 Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a quelques modifications à effectuer dans le BIOS. Pour vous rendre dans le BIOS, démarrer votre ordinateur et appuyer sur `Del` / `Suppr` dès que l'écran de démarrage apparaît.
-1. Chez MSI, choisissez  `Load Optimized Defaults` en pressant F6 puis `Yes`
+1. Choisissez  `Load Optimized Defaults` en pressant F6 (chez MSI) puis `Yes`
 2. Modifiez ensuite les réglages suivants en utilisant la barre de recherche en haut à droite pour les trouver :
 	- XHCI Hand-off : [**Enabled**]
 	- Windows 8.1/10 WHQL Support : [**Enabled**]
@@ -141,7 +141,7 @@ Pour que macOS puisse s'installer sur un ordinateur qui n'est pas un Mac, il y a
 1. Branchez votre clé USB sur l'ordinateur
 2. Démarrez puis pressez F11 dans la phase de démarrage de l'ordinateur pour pouvoir choisir le disque de démarrage.
 3. Choisissez votre clé USB, vous devriez arriver sur Clover, le boot manager précédemment installé.
-4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait être : `Boot macOS Install from Install MacOS Mojave`
+4. Choisissez l'image d'installation de macOS Mojave, le nom de l'option devrait ressembler à : `Boot macOS Install from Install MacOS Mojave`
 5. Réalisez l'installation comme vous l'auriez faite pour un Mac normal.
 	- Il est possible qu'il vous faille formater le disque sur lequel vous allez installer macOS afin de pouvoir le "voir" dans la liste de choix des disques d'installation. Pour cela :
 		1. Cliquez sur "Utilitaire de disque"
@@ -191,7 +191,7 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM2MzIzNjcsMTc0MDk3MzE1LC0xOD
+eyJoaXN0b3J5IjpbLTEwNzMzMzgyODUsMTc0MDk3MzE1LC0xOD
 g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
 NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
 gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
