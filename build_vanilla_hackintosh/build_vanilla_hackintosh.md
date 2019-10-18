@@ -203,7 +203,10 @@ Avec ce combo, vous devriez avoir tout qui fonctionne impeccablement !
 
 ## Le mapping de vos ports USB
 Apple ne rigole pas avec les ports USB, et pour une compatibilité maximum, il faut que votre Hackintosh déclare / référence au maximum 15 ports USB (ce qui est en général largement suffisant). Attention néanmoins, un port USB qui fait à la fois de l'USB 3 et de l'USB 2 compte pour 2 !
-Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous permet d'injecter tous les ports mais 
+Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous permet d'injecter tous les ports mais ça n'est pas une situation viable sur le long terme.
+Je vous invite donc à utiliser [USBMap](https://github.com/corpnewt/USBMap) ainsi que son README qui fait office de guide pour mapper correctement vos ports USB et ne garder que le nécessaire.
+En ce qui me concerne, j'ai gardé 8 ports au total :
+- Un po
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -230,11 +233,11 @@ Dans un premier temps, la kext `USBInjectAll.kext`  (souvent abrégée UIA) vous
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTcwMjA5MiwxNzQzMjY1Mzg2LDE3ND
-A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
-NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
-wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
-MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
-Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
-LC05NjM5Njg0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzc4Mzk2MzgsMTc0MzI2NTM4NiwxNz
+QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
+MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
+csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
+NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
+U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
+NywtOTYzOTY4NDg1XX0=
 -->
