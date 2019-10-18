@@ -164,7 +164,10 @@ Cette étape est très simple. Nous allons simplement monter les 2 partitions `E
 4. Pressez F11 au démarrage et vous devriez, cette fois-ci, pouvoir sélectionner le disque sur lequel vous avez installer macOS en tant que disque de démarrage.
 5. Vous devriez vous retrouver ensuite dans Clover, sélectionner votre disque macOS comme vous l'avez fait précédemment.
 
-Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vous en doutez, ça n'est pas parfait - tout du moins cela ne l'était pas pour moi - et il va donc va falloir fixer quelques détails supplémentaires pour avoir un Hackintosh 100% fonction
+Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vous en doutez, ça n'est pas parfait - tout du moins cela ne l'était pas pour moi - et il va donc va falloir fixer quelques détails supplémentaires pour avoir un Hackintosh 100% fonctionnel. Étant donné que c'est vraiment spécifiques au hardware utilisé, les fixes & patches que je détaille ci-après seront vraiment du cas par cas donc :
+- Vous pourriez en avoir besoin ou non
+- Ils pourraient marcher ou non
+Pour tout ce qui ne sera pas couvert ci-apr§ès 
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -191,11 +194,11 @@ Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vo
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzM0NDA5LDE3NDA5NzMxNSwtMTg4ND
-YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
-MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
-0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
-NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMD
-k5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUs
-MjAzMjYzMTg0MF19
+eyJoaXN0b3J5IjpbLTE3OTY1OTU4NTcsMTc0MDk3MzE1LC0xOD
+g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
+NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
+gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
+NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
+MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
+NSwyMDMyNjMxODQwXX0=
 -->
