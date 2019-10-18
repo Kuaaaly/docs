@@ -188,6 +188,11 @@ J'ai potentiellement trouvé une [autre piste](https://hackintosh.gitbook.io/-r-
 Il y a encore quelques heures, dans ce même guide, je préconisais l'utilisation de ce driver pour permettre le boot en cas de crash à cause de problèmes de mémoire. J'ai été remis dans le droit chemin il y a quelques jours par des personnes expérimentées sur le Discord Hackintosh. Ce driver est un test / patch qui était destiné à être utilisé dans des cas particuliers et ponctuels. En aucun cas il aurait dû être régulièrement utilisé par la communauté car il peut clairement casser le hardware. Je ne connais pas précisément ce qui se passe techniquement là-dessous mais **n'utilisez pas ce driver**. À ma connaissance, la compatibilité et la polyvalence des drivers ayant bien évoluée ces derniers temps, Clover doit vous permettre de booter sans utiliser ce driver.
 Pour laisser une trace, mais aussi pour montrer que ce driver a été largement utilisé à tort sur des places de forte audience voici [un](https://www.tonymacx86.com/threads/success-msi-z270-tomahawk-intel-core-i7-7700k-gtx-1080-ti.255676/) exemple, puis un [autre](https://www.tonymacx86.com/threads/success-msi-z270-gaming-m6-i7-7700k-nvidia-gtx-1080-full-guide.251448/).
 
+## Régler mes problèmes d'Audio
+Avec l'installation telle qu'elle est décrite ci-dessus, l'audio ne fonctionnait que partiellement. C'est à dire :
+- Via HDMI et DisplayPort sur le GPU
+- Via USB
+- Via Bluetooth
 
 
 ## Si je devais monter un Hackintosh aujourd'hui...
@@ -215,11 +220,11 @@ Pour laisser une trace, mais aussi pour montrer que ce driver a été largement 
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA0Njg3NzIsMTc0MDk3MzE1LC0xOD
-g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
-NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
-gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
-NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
-MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
-NSwyMDMyNjMxODQwXX0=
+eyJoaXN0b3J5IjpbODM0MDM4MTc5LDE3NDA5NzMxNSwtMTg4ND
+YyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkwNjUsLTIxNDAyODUz
+MDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMxODc4LC
+0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMiwtMjc0
+NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5NDMzMD
+k5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Njg0ODUs
+MjAzMjYzMTg0MF19
 -->
