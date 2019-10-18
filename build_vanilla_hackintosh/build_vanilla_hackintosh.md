@@ -194,7 +194,7 @@ Avec l'installation telle qu'elle est décrite ci-dessus, l'audio ne fonctionnai
 - Via USB
 - Via Bluetooth
 
-Sur ce constat, il était assez simple de se rendre compte que c'était la partie audio onboard (géré par le module son de la carte mère) qui ne fonctionnait pas. J'ai réellement passé plusieurs dizaines d'heures sur ce problème et ai été aidé par de  nombreuses personnes sur Discord notamment. Bien souvent, pour ce genre de problème précis (des choses qui sont censées marcher out of the box dans 95% des cas mais ne fonctionnent pas chez vous) les forums ne sont pas d'un bon secours. Les réponses sont souvent réduites aux classiques que vous pouvez trouver via une recherche Google.
+Sur ce constat, il était assez simple de se rendre compte que c'était la partie audio onboard (géré par le module son de la carte mère) qui ne fonctionnait pas. J'ai réellement passé plusieurs dizaines d'heures sur ce problème et ai été aidé par de  nombreuses personnes sur Discord notamment (c'est d'ailleurs là que j'ai trouvé le combo d. Bien souvent, pour ce genre de problème précis (des choses qui sont censées marcher out of the box dans 95% des cas mais ne fonctionnent pas chez vous) les forums ne sont pas d'un bon secours. Les réponses sont souvent réduites aux classiques que vous pouvez trouver via une recherche Google.
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -221,11 +221,11 @@ Sur ce constat, il était assez simple de se rendre compte que c'était la parti
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzI2NTM4NiwxNzQwOTczMTUsLTE4OD
-Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
-MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
-wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
-NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
-A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
-LDIwMzI2MzE4NDBdfQ==
+eyJoaXN0b3J5IjpbLTE1MzM1MTYyNTIsMTc0MzI2NTM4NiwxNz
+QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
+MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
+csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
+NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
+U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
+NywtOTYzOTY4NDg1XX0=
 -->
