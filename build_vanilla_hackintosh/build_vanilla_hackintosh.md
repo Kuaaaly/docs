@@ -197,7 +197,9 @@ Avec l'installation telle qu'elle est décrite ci-dessus, l'audio ne fonctionnai
 Sur ce constat, il était assez simple de se rendre compte que c'était la partie audio onboard (géré par le module son de la carte mère) qui ne fonctionnait pas. J'ai réellement passé plusieurs dizaines d'heures sur ce problème et ai été aidé par de  nombreuses personnes sur Discord notamment (c'est d'ailleurs là que j'ai trouvé le combo de solutions pour fixer définitivement le problème). Bien souvent, pour ce genre de problème précis (des choses qui sont censées marcher out of the box dans 95% des cas mais ne fonctionnent pas chez vous) les forums ne sont pas d'un bon secours. Les réponses sont souvent réduites aux classiques que vous pouvez trouver via une recherche Google.
 Venons en au vif du sujet, la solution à mon problème est la suivante :
 - Remplacer la kext `AppleALC.kext` par `VoodooHDA.kext`
-- Utiliser ce patch 
+- Utiliser ce [patch](https://forum.amd-osx.com/viewtopic.php?t=2873) qui consiste (si j'ai bien compris) à faire en sorte d'appliquer `Voodoohda.kext` seulement pour la partie onboard et laisser `WhateverGreen.kext` gérer la partie son du GPU.
+
+Avec ce combo, vous aure
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -224,11 +226,11 @@ Venons en au vif du sujet, la solution à mon problème est la suivante :
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTg4NTAwMCwxNzQzMjY1Mzg2LDE3ND
-A5NzMxNSwtMTg4NDYyNzc4NCwtNjgzNzcxNjc1LC0yMDc0MTkw
-NjUsLTIxNDAyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5Ny
-wxMTUyNTMxODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1
-MDM3OTIzMiwtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNT
-Q0MDMsMTQ5NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3
-LC05NjM5Njg0ODVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjA3MzcyODcsMTc0MzI2NTM4NiwxNz
+QwOTczMTUsLTE4ODQ2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5
+MDY1LC0yMTQwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OT
+csMTE1MjUzMTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIw
+NTAzNzkyMzIsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MT
+U0NDAzLDE0OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1
+NywtOTYzOTY4NDg1XX0=
 -->
