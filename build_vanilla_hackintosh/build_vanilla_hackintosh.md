@@ -5,7 +5,7 @@
 *La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Pour information, le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS (il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sur un vrai Mac ou un autre Hackintosh). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot (la partition `EFI`).*
 
 ## Introduction
-Début 2017, j'ai monté pour la première fois un PC, pour jouer. N'étant pas forcément bien au fait sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec les composants choisis (une carte mère série 200, un Intel Core i5 et une GTX 1060), ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPUs NVIDIA étaient encore pris en charge avec les web drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, j'avais à l'époque un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est restée un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés. Ayant changé de travail courant 2019, je ne travaille plus sous macOS mais sur Ubuntu. J'utilise donc peu mon ancien Mac Book Pro 15" et cela me fait de la peine de voir un ordinateur si "cher" être si peu utilisé. En clair, j'ai sous le coude :
+Début 2017, j'ai monté pour la première fois un PC, pour jouer. N'étant pas forcément bien au fait sur l'existence et la stabilité des Hackintosh à cette époque, cet aspect n'est pas vraiment rentré en ligne de compte lors du choix de mes composants. Néanmoins (par chance probablement), il s'est avéré qu'avec les composants choisis (une carte mère série 200, un Intel Core i5 et une GTX 1060), ma configuration "PC" était (sur le papier) compatible macOS. À l'époque, Sierra était la dernière version de macOS et les GPUs NVIDIA étaient encore pris en charge avec les web drivers NVIDIA. Tout ceci étant dit, l'[installation de macOS Sierra](https://www.tonymacx86.com/threads/in-progress-macos-sierra-i5-7600-msi-z270-msi-geforce-1060-3go.222057/) s'est faite sans trop de difficultés en 2017. Comme vous pourrez le lire sur le forum de tonymacx86 quelques détails ne fonctionnaient pas. Cependant, j'avais à l'époque un Mac Book Pro pour bosser au quotidien et le Hackintosh était plus un "défi" qu'une nécessité donc la partition est restée un moment sans être utilisée et je n'ai pas pris le temps de fixer les problèmes rencontrés, de faire les mises à jour & co. Ayant changé de travail courant 2019, je ne travaille plus sous macOS mais sur Ubuntu. J'utilise donc peu mon Mac Book Pro 15" et cela me fait de la peine de voir un ordinateur si "cher" être si peu utilisé. En clair, j'ai sous le coude :
 - Un Mac Book Pro 15" de 2018 que je n'utilise presque plus (et dont je pourrais me passer si j'avais un Hackintosh)
 - Un bon setup "PC" sous Windows (juste pour les jeux, promis) : triple screen 24" (dont un en 144Hz), clavier, souris, casque.
 
@@ -202,11 +202,11 @@ C'est fini !
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODU0NzEyOCwtMjA3NDE5MDY1LC0yMT
-QwMjg1MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUz
-MTg3OCwtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMz
-IsLTI3NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0
-OTQzMzA5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOT
-Y4NDg1LDIwMzI2MzE4NDAsNjQ5OTg4MTc2LC0xNDA2NTY3MTc2
-LDQ5MzkzNDg0N119
+eyJoaXN0b3J5IjpbNzU2MjMzOTQ3LC0yMDc0MTkwNjUsLTIxND
+AyODUzMDIsLTIwMDU1NTU5NDksMTIyOTk1OTg5NywxMTUyNTMx
+ODc4LC0xNzk1OTE4ODgyLC0yMzkyNjQyOTAsMjA1MDM3OTIzMi
+wtMjc0NTM4MzI3LC0xMzg2MTY3NTc3LDEyODUxNTQ0MDMsMTQ5
+NDMzMDk5NiwxNjg2MDk2ODY2LC0xOTQxNTA5MTU3LC05NjM5Nj
+g0ODUsMjAzMjYzMTg0MCw2NDk5ODgxNzYsLTE0MDY1NjcxNzYs
+NDkzOTM0ODQ3XX0=
 -->
