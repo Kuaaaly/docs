@@ -167,7 +167,9 @@ Cette étape est très simple. Nous allons simplement monter les 2 partitions `E
 Pour ce qui est de l'installation initiale, c'est fini ! Mais évidement vous vous en doutez, ça n'est pas parfait - tout du moins cela ne l'était pas pour moi - et il va donc va falloir fixer quelques détails supplémentaires pour avoir un Hackintosh 100% fonctionnel. Étant donné que c'est vraiment spécifiques au hardware utilisé, les fixes & patches que je détaille ci-après seront vraiment du cas par cas donc :
 - Vous pourriez en avoir besoin ou non
 - Ils pourraient marcher ou non
-Pour tout ce qui ne sera pas couvert ci-apr§ès 
+Pour tout ce qui ne sera pas couvert ci-après pour votre installation, Google est votre amis et je vous invite également à jeter un oeil aux liens que je donne plus bas.
+
+## Peaufiner l'installation
 
 ## Si je devais monter un Hackintosh aujourd'hui...
 
@@ -194,11 +196,11 @@ Pour tout ce qui ne sera pas couvert ci-apr§ès
 - Disable GTX 1060
 - Fix Preview JPG (Intel HD630)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY1OTU4NTcsMTc0MDk3MzE1LC0xOD
-g0NjI3Nzg0LC02ODM3NzE2NzUsLTIwNzQxOTA2NSwtMjE0MDI4
-NTMwMiwtMjAwNTU1NTk0OSwxMjI5OTU5ODk3LDExNTI1MzE4Nz
-gsLTE3OTU5MTg4ODIsLTIzOTI2NDI5MCwyMDUwMzc5MjMyLC0y
-NzQ1MzgzMjcsLTEzODYxNjc1NzcsMTI4NTE1NDQwMywxNDk0Mz
-MwOTk2LDE2ODYwOTY4NjYsLTE5NDE1MDkxNTcsLTk2Mzk2ODQ4
-NSwyMDMyNjMxODQwXX0=
+eyJoaXN0b3J5IjpbLTgzNzU3MjkzNiwxNzQwOTczMTUsLTE4OD
+Q2Mjc3ODQsLTY4Mzc3MTY3NSwtMjA3NDE5MDY1LC0yMTQwMjg1
+MzAyLC0yMDA1NTU1OTQ5LDEyMjk5NTk4OTcsMTE1MjUzMTg3OC
+wtMTc5NTkxODg4MiwtMjM5MjY0MjkwLDIwNTAzNzkyMzIsLTI3
+NDUzODMyNywtMTM4NjE2NzU3NywxMjg1MTU0NDAzLDE0OTQzMz
+A5OTYsMTY4NjA5Njg2NiwtMTk0MTUwOTE1NywtOTYzOTY4NDg1
+LDIwMzI2MzE4NDBdfQ==
 -->
