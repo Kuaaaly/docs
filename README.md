@@ -4,15 +4,15 @@ J'utilisais à la base ce répertoire pour stocker la documentation de mes proje
 
 ## Informatique
 
-- [Monter un Hackintosh "vanilla"](build_vanilla_hackintosh/build_vanilla_hackintosh.md)
-- [Installer Docker & Portainer sur son Raspberry](docker_portainer_raspberry/docker_portainer_raspberry.md)
-- [Mon setup complet travail & jeu](my_setup/my_setup.md)
+* [Monter un Hackintosh "vanilla"](build_vanilla_hackintosh/build_vanilla_hackintosh.md)
+* [Installer Docker & Portainer sur son Raspberry](docker_portainer_raspberry/docker_portainer_raspberry.md)
+* [Mon setup complet travail & jeu](my_setup/my_setup.md)
 
 ## IoT
-- [Une API HTTP vers broker MQTT en Python](https://github.com/Kuaaaly/http_to_mqtt)
+
+* [Une API HTTP vers broker MQTT en Python](https://github.com/Kuaaaly/http_to_mqtt)
 
 ## Automobile
-- Soon !
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzE4ODQ1MCwyMDE4ODE4MDYxXX0=
--->
+
+* Soon !
+
