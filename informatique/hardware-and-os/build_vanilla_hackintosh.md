@@ -1,8 +1,6 @@
 # Mon build Hackintosh "vanilla"
 
-_Article en cours de rédaction..._
-
-_La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Pour information, le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS \(il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sur un vrai Mac ou un autre Hackintosh\). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot \(la partition `EFI`\)._
+_La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS \(il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sur un vrai Mac ou un autre Hackintosh\). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot \(la partition `EFI`\)._
 
 ## Introduction
 
@@ -51,7 +49,7 @@ L'installation est relativement simple - _une fois que vous avez passé un paque
 
 1. Insérez votre clé USB, lancez le terminal et tapez la commande `diskutil list`. Vous devriez obtenir un résultat similaire à celui-ci :
 
-![diskutil list](../.gitbook/assets/diskutil_list.png)
+![diskutil list](../../.gitbook/assets/diskutil_list.png)
 
 1. Identifiez votre clé USB \(réparable notamment grâce à sa capacité\) soyez très prudent car nous allons effacer la clé. Dans mon cas, il s'agit du `/dev/disk3`.
 2. Effacez la clé et la formattez la en HFS+ à l'aide de la commande suivante \(pensez à remplace le `/dev/diskX` par celui qui convient\) :
@@ -60,11 +58,11 @@ L'installation est relativement simple - _une fois que vous avez passé un paque
    diskutil eraseDisk HFS+ "Hackintosh Mojave" /dev/diskX
    ```
 
-![erase disk](../.gitbook/assets/erase_disk.png)
+![erase disk](../../.gitbook/assets/erase_disk.png)
 
 Si vous exécutez à nouveau la commande `diskutil list` vous devriez être en mesure d'identifier votre clé fraîchement formatée.
 
-![diskutil list](../.gitbook/assets/new_disk.png)
+![diskutil list](../../.gitbook/assets/new_disk.png)
 
 1. Créez un media d'installation de macOS. Une fois que vous avez téléchargé macOS Mojave depuis l'App Store, il vous suffit de suivre [les instructions officielles d'Apple](https://support.apple.com/fr-fr/HT201372). La procédure est relativement longue et les retours sur le terminal sont concis, soyez patient et ne quittez pas le terminal avant d'avoir récupérer la main.
 
@@ -72,7 +70,7 @@ Si vous exécutez à nouveau la commande `diskutil list` vous devriez être en m
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh\ Mojave
 ```
 
-![create install media macOS](../.gitbook/assets/create_install_media.png)
+![create install media macOS](../../.gitbook/assets/create_install_media.png)
 
 À ce stade, vous devriez voir sur votre bureau un volume nommé "Install macOS Mojave". Si oui, c'est parfait !
 
@@ -80,7 +78,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 Exécuter le package `Clover_vX.pkg`. Spécifiez bien votre clé USB comme emplacement d'installation lors de l'étape `Destination`. **Attention à ne pas installer Clover sur le disque principal de votre Mac actuel.**
 
-![clover destination](../.gitbook/assets/clover_destination.png)
+![clover destination](../../.gitbook/assets/clover_destination.png)
 
 Lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`. Pour une configuration proche ou identique à la mienne \(carte mère série 200\) vous allez avoir besoin de sélectionner les drivers suivants \(et seulement ceux-là\) avant de finaliser l'installation :
 
@@ -88,9 +86,9 @@ Lors de l'étape `Type d'installation`, cliquez sur `Personnaliser`. Pour une co
 * ApfsDriverLoader
 * AptioMemoryFix
 
-![clover drivers 1](../.gitbook/assets/clover_drivers_1.png)
+![clover drivers 1](../../.gitbook/assets/clover_drivers_1.png)
 
-![clover drivers 2](../.gitbook/assets/clover_drivers_2.png)
+![clover drivers 2](../../.gitbook/assets/clover_drivers_2.png)
 
 Finalisez l'installation. Si tout s'est bien passé vous devriez voir apparaître sur votre bureau un Volume `EFI`.
 
@@ -103,7 +101,7 @@ Téléchargez ensuite la liste d'extensions de kernel \(kext\) suivante depuis [
 * VirtualSMC.kext
 * WhateverGreen.kext
 
-![add kexts](../.gitbook/assets/add_kexts.png)
+![add kexts](../../.gitbook/assets/add_kexts.png)
 
 #### Configuration du boot loader
 
@@ -113,17 +111,17 @@ En ce qui me concerne, j'ai pris le fichier [`config.plist`](https://github.com/
 
 * Retirer les patches qui sont antérieurs à la version 10.14 de macOS dans la section `Kernel and Kext Patches`
 
-![delete kext to patch](../.gitbook/assets/delete_kext_to_patch.png)
+![delete kext to patch](../../.gitbook/assets/delete_kext_to_patch.png)
 
 * Dans la partie `Graphics`. Si vous souhaitez utiliser l'iGPU de votre processeur pour l'affichage vous pouvez cocher la case `Inject Intel` par sécurité \(normalement Clover fait l'injection par défaut s'il détecte un iGPU intel\). En revanche, si vous avez un GPU dédié, prenez soin de **cocher puis de décocher** `Inject Intel` cela permettra d'empêcher explicitement l'injection Intel et c'est important \(voire indispensable\)
 
-![graphics inject intel](../.gitbook/assets/graphics_inject_intel.png)
+![graphics inject intel](../../.gitbook/assets/graphics_inject_intel.png)
 
 N'oubliez pas de sauvegarder le fichier \(`cmd + S`\) avant de quitter Clover Configurator.
 
 Une fois que vous avez téléchargé \(et éventuellement modifié\) le fichier, il vous suffit de remplacer le fichier `config.plist` présent sur le Volume `EFI` dans `/EFI/CLOVER/config.plist`.
 
-![replace config plist](../.gitbook/assets/replace_config_plist.png)
+![replace config plist](../../.gitbook/assets/replace_config_plist.png)
 
 Votre clé d'installation est prête et le plus dur est derrière vous !
 

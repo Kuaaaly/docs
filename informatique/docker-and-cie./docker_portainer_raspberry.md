@@ -18,7 +18,7 @@ _Bientôt !_
 2. Ouvrez Etcher
 3. Choisissez l'image de Raspbian que vous avez téléchargé ainsi que le périphérique correspondant à votre carte SD puis cliquez sur "Flash".
 
-![flash media](../.gitbook/assets/flash_media.png)
+![flash media](../../.gitbook/assets/flash_media.png)
 
 1. Mettez la carte SD dans le Raspberry, branchez un câble Ethernet, l'alimentation ainsi qu'un clavier et un écran \(via HDMI\) qui nous seront utiles pour le premier boot.
 
@@ -27,7 +27,7 @@ _Bientôt !_
 1. Une fois votre Raspberry démarré, loguez vous via l'utilisateur `pi` et le mot de passe par défaut : `raspberry`. **Attention, le clavier sera peut-être vu comme un QWERTY.**
 2. Nous allons activer le serveur SSH du Raspberry, tapez : `sudo raspi-config` et faites la configuration suivante : **Interfacing Options &gt; SSH &gt; Yes**. Ci-après les écrans par lesquels vous devez passer.
 
-![interfacing options](../.gitbook/assets/interfacing_options.png) ![ssh options](../.gitbook/assets/ssh_options.png) ![ssh enable](../.gitbook/assets/enable_ssh.png)
+![interfacing options](../../.gitbook/assets/interfacing_options.png) ![ssh options](../../.gitbook/assets/ssh_options.png) ![ssh enable](../../.gitbook/assets/enable_ssh.png)
 
 C'est fini ! Vous pouvez débrancher clavier et écran, ils ne vous serviront plus.
 
@@ -56,7 +56,7 @@ ssh pi@raspberrypi //(mot de passe : raspberry)
    sudo systemctl status docker
    ```
 
-![docker running](../.gitbook/assets/docker_running.png)
+![docker running](../../.gitbook/assets/docker_running.png)
 
 ### Installer Portainer
 
@@ -82,11 +82,11 @@ Dernière étape, nous allons vouloir installer [Portainer](http://portainer.io)
 
 Configurez le compte administrateur. **Attention, de mémoire il faut créer le compte administrateur dans les 5 premières minutes, sinon Portainer s'arrête par sécurité** :
 
-![portainer login](../.gitbook/assets/portainer_login.png)
+![portainer login](../../.gitbook/assets/portainer_login.png)
 
 Vous voilà rendu sur l'interface de Portainer !
 
-![portainer ui](../.gitbook/assets/portainer_ui.png)
+![portainer ui](../../.gitbook/assets/portainer_ui.png)
 
 Nous nous retrouverons dans un autre billet pour apprendre à l'utiliser. 
 

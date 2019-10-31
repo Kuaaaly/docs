@@ -116,15 +116,15 @@ Vous me voyez venir... Nous allons faire la mise à jour de l'image de Traefik a
 
 Bon, trêve de bavardage, rendons-nous sur Traefik, dans la section `Stack` ou `Services`, on sélectionne Traefik en le cochant puis on clique sur `Update` !
 
-![traefik update](../.gitbook/assets/traefik_update.png)
+![traefik update](../../.gitbook/assets/traefik_update.png)
 
 La page devrait recharger une première fois sans soucis \(car Traefik n'est pas encore coupé\), puis quelques secondes plus tard, si vous actualisez, vous devriez voir quelque chose dans ce goût là :
 
-![traefik down login](../.gitbook/assets/traefik_down.png)
+![traefik down login](../../.gitbook/assets/traefik_down.png)
 
 Si vous avez tout bien fait, patientez une petite minute en plus et vous devriez récupérer la main sur Portainer :
 
-![traefik back again](../.gitbook/assets/traefik_back_again.png)
+![traefik back again](../../.gitbook/assets/traefik_back_again.png)
 
 Et voilà ! Vous pouvez vérifier avec le navigateur que le certificat à bien été renouvelé. Let's Encrypt fournit des certificats valides 3 mois. 
 
