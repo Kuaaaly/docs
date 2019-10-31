@@ -2,7 +2,22 @@
 
 ## Introduction
 
-_Bientôt !_
+Docker est devenu un must-have pour les développeurs et les administrateurs systèmes ces derniers temps. N'importe quel personne se revendiquant "DevOps" en fera presque systématiquement usage au quotidien. Je ne vais pas ici vous expliquer précisément ce qu'est Docker, ni comment il fonctionne car de nombreuses ressources sur internet sont disponibles et expliquent cela bien mieux que je ne pourrais le faire.
+
+Je me sers de Docker au quotidien, au travail comme à la maison. C'est un outil génial pour déployer rapidement du code / des applications sans polluer allègrement votre système. Vous permettant ainsi de redémarrer "from scratch" indéfiniement sans jamais avoir à refaire une installation système complète.
+
+Dans cette documentaiton, je vous explique pas à pas comment installer sur un Raspberry :
+
+* [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) : un système d'exploitation pour le Raspberry \(dérivé de Debian\)
+* [Docker](http://docker.com) : pour déployer nos conteneurs et les "orchestrer" \(via Docker Swarm\)
+* [Portainer](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwif1NDphcflAhVLCxoKHbgrD-gQFjAAegQIAxAB&url=https%3A%2F%2Fwww.portainer.io%2F&usg=AOvVaw1fQe4vdV5aFnpnWUeHvRT_) : pour contrôler tout cela directement via notre navigateur web sans \(jamais\) avoir à nous reconnecter en SSH à notre précieux Raspberry.
+
+Une dernière petite note, personnelle cette fois-ci. À la maison, j'ai à la fois :
+
+* Un vieux laptop x64 qui me fait office de seveur sur lequel je déploie mes applications stables & pérennes.
+* Un Raspberry qui me fait office de bac à sable pour mes développements et mes tests.
+
+Dans les 2 cas, ce sont Docker et Portainer qui me permettent de faire mes déploiements. Certains d'entre vous me dirons que les architectures CPU des deux "serveurs" ne sont pas les mêmes \(x64 vs. ARM\). Effectivement, parfois cela est bloquant car certains conteneurs ne fonctionnent pas sous ARM, ces cas restes assez rares et pour l'instant je n'ai pas eu de gros blocage.
 
 ## Pré-requis
 
@@ -35,24 +50,27 @@ C'est fini ! Vous pouvez débrancher clavier et écran, ils ne vous serviront pl
 
 Dans la plupart des cas, le Raspberry va "s'annoncer" correctement auprès de votre routeur \(via son service mDNS\) et prendra le hostname `raspberrypi` sur le réseau. Vous pourrez donc facilement vous y connecter.
 
-Installons désormais Docker : 1. Depuis votre terminal préféré \(via un ordinateur présent sur le même réseau\) :
+Installons désormais Docker :
 
-```text
-ssh pi@raspberrypi //(mot de passe : raspberry)
-```
+1. Depuis votre terminal préféré \(via un ordinateur présent sur le même réseau\) :  
 
-1. Nous allons suivre [les instructions de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker :
 
-   ```text
+   ```bash
+   ssh pi@raspberrypi //(mot de passe : raspberry)
+   ```
+
+2. Nous allons suivre [les instructions de Docker](https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-convenience-script) et utiliser le script officiel pour installer Docker \(soyez patients, le script met un peu de temps à tout installer\)  
+
+
+   ```bash
    curl -fsSL https://get.docker.com -o get-docker.sh
    sudo sh get-docker.sh
    ```
 
-   Soyez patients, le script met un peu de temps à tout installer.
+3. Une fois que vous avez récupéré la main, vous pouvez taper la commande suivante pour vérifier que Docker est bien "running" :  
 
-2. Une fois que vous avez récupéré la main, vous pouvez taper la commande suivante pour vérifier que Docker est bien "running" :
 
-   ```text
+   ```bash
    sudo systemctl status docker
    ```
 
@@ -60,25 +78,30 @@ ssh pi@raspberrypi //(mot de passe : raspberry)
 
 ### Installer Portainer
 
-Dernière étape, nous allons vouloir installer [Portainer](http://portainer.io) pour gérer facilement et graphiquement nos conteneurs Docker, nos services et nos stacks. 1. Initialiser Docker Swarm \(l'orchestrateur natif de Docker\), c'est lui qui vous permettra de déployer des stacks \(ensembles de conteneurs\) et par extensions des services, conteneurs, volumes, etc.
+Dernière étape, nous allons vouloir installer [Portainer](http://portainer.io) pour gérer facilement et graphiquement nos conteneurs Docker, nos services et nos stacks.
 
-```text
-    sudo docker swarm init
-```
+1. Initialiser Docker Swarm \(l'orchestrateur natif de Docker\), c'est lui qui vous permettra de déployer des stacks \(ensembles de conteneurs\) et par extensions des services, conteneurs, volumes, etc.  
 
-1. Télécharger le fichier de stack de Portainer :
 
-   ```text
-    curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+   ```bash
+   sudo docker swarm init
    ```
 
-2. Déployer la stack :
+2. Télécharger le fichier de stack de Portainer :  
 
-   ```text
-    sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+
+   ```bash
+   curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
    ```
 
-3. Portainer est désormais accessible via votre navigateur à l'adresse suivante : [http://raspberrypi:9000](http://raspberrypi:9000).
+3. Déployer la stack :  
+
+
+   ```bash
+   sudo docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+   ```
+
+4. Portainer est désormais accessible via votre navigateur à l'adresse suivante : [http://raspberrypi:9000](http://raspberrypi:9000).
 
 Configurez le compte administrateur. **Attention, de mémoire il faut créer le compte administrateur dans les 5 premières minutes, sinon Portainer s'arrête par sécurité** :
 
