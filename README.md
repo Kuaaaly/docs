@@ -4,7 +4,7 @@ description: >-
   trouverez sur cet espace de documentation.
 ---
 
-# Introduction
+# Quentin Le Graverend
 
 Le constat de départ est assez simple : _j'ai une mémoire de poisson rouge_. De ce fait, dès lors que j'ai commencé à travailler sur plusieurs projets en parallèle et que j'ai commencé à avoir besoin de maintenir, reprendre & reproduire certaines choses, documenter mes projet m'est apparu comme nécessaire pour gagner du temps et éviter la sensation de frustration de devoir à nouveau recommencer quelque chose de connu.
 

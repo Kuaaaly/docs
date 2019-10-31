@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Quentin Le Graverend](README.md)
 
 ## Informatique
 
