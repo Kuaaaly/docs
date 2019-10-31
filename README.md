@@ -1,7 +1,7 @@
 ---
 description: >-
-  Une petite introduction claire et précise concernant les guides & informations
-  que vous trouverez sur cet espace de documentation.
+  Une petite introduction concernant les guides & informations que vous
+  trouverez sur cet espace de documentation.
 ---
 
 # Introduction
