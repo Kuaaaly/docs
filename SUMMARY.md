@@ -16,10 +16,6 @@
 
 * [API HTTP vers broker MQTT](https://github.com/Kuaaaly/http_to_mqtt)
 
-## Automobile
-
-* [Soon !](automobile/soon.md)
-
 ## Cuisine
 
 * [Cookies](cuisine/cookies-1.md)
