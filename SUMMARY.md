@@ -20,3 +20,8 @@
 
 * [Soon !](automobile/soon.md)
 
+## Cuisine
+
+* [Cookies](cuisine/cookies-1.md)
+* [Pancakes](cuisine/pancakes.md)
+
