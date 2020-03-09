@@ -25,7 +25,7 @@ Dans les 2 cas, ce sont Docker et Portainer qui me permettent de faire mes dépl
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) : l'OS de prédilection des Raspberry. La version à choisir dépend de votre besoin. Personnellement, j'utilise toujours mes Raspberry en tant que serveur, je prends donc systématiquement la version "Lite" quitte à installer manuellement des choses par la suite.
 * Quelques bases en ligne de commandes
 
-  **Installation**
+## **Installation**
 
 ### Flasher la carte SD & bootez
 
