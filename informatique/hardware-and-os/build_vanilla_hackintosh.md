@@ -1,4 +1,4 @@
-# Mon build Hackintosh "vanilla"
+# Build Hackintosh "vanilla"
 
 _La lecture de cet article requiert une certaine base de connaissance concernant le Hackintosh. Le terme "vanilla" signifie que l'installation du Hackintosh se fait sans aucune modification du système de fichier de macOS \(il est donc possible, par exemple, de cloner la partition système pour la faire démarrer sur un vrai Mac ou un autre Hackintosh\). Tous les éléments spécifiques au "hack" seront stockés dans la partition de boot \(la partition `EFI`\)._
 

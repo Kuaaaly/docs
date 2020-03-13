@@ -9,8 +9,8 @@
 * [Docker & cie.](informatique/docker-and-cie./README.md)
   * [Installer Docker & Portainer sur Raspberry](informatique/docker-and-cie./docker_portainer_raspberry.md)
 * [Hardware & OS](informatique/hardware-and-os/README.md)
-  * [Mon setup travail & jeu](informatique/hardware-and-os/my_setup.md)
-  * [Mon build Hackintosh "vanilla"](informatique/hardware-and-os/build_vanilla_hackintosh.md)
+  * [Setup travail & jeu](informatique/hardware-and-os/my_setup.md)
+  * [Build Hackintosh "vanilla"](informatique/hardware-and-os/build_vanilla_hackintosh.md)
 
 ## IoT
 

@@ -1,4 +1,4 @@
-# Mon setup travail & jeu
+# Setup travail & jeu
 
 ## Introduction
 
