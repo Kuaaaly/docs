@@ -243,7 +243,41 @@ Pour vraiment valider votre achat, vous pouvez vous servir du site techpowerup.c
 
 Soyez vigilant avant l'achat !
 
-## Si je devais monter un Hackintosh aujourd'hui...
+## Mises à jour
+
+### Le process
+
+Lorsque vous voulez mettre à jour votre Hackintosh, voici le process "traditionnel". Je dis traditionnel car il est tellement spécifique à chaque configuration qu'il est compliqué d'établir une règle qui marche pour tout le monde :
+
+1. En fonction de votre hardware, vérifiez que vos composants actuels vous permettent d'effectuer la mise à jour. Idéalement, trouvez sur internet 1 ou 2 personnes témoignant d'une réussite avec un système proche du votre.
+2. Vérifier que le boot loader et les kexts que vous utilisez sont bien compatibles \(nouvelles releases\) avec la version de macOS qui vous visez.
+3. Faites un back-up de votre dossier `EFI` \(très important\)
+4. Faites un clone de votre disque macOS actuel
+5. Mettez à jour [Clover](https://github.com/Dids/clover-builder/releases) sur la bonne partition `EFI` 
+6. Mettez à jour les kexts que vous utilisez en les remplaçant par les versions les plus récentes. Quelques exemples pour mon installation \(chaque configuration ayant ses kexts spécifiques, c'est vraiment du cas par cas ici\) :
+   * [WhateverGreen.kext](https://github.com/acidanthera/whatevergreen/releases)
+   * [AppleALC.kext](https://github.com/acidanthera/applealc/releases)
+7. Une fois Clover et les kexts mis à jour, faites un premier reboot pour confirmer que tout fonctionne toujours.
+8. Mettez ensuite macOS à jour normalement via l'App Store ou les Préférences Systèmes
+9. Si tout s'est bien passé, l'ordinateur devrait à nouveau démarrer normalement, dans le cas contraire, il vous faudra certainement creuser davantage et / ou roll-back votre installation à l'aide du clone de macOS et de votre `EFI` back-up. 
+
+Une petite précision, les étapes 5 & 6 ne seront pas toujours indispensables. À titre d'exemple, au moment où j'écrit ces lignes, je viens de faire la mise à jour de la version 10.15.1 à la version 10.15.3 sans toucher à ma partition EFI \(j'ai simplement fait un clone de macOS\) puis j'ai fait la mise à jour normalement via "Préférences Système". Comme je l'ai indiqué, c'est vraiment du cas par cas.
+
+### 10.14.6 vers 10.15.1
+
+1. Mise à jour de Clover `v2.5k r5096` vers **`v2.5k r5099`**
+2. Mise à jour des kexts dans les versions suivantes :
+   * Lilu.kext 1.3.8 vers **1.3.9**
+   * SMCProcessor.kext 1.0.8 vers **1.0.9**
+   * SMCSuperIO.kext 1.0.8 vers **1.0.9**
+   * VirtualSMC.kext 1.0.8 vers **1.0.9**
+   * WhateverGreen.kext 1.3.3 vers **1.3.4**
+
+### **10.15.1 vers 10.15.3**
+
+Aucune mise à jour "Hackintosh", mise à jour classique via macOS.
+
+## Si je devais monter un Hackintosh aujourd'hui \(novembre 2019\)...
 
 * Une i5 ou i7 de 8ème génération
 * Une carte mère série 300 mais cette fois-ci, **j'éviterais MSI**. J'ai vu plusieurs témoignages sur les forums, les cartes MSI sont souvent un peu plus "tricky" à faire fonctionner sous Hackintosh. Je me tournerai donc plutôt vers une carte Asus ou Gigabyte.
