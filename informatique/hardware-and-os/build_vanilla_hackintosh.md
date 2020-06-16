@@ -283,8 +283,6 @@ Cette fois-ci l'upgrade directe a fonctionné mais a causé de belles lenteurs a
 
 Pour solutionner cela : mise à jour de tous les kexts en dernière version. Tant que j'était lancé, j'en ai également profité pour faire le mise à jour de Clover passant ainsi de la version `v2.5k-5099` à la version **`v5.0 5119`**
 
-
-
 ## Si je devais monter un Hackintosh aujourd'hui \(novembre 2019\)...
 
 * Une i5 ou i7 de 8ème génération
