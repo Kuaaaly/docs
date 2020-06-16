@@ -265,7 +265,7 @@ Une petite précision, les étapes 5 & 6 ne seront pas toujours indispensables. 
 
 ### 10.14.6 vers 10.15.1
 
-1. Mise à jour de Clover `v2.5k r5096` vers **`v2.5k r5099`**
+1. Mise à jour de Clover `v2.5k-5096` vers **`v2.5k-5099`**
 2. Mise à jour des kexts dans les versions suivantes :
    * Lilu.kext 1.3.8 vers **1.3.9**
    * SMCProcessor.kext 1.0.8 vers **1.0.9**
@@ -276,6 +276,14 @@ Une petite précision, les étapes 5 & 6 ne seront pas toujours indispensables. 
 ### **10.15.1 vers 10.15.3**
 
 Aucune mise à jour "Hackintosh", mise à jour classique via macOS.
+
+### 10.15.3 vers 10.15.5
+
+Cette fois-ci l'upgrade directe a fonctionné mais a causé de belles lenteurs au niveau du boot et notamment l'apparation d'erreur dans le `boot.log`.
+
+Pour solutionner cela : mise à jour de tous les kexts en dernière version. Tant que j'était lancé, j'en ai également profité pour faire le mise à jour de Clover passant ainsi de la version `v2.5k-5099` à la version **`v5.0 5119`**
+
+
 
 ## Si je devais monter un Hackintosh aujourd'hui \(novembre 2019\)...
 
