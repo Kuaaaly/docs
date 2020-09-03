@@ -20,4 +20,6 @@
 
 * [Cookies](cuisine/cookies-1.md)
 * [Pancakes](cuisine/pancakes.md)
+* [Tartiflette](cuisine/tartiflette.md)
+* [Lentilles aux oignons caramélisés](cuisine/lentilles-aux-oignons-caramelises.md)
 
