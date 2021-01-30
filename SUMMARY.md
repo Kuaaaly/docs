@@ -18,8 +18,13 @@
 
 ## Cuisine
 
-* [Cookies](cuisine/cookies-1.md)
-* [Pancakes](cuisine/pancakes.md)
-* [Tartiflette](cuisine/tartiflette.md)
-* [Lentilles aux oignons caramélisés](cuisine/lentilles-aux-oignons-caramelises.md)
+* [Pâtisserie](cuisine/patisserie/README.md)
+  * [Cookies](cuisine/patisserie/cookies-1.md)
+  * [Pancakes](cuisine/patisserie/pancakes.md)
+* [Plats](cuisine/plats/README.md)
+  * [Lasagnes à la bolognaise](cuisine/plats/lasagnes-a-la-bolognaise.md)
+  * [Muffins à la carotte](cuisine/plats/muffins-carotte.md)
+  * [Tartiflette](cuisine/plats/tartiflette.md)
+  * [Vite fait bien fait](cuisine/plats/vite-fait-bien-fait/README.md)
+    * [Lentilles aux oignons caramélisés](cuisine/plats/vite-fait-bien-fait/lentilles-aux-oignons-caramelises.md)
 
