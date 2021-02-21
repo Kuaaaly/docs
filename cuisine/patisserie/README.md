@@ -8,5 +8,7 @@ description: Un peu de sucré même si le salé c'est bien meilleur !
 
 {% page-ref page="pancakes.md" %}
 
+{% page-ref page="cremes-au-chocolat.md" %}
+
 
 
