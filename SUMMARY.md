@@ -18,10 +18,11 @@
 
 ## Cuisine
 
-* [Pâtisserie](cuisine/patisserie/README.md)
+* [Sucré](cuisine/patisserie/README.md)
+  * [Crèmes au chocolat](cuisine/patisserie/cremes-au-chocolat.md)
   * [Cookies](cuisine/patisserie/cookies-1.md)
   * [Pancakes](cuisine/patisserie/pancakes.md)
-* [Plats](cuisine/plats/README.md)
+* [Salé](cuisine/plats/README.md)
   * [Lasagnes à la bolognaise](cuisine/plats/lasagnes-a-la-bolognaise.md)
   * [Muffins à la carotte](cuisine/plats/muffins-carotte.md)
   * [Tartiflette](cuisine/plats/tartiflette.md)

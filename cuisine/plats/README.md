@@ -2,7 +2,7 @@
 description: Quelques recettes que je fais régulièrement
 ---
 
-# Plats
+# Salé
 
 {% page-ref page="lasagnes-a-la-bolognaise.md" %}
 

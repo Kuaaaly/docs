@@ -1,8 +1,8 @@
 ---
-description: Un petit peu de pâtisserie
+description: Un peu de sucré même si le salé c'est bien meilleur !
 ---
 
-# Pâtisserie
+# Sucré
 
 {% page-ref page="cookies-1.md" %}
 
