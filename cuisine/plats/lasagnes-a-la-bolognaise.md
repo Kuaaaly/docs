@@ -12,8 +12,8 @@ description: Encore en cours de test !
 * 1 carotte
 * 300 grammes de viande hachée
 * 500 grammes de purée de tomate
-* 10 cl d'eau
-* 20 cl de vin rouge \(type Côtes du Rhône\)
+* 15 cl d'eau
+* 15 cl de vin rouge \(type Côtes du Rhône\)
 * Laurier, thym, basilic
 * 2 pincées de noix de muscade râpée
 * 100 grammes de parmesan
@@ -30,7 +30,7 @@ Pour la béchamel:
 1. Faites revenir gousses hachées d'ail, oignons émincés et carottes coupées en dés dans un peu d'huile d'olive.
 2. Ajoutez-y la viande après une petite dizaine de minute et continuez de faire revenir le tout.
 3. Au bout de quelques minutes, ajoutez le vin rouge et laissez cuire jusqu'à évaporation.
-4. Ajoutez la purée de tomate, l'eau et les herbes. Salez, poivrez et laissez mijoter environ une demi-heure jusqu'à l'obtention de la consistance souhaitée.
+4. Ajoutez la purée de tomate, l'eau et les herbes. Salez, poivrez et laissez mijoter à feu doux environ une demi-heure jusqu'à l'obtention de la consistance souhaitée.
 5. Pendant ce temps, préparez la béchamel :
    1. Faites fondre le beurre.
    2. Hors du feu, ajoutez la farine d'un coup.
